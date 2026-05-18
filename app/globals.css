@@ -3,6 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --hss-darkblue: #0D1E2F;
+  --hss-blue: #1E73BE;
+  --hss-lightblue: #D7E8F7;
+  --hss-yellow: #F4C430;
+  --hss-white: #ffffff;
+  --hss-darkgrey: #2B2828;
 }
 
 @theme inline {
@@ -10,6 +16,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-hss-darkblue: var(--hss-darkblue);
+  --color-hss-blue: var(--hss-blue);
+  --color-hss-lightblue: var(--hss-lightblue);
+  --color-hss-yellow: var(--hss-yellow);
+  --color-hss-white: var(--hss-white);
+  --color-hss-darkblue: var(--hss-darkgrey);
 }
 
 @media (prefers-color-scheme: dark) {
