@@ -1,11 +1,29 @@
 
-
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <nav className="bg-hss-mediumblue text-white">
-        Navigation
-      </nav>
+      <div>
+        <header className="flex flex-row justify-between bg-hss-mediumblue text-white">
+          <p>Scout Logo placement</p>
+          <nav className="flex flex-row gap-2">
+            <p>Navigation</p>
+            <p>Navigation</p>
+            <p>Navigation</p>
+            <p>Navigation</p>
+          </nav>
+        </header>
+        <header className="flex flex-row justify-between bg-hss-mediumblue text-white">
+          <p>HSS Logo placement</p>
+          <nav className="flex flex-row gap-2">
+            <p>Navigation</p>
+            <p>Navigation</p>
+            <p>Navigation</p>
+            <p>Navigation</p>
+            <p>Navigation</p>
+            <p>Button</p>
+          </nav>
+        </header>
+      </div>
       <main className="grow">
         <div>Hero section</div>
         <div>Vad är hss</div>
