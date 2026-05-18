@@ -4,6 +4,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --hss-darkblue: #0D1E2F;
+  --hss-mediumblue: #003660;
   --hss-blue: #1E73BE;
   --hss-lightblue: #D7E8F7;
   --hss-yellow: #F4C430;
@@ -17,6 +18,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-hss-darkblue: var(--hss-darkblue);
+  --color-hss-mediumblue: var(--hss-mediumblue);
   --color-hss-blue: var(--hss-blue);
   --color-hss-lightblue: var(--hss-lightblue);
   --color-hss-yellow: var(--hss-yellow);

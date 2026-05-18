@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <nav>
+      <nav className="bg-hss-mediumblue text-white">
         Navigation
       </nav>
       <main className="grow">
