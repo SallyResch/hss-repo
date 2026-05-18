@@ -27,8 +27,8 @@ export default function Home() {
       <main className="grow">
         <div>Hero section</div>
         <div>Vad är hss</div>
-        <div>Våra avdelningar</div>
-        <div>Trygghet/Säkerhet</div>
+        <div className="bg-hss-yellow">Våra avdelningar</div>
+        <div className="bg-hss-mediumblue">Trygghet/Säkerhet</div>
       </main>
       <footer>
         Footer
