@@ -30,8 +30,10 @@ export default function Home() {
         <div className="bg-hss-yellow">Våra avdelningar</div>
         <div className="bg-hss-mediumblue">Trygghet/Säkerhet</div>
       </main>
-      <footer>
-        Footer
+      <footer className="flex flex-row justify-evenly border-hss-mediumblue border-2">
+        <section>Kontakt section</section>
+        <section>Äventyr och kompisar</section>
+        <section>Soc med</section>
       </footer>
     </div>
   );
