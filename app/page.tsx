@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <div>
-        <header className="flex flex-row justify-between bg-hss-mediumblue text-white">
+        <header className="flex flex-row justify-between bg-hss-scout-darkblue text-white">
           <p>Scout Logo placement</p>
           <nav className="flex flex-row gap-2">
             <p>Navigation</p>
