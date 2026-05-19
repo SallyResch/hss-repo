@@ -1,8 +1,17 @@
-import React from 'react'
-
+import Image from 'next/image'
+import heroImage from '@/public/hero.jpg'
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
+    <section >
+      HeroSectionComponent
+      <Image
+        src={heroImage}
+        alt="HSS Hero Image"
+        fill
+        priority
+        className="object-cover"
+      />
+      </section>
   )
 }
 

@@ -1,3 +1,4 @@
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
@@ -25,7 +26,9 @@ export default function Home() {
         </header>
       </div>
       <main className="grow">
-        <div>Hero section</div>
+        <div>
+         <HeroSection/>
+        </div>
         <div>Vad är hss</div>
         <div className="bg-hss-yellow">Våra avdelningar</div>
         <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
