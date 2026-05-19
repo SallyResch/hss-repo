@@ -36,5 +36,5 @@ export default function Home() {
         <section>Soc med</section>
       </footer>
     </div>
-  );
+  )
 }
