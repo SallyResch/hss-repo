@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -36,5 +35,5 @@ export default function Home() {
         <section>Soc med</section>
       </footer>
     </div>
-  )
+  );
 }
