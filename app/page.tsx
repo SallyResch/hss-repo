@@ -7,20 +7,20 @@ export default function Home() {
         <header className="flex flex-row justify-between bg-hss-scout-darkblue text-white">
           <p>Scout Logo placement</p>
           <nav className="flex flex-row gap-2">
-            <p>Navigation</p>
-            <p>Navigation</p>
-            <p>Navigation</p>
-            <p>Navigation</p>
+            <a href="https://www.scouterna.se/">Scouterna</a>
+            <a href="https://www.scouternasfolkhogskola.se/">Scouterna Folkhögskola</a>
+            <a href="https://www.scoutnet.se/">Scoutnet</a>
+            <a href="http://scoutshop.se/">Scoutshop</a>
           </nav>
         </header>
         <header className="flex flex-row justify-between bg-hss-mediumblue text-white">
           <p>HSS Logo placement</p>
           <nav className="flex flex-row gap-2">
-            <p>Navigation</p>
-            <p>Navigation</p>
-            <p>Navigation</p>
-            <p>Navigation</p>
-            <p>Navigation</p>
+            <a href="/bli-scout">Bli Scout</a>
+            <a href="/avdelningar">Avdelningar</a>
+            <a href="/om-hss">Om HSS</a>
+            <a href="/medlemmar">För medlemmar/Praktisk info</a>
+            <a href="/kontakt">Kontakt</a>
             <p>Button</p>
           </nav>
         </header>
