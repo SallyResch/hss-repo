@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
           <p>Scout Logo placement</p>
           <nav className="flex flex-row gap-2">
             <a href="https://www.scouterna.se/">Scouterna</a>
-            <a href="https://www.scouternasfolkhogskola.se/">Scouterna Folkhögskola</a>
+            <a href="https://www.scouternasfolkhogskola.se/">
+              Scouterna Folkhögskola
+            </a>
             <a href="https://www.scoutnet.se/">Scoutnet</a>
             <a href="http://scoutshop.se/">Scoutshop</a>
           </nav>
@@ -38,11 +41,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex flex-row justify-evenly border-hss-mediumblue border-2">
-        <section>Kontakt section</section>
-        <section>Äventyr och kompisar</section>
-        <section>Soc med</section>
-      </footer>
+      <Footer />
     </div>
   );
 }
