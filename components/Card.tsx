@@ -2,7 +2,7 @@ import { CardProps } from "./card.types";
 
 export function Card({ title, description, imageUrl }: CardProps) {
   return (
-    <div className="overflow-hidden rounded-xl border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md">
+    <div className="w-full max-w-sm md:max-w-md mx-auto overflow-hidden rounded-xl border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md">
       {/* Render image if imageUrl is provided */}
       {imageUrl && (
         <img
