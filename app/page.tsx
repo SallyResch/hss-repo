@@ -19,7 +19,7 @@ export default function Home() {
             <p>Navigation</p>
             <p>Navigation</p>
             <p>Navigation</p>
-            <p>Button</p>
+            <p className="bg-hss-yellow">Button</p>
           </nav>
         </header>
       </div>
