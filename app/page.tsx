@@ -6,7 +6,9 @@ export default function Home() {
           <p>Scout Logo placement</p>
           <nav className="flex flex-row gap-2">
             <a href="https://www.scouterna.se/">Scouterna</a>
-            <a href="https://www.scouternasfolkhogskola.se/">Scouterna Folkhögskola</a>
+            <a href="https://www.scouternasfolkhogskola.se/">
+              Scouterna Folkhögskola
+            </a>
             <a href="https://www.scoutnet.se/">Scoutnet</a>
             <a href="http://scoutshop.se/">Scoutshop</a>
           </nav>
