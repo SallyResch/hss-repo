@@ -4,8 +4,8 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="bg-white py-16 px-6 border-t border-hss-lightblue">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-sm text-hss-darkgrey">
-        <div className="flex flex-col gap-4">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 text-sm text-hss-darkgrey">
+        <div className="flex flex-col gap-4 flex-1">
           <h3 className="text-xl font-bold text-hss-scout-darkblue">
             Hässelby Strands <br /> Sjöscoutkår
           </h3>
@@ -18,7 +18,7 @@ export default function Footer() {
           </Link>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 flex-1">
           <h3 className="text-xl font-bold text-hss-scout-darkblue">
             Äventyr och kompisar
           </h3>
@@ -35,7 +35,7 @@ export default function Footer() {
           </Link>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 flex-1">
           <h3 className="text-xl font-bold text-hss-scout-darkblue">
             Följ oss i våra flöden
           </h3>
