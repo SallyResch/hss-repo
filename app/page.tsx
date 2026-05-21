@@ -1,4 +1,6 @@
+import HeroSection from "@/components/HeroSection";
 import { Card } from "../components/Card";
+
 import Button from "../components/Button";
 
 export default function Home() {
@@ -29,7 +31,10 @@ export default function Home() {
         </header>
       </div>
       <main className="grow">
-        <div>Hero section</div>
+        <div>
+          
+         <HeroSection/>
+        </div>
         <div>Vad är hss</div>
 
         <div className="bg-hss-yellow p-6">
