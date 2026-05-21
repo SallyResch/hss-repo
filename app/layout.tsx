@@ -34,8 +34,11 @@ export default function RootLayout({
             <p>Scout Logo placement</p>
             <ScoutNav />
           </header>
-          <header className="flex flex-row justify-between bg-hss-mediumblue text-white">
-            <p>HSS Logo placement</p>
+          <header className="flex flex-row justify-between items-center bg-hss-mediumblue text-white">
+            <div className="flex flex-row items-center">
+              <img src="/LoggaHSSfärgmörkbakgrund.png" alt="Hss logga för mörk bakgrund" className="w-18 py-4.5 px-3.5" />
+              <img src="/HasselbyStrands-sjoscoutkar-vit.png" alt="HSS logga text till mörk bakgrund" className="w-full h-8.5" />
+            </div>
             <HssNav />
           </header>
         </div>
