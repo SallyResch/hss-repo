@@ -2,12 +2,14 @@
 import MenuIcon from '@mui/icons-material/Menu'
 import { NavProps, hssNavItems } from "@/types/navigation";
 import { useState } from "react";
+import DropDown from './DropDown';
 export default function HssNav({ items = hssNavItems, title = "HSS Scouts" }: NavProps) {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = (open: boolean) => () => {
-        setIsOpen(open)
+    const toggleMenu = () => {
+        setIsOpen(prev => !prev);
     }
+
     console.log(isOpen)
     return (
         <>
@@ -18,13 +20,20 @@ export default function HssNav({ items = hssNavItems, title = "HSS Scouts" }: Na
                 ))}
             </nav>
             {/*Hamburger menu button only visible under 768px in width*/}
-            <button
-                onClick={toggleMenu(true)}
-                className='block md:hidden p-1 text-hss-yellow rounded'
-                aria-label='Öppna meny'
-            >
-                <MenuIcon fontSize="large" />
-            </button>
+            <div className='block md:hidden p-1 text-hss-yellow rounded'>
+                <button
+                    onClick={toggleMenu}
+                    aria-label='Öppna meny'
+                >
+                    <MenuIcon fontSize="large" />
+                </button>
+                <DropDown
+                    items={items}
+                    isOpen={isOpen}
+                    onToggle={toggleMenu}
+                />
+            </div>
+
         </>
     )
 }
