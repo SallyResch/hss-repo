@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import HssNav from "@/components/HssNav";
+import ScoutNav from "@/components/ScoutNav";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,7 +28,19 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <div>
+          <header className="flex flex-row justify-between bg-hss-scout-darkblue text-white">
+            <p>Scout Logo placement</p>
+            <ScoutNav />
+          </header>
+          <header className="flex flex-row justify-between bg-hss-mediumblue text-white">
+            <p>HSS Logo placement</p>
+            <HssNav />
+          </header>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
