@@ -36,8 +36,9 @@ export default function RootLayout({
           </header>
           <header className="flex flex-row justify-between items-center bg-hss-mediumblue text-white">
             <div className="flex flex-row items-center">
-              <img src="/LoggaHSSfärgmörkbakgrund.png" alt="Hss logga för mörk bakgrund" className="w-18 py-4.5 px-3.5" />
-              <img src="/HasselbyStrands-sjoscoutkar-vit.png" alt="HSS logga text till mörk bakgrund" className="w-full h-8.5" />
+              <a href="/" className="p-0"><img src="/LoggaHSSfärgmörkbakgrund.png" alt="Hss logga för mörk bakgrund" className="w-30 py-4.5 px-3.5" /></a>
+
+              <img src="/HasselbyStrands-sjoscoutkar-vit.png" alt="HSS logga text till mörk bakgrund" className="w-full h-10" />
             </div>
             <HssNav />
           </header>
