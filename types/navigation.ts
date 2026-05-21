@@ -4,7 +4,7 @@ export interface NavItem{
 }
 
 export interface NavProps{
-    items: NavItem[];
+    items?: NavItem[];
     title?:string;
 }
 
