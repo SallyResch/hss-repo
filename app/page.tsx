@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import YellowWaveLine from "@/components/YellowWaveLine";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       </div>
       <main className="grow">
         <div>
+          
          <HeroSection/>
         </div>
         <div>Vad är hss</div>
