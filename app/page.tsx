@@ -1,4 +1,5 @@
 import { Card } from "../components/Card";
+import Button from "../components/Button";
 
 export default function Home() {
   return (
@@ -54,7 +55,14 @@ export default function Home() {
         </div>
 
         <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
+
+        <div className="flex gap-4">
+          <Button variant="yellow">Bli Scout</Button>
+          <Button variant="blue">Bli Ledare</Button>
+          <Button variant="outline">Läs mer</Button>
+        </div>
       </main>
+
       <footer className="flex flex-row justify-evenly border-hss-mediumblue border-2">
         <section>Kontakt section</section>
         <section>Äventyr och kompisar</section>
