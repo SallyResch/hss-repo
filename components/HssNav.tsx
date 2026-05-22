@@ -28,9 +28,6 @@ export default function HssNav({ items = hssNavItems, title = "HSS Scouts" }: Na
         ))}
         <Button variant='yellow'>Bli Medlem</Button>
       </nav>
-      <DropDown
-
-      />
       {/*Hamburger menu button only visible under 768px in width*/}
       <div className='block lg:hidden mr-6 text-hss-yellow rounded z-20'>
         <button

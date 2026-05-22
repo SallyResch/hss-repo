@@ -31,3 +31,7 @@ export const omHss: NavItem[] = [
     { label: "Våra båtar", path: "/om-hss/vara-batar" },
     { label: "Våra platser", path: "/om-hss/vara-platser" },
 ]
+
+export const members: NavItem[] = [
+    { label: "Dokument", path: "/medlemmar/dokument" },
+]
