@@ -3,8 +3,8 @@ import mainImage from "@/public/image 16.png";
 import image4 from "@/public/image4.png";
 import image1 from "@/public/image1.png";
 import image6 from "@/public/image6.png";
-import topWave from "@/public/top-wave.png";
-import bottomWave from "@/public/bottom-wave.png";
+import topWave from "@/public/Wave - Blue.png";
+import bottomWave from "@/public/Wave - yellow.png";
 
 export default function HistorySection() {
   return (

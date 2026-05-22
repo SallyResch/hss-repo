@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import { Card } from "../components/Card";
 import HistorySection from "@/components/HistorySection";
 import Button from "../components/Button";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -70,11 +71,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex flex-row justify-evenly border-hss-mediumblue border-2">
-        <section>Kontakt section</section>
-        <section>Äventyr och kompisar</section>
-        <section>Soc med</section>
-      </footer>
+      <Footer />
     </div>
   );
 }
