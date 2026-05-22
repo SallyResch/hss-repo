@@ -5,7 +5,7 @@ import Button from "../components/Button";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen box-border">
       <main className="grow">
         <div>
 
