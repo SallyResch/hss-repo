@@ -13,16 +13,16 @@ export default function ScoutNav({ items = scoutNavItems, title = "Scouterna Off
     return (
         <>
             {/* Desktop view - hidden on 768px */}
-            <nav className="hidden md:flex flex-row gap-2 m-5">
+            <nav className="hidden md:flex flex-row gap-5 items-center">
                 {items.map((item) => (
-                    <a key={item.path} href={item.path}>{item.label}</a>
+                    <a key={item.path} href={item.path} className="font-bold text-hss-lightblue">{item.label}</a>
                 ))}
             </nav>
             {/*Arrow only shown below 768px width */}
-            <div>
+            <div className="md:hidden">
                 <button
                     onClick={toggleMenu}
-                    className='block md:hidden p-1 text-hss-white rounded'
+                    className='block p-1 text-hss-white rounded'
                     aria-label='Öppna meny'
                 >
                     <ArrowDropDownIcon sx={{ fontSize: 42 }} />
@@ -31,7 +31,7 @@ export default function ScoutNav({ items = scoutNavItems, title = "Scouterna Off
                     items={items}
                     isOpen={isOpen}
                     onToggle={toggleMenu}
-                    className="bg-hss-scout-darkblue text-white right-0"
+                    className="bg-hss-scout-darkblue text-hss-lightblue font-bold right-0"
                 />
             </div>
         </>

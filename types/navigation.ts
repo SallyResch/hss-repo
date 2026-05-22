@@ -22,3 +22,4 @@ export const scoutNavItems: NavItem[] =[
     {label:"Scoutnet", path:"https://www.scoutnet.se/"},
     {label:"Scoutshop", path:"http://scoutshop.se/"},
 ]
+
