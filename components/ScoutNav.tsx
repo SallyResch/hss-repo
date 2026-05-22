@@ -9,7 +9,6 @@ export default function ScoutNav({ items = scoutNavItems, title = "Scouterna Off
     const toggleMenu = () => {
         setIsOpen(prev => !prev);
     }
-    console.log("scout " + isOpen)
     return (
         <>
             {/* Desktop view - hidden on 768px */}

@@ -15,8 +15,8 @@ export interface NavProps {
 export const hssNavItems: NavItem[] = [
     { label: "Bli Scout", path: "/bli-scout" },
     { label: "Avdelningar", path: "/avdelningar" },
-    { label: "Om HSS", path: "/om-hss", openIcon: <ArrowDropDownIcon /> },
-    { label: "För medlemmar/ Praktisk info", path: "/medlemmar", openIcon: <ArrowDropDownIcon /> },
+    { label: "Om HSS", path: "/om-hss", openIcon: <ArrowDropDownIcon fontSize="large" /> },
+    { label: "För medlemmar/ Praktisk info", path: "/medlemmar", openIcon: <ArrowDropDownIcon fontSize="large" /> },
     { label: "Kontakt", path: "/kontakt" },
 ]
 
