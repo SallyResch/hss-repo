@@ -1,6 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import { Card } from "../components/Card";
-
+import HistorySection from "@/components/HistorySection";
 import Button from "../components/Button";
 
 export default function Home() {
@@ -35,7 +35,9 @@ export default function Home() {
           
          <HeroSection/>
         </div>
-        <div>Vad är hss</div>
+        <div>
+          <HistorySection/>
+        </div>
 
         <div className="bg-hss-yellow p-6">
           <div className="max-w-6xl mx-auto">
