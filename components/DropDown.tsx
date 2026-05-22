@@ -1,13 +1,12 @@
 import { DropDownProps } from "@/types/dropdown"
-export default function DropDown({ items, isOpen, onToggle }: DropDownProps) {
+export default function DropDown({ items, isOpen, className }: DropDownProps) {
     if (!isOpen) return false;
     return (
-        <div className='absolute top-35.5 right-0 flex flex-col gap-4 bg-hss-yellow p-4 rounded shadow-lg md:hidden'>
+        <div className={`absolute flex flex-col gap-4 p-4 rounded shadow-lg md:hidden z-50 ${className}`}>
             {items.map((item) => (
                 <a
                     key={item.path}
                     href={item.path}
-                    className="text-black"
                 >
                     {item.label}
                 </a>

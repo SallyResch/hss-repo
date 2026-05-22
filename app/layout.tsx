@@ -34,7 +34,7 @@ export default function RootLayout({
             <p>Scout Logo placement</p>
             <ScoutNav />
           </header>
-          <header className="flex flex-row justify-between items-center bg-hss-mediumblue text-white">
+          <header className="flex flex-row justify-between items-center bg-hss-mediumblue text-white rounded-b-3xl">
             <div className="flex flex-row items-center">
               <a href="/" className="p-0"><img src="/LoggaHSSfärgmörkbakgrund.png" alt="Hss logga för mörk bakgrund" className="w-30 py-4.5 px-3.5" /></a>
 

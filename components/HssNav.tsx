@@ -10,17 +10,17 @@ export default function HssNav({ items = hssNavItems, title = "HSS Scouts" }: Na
         setIsOpen(prev => !prev);
     }
 
-    console.log(isOpen)
+    console.log("HSS " + isOpen)
     return (
         <>
             {/* Desktop view - hidden on 768px */}
-            <nav className="hidden md:flex flex-row gap-2">
+            <nav className="hidden md:flex flex-row gap-2 m-5">
                 {items.map((item) => (
                     <a key={item.path} href={item.path}>{item.label}</a>
                 ))}
             </nav>
             {/*Hamburger menu button only visible under 768px in width*/}
-            <div className='block md:hidden p-1 text-hss-yellow rounded'>
+            <div className='block md:hidden p-1 text-hss-yellow rounded z-50'>
                 <button
                     onClick={toggleMenu}
                     aria-label='Öppna meny'
@@ -31,6 +31,7 @@ export default function HssNav({ items = hssNavItems, title = "HSS Scouts" }: Na
                     items={items}
                     isOpen={isOpen}
                     onToggle={toggleMenu}
+                    className='top-35.5 right-0 bg-hss-yellow text-black'
                 />
             </div>
 
