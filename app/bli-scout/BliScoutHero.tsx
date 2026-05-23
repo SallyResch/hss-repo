@@ -10,12 +10,10 @@ import BlueWaveLine from "@/components/BlueWaveLine";
 const BliScoutHero = () => {
   return (
     <section className="relative mt-0 h-146.25 w-full overflow-hidden md:h-202.5">
-      {/* TOP YELLOW WAVE */}
       <div className="absolute top-0 left-0 z-20 w-full">
         <YellowWaveLine />
       </div>
 
-      {/* HERO IMAGE */}
       <Image
         src={heroImage}
         alt="Bli Scout Hero"
@@ -25,10 +23,8 @@ const BliScoutHero = () => {
         sizes="100vw"
       />
 
-      {/* DARK OVERLAY */}
       <div className="absolute inset-0 bg-black/25" />
 
-      {/* CONTENT BOX */}
       <div
         className="
           absolute
@@ -52,7 +48,6 @@ const BliScoutHero = () => {
           md:py-10
         "
       >
-        {/* TITLE */}
         <h1
           className="
             font-montserrat
@@ -67,12 +62,10 @@ const BliScoutHero = () => {
           Bli Scout
         </h1>
 
-        {/* WHITE WAVE LINE */}
         <div className="w-full">
           <WhiteWaveLine />
         </div>
 
-        {/* LOGO */}
         <Image
           src={hasselbyLogo}
           alt="Hässleby Strands Sjöscoutkår"
@@ -84,10 +77,8 @@ const BliScoutHero = () => {
           "
         />
 
-        {/* TEXT */}
         <p
-          className="
-            max-w-[508px]
+          className=" max-w-[508px]
             font-montserrat
             text-[16px]
             font-semibold
@@ -102,9 +93,8 @@ const BliScoutHero = () => {
         </p>
       </div>
 
-      {/* BOTTOM BLUE WAVE */}
-      {/* BOTTOM BLUE WAVE */}
-      <div className="absolute bottom-[-1px] left-0 z-20 w-full leading-none">
+      {/* BOTTOM BLUE WAVE  adjust bottom */}
+      <div className="absolute bottom-[-10px] left-0 z-20 w-full leading-none">
         <BlueWaveLine />
       </div>
   
