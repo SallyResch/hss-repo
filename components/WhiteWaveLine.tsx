@@ -3,9 +3,9 @@ import React from "react";
 const WhiteWaveLine = () => {
   return (
     <>
+      {/* width="502" */}
+      {/* height="12" */}
       <svg
-        width="502"
-        height="12"
         viewBox="0 0 502 12"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
