@@ -1,8 +1,6 @@
 import { NavItem } from "./navigation";
-
-
 export interface DropDownProps{
-    items: NavItem[];
+    items?: NavItem[];
     isOpen: boolean;
-    className: string;
+    className?: string;
 }

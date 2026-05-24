@@ -42,7 +42,7 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
         <DropDown
           items={items}
           isOpen={isDropDownOpen}
-          className='top-31 right-0 bg-hss-yellow text-black'
+          className='top-31 right-0 bg-hss-yellow text-black lg:hidden'
         />
       </div>
     </>
