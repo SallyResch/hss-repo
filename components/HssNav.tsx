@@ -1,12 +1,15 @@
 "use client"
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { NavProps, hssNavItems } from "@/types/navigation";
 import { useState } from "react";
 import DropDown from './DropDown';
 import Button from './Button';
 import Link from 'next/link';
-export default function HssNav({ items = hssNavItems, title = "HSS Scouts" }: NavProps) {
+import DesktopNavItem from './DesktopNavItem';
+export default function HssNav({ items = hssNavItems }: NavProps) {
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,7 +27,7 @@ export default function HssNav({ items = hssNavItems, title = "HSS Scouts" }: Na
       {/* Desktop view - hidden on 768px */}
       <nav className="hidden lg:flex flex-row gap-5 m-5 items-center">
         {items.map((item) => (
-          <Link key={item.path} href={item.path} className='font-medium' onClick={toggleMenu}>{item.label}{item.openIcon}</Link>
+          <DesktopNavItem key={item.path} item={item} />
         ))}
         <Button variant='yellow'>Bli Medlem</Button>
       </nav>
@@ -34,16 +37,14 @@ export default function HssNav({ items = hssNavItems, title = "HSS Scouts" }: Na
           onClick={toggleDropDownMenu}
           aria-label='Öppna meny'
         >
-          {isOpen ? (<CloseIcon fontSize='large' />) : (<MenuIcon fontSize="large" />)}
+          {isDropDownOpen ? (<CloseIcon fontSize='large' />) : (<MenuIcon fontSize="large" />)}
         </button>
         <DropDown
           items={items}
           isOpen={isDropDownOpen}
-          onToggle={toggleDropDownMenu}
           className='top-31 right-0 bg-hss-yellow text-black'
         />
       </div>
-
     </>
   )
 }

@@ -1,10 +1,8 @@
-import { ReactNode } from "react";
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'
+
 export interface NavItem {
     label: string;
     path: string;
-    openIcon?: ReactNode;
-    closeIcon?: ReactNode;
+    children?: NavItem[];
 }
 
 export interface NavProps {
@@ -15,8 +13,17 @@ export interface NavProps {
 export const hssNavItems: NavItem[] = [
     { label: "Bli Scout", path: "/bli-scout" },
     { label: "Avdelningar", path: "/avdelningar" },
-    { label: "Om HSS", path: "/om-hss", openIcon: <ArrowDropDownIcon fontSize="large" /> },
-    { label: "För medlemmar/ Praktisk info", path: "/medlemmar", openIcon: <ArrowDropDownIcon fontSize="large" /> },
+    {
+        label: "Om HSS", path: "/om-hss", children: [
+            { label: "Våra båtar", path: "/om-hss/vara-batar" },
+            { label: "Våra platser", path: "/om-hss/vara-platser" },
+        ]
+    },
+    {
+        label: "För medlemmar/Praktisk info", path: "/medlemmar", children: [
+            { label: "Dokument", path: "/medlemmar/dokument" },
+        ]
+    },
     { label: "Kontakt", path: "/kontakt" },
 ]
 
@@ -25,13 +32,4 @@ export const scoutNavItems: NavItem[] = [
     { label: "Scouterna Folkhögskola", path: "https://www.scouternasfolkhogskola.se/" },
     { label: "Scoutnet", path: "https://www.scoutnet.se/" },
     { label: "Scoutshop", path: "http://scoutshop.se/" },
-]
-
-export const omHss: NavItem[] = [
-    { label: "Våra båtar", path: "/om-hss/vara-batar" },
-    { label: "Våra platser", path: "/om-hss/vara-platser" },
-]
-
-export const members: NavItem[] = [
-    { label: "Dokument", path: "/medlemmar/dokument" },
 ]
