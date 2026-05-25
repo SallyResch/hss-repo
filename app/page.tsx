@@ -16,7 +16,8 @@ export default function Home() {
           description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån
           finns det ett äventyr som väntar" 
           imageUrl={heroimg}
-          mobileImgUrl={heromob}/>
+          mobileImgUrl={heromob}
+          showButtons={true}/>
 
         </div>
         <div>Vad är hss</div>

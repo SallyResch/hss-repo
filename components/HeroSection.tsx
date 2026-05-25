@@ -9,6 +9,7 @@ const HeroSection = ({
   description,
   imageUrl,
   mobileImgUrl,
+  showButtons = false,
 }: HeroSectionProps) => {
   return (
     <section className="relative w-full h-146.25 md:h-202.5 mt-0">
@@ -52,7 +53,8 @@ const HeroSection = ({
         <p className="text-xs text-hss-yellow md:w-127 md:text-2xl  md:h-26.25 md:font-semibold  italic leading-relaxed">
           {description}
         </p>
-        <div className="hidden md:flex flex-row gap-6 mt-8">
+        {showButtons && (
+           <div className="hidden md:flex flex-row gap-6 mt-8">
           <Link href="/bli-scout">
             <Button variant="yellow">Bli Scout</Button>
           </Link>
@@ -60,6 +62,9 @@ const HeroSection = ({
             <Button variant="outline">Bli Ledare</Button>
           </Link>
         </div>
+
+        )}
+       
       </div>
     </section>
   );

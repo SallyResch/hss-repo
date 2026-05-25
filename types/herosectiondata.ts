@@ -4,4 +4,5 @@ export default interface HeroSectionProps {
     description: string;
     imageUrl?: string | StaticImageData;
     mobileImgUrl?:string | StaticImageData;
+    showButtons?: boolean;
   }
