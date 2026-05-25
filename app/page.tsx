@@ -1,8 +1,13 @@
 import HeroSection from "@/components/HeroSection";
 import { Card } from "../components/Card";
-
 import Button from "../components/Button";
 import Footer from "../components/Footer";
+
+import kidIcon from "./assets/kid.svg";
+import kiddIcon from "./assets/kidd.svg";
+import teenIcon from "./assets/teen.svg";
+import adultIcon from "./assets/adult.svg";
+import familyIcon from "./assets/family.svg";
 
 export default function Home() {
   return (
@@ -33,28 +38,50 @@ export default function Home() {
       </div>
       <main className="grow">
         <div>
-          
-         <HeroSection/>
+          <HeroSection />
         </div>
         <div>Vad är hss</div>
 
-        <div className="bg-hss-yellow p-6">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-xl font-bold mb-6 text-gray-950">
-              Våra avdelningar
+        <div className="bg-hss-yellow py-12 px-4">
+          <div className="max-w-[95rem] mx-auto">
+            <h2 className="text-4xl font-bold mb-12 text-[#0d335d] text-center">
+              Våra Avdelningar
             </h2>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 justify-items-center">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 items-stretch">
               <Card
-                title="Spårarna"
-                description="This is the first department section using our custom reusable card."
+                title="Familjescouting"
+                imageUrl={familyIcon.src}
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                age=""
               />
+
               <Card
-                title="Upptäckarna"
-                description="This is the second department section using our custom reusable card."
+                title="Sjöhumlor/Spårare"
+                age="8-9 år"
+                imageUrl={kidIcon.src}
+                description="Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout 'miniorscout')"
               />
+
               <Card
-                title="Äventyrarna"
-                description="This is the third department section using our custom reusable card."
+                title="Kaparna/Upptäckare"
+                age="10-11 år"
+                imageUrl={kiddIcon.src}
+                description="På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får läرا sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera."
+              />
+
+              <Card
+                title="Konvojen/Äventyrare"
+                age="12-14 år"
+                imageUrl={teenIcon.src}
+                description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält."
+              />
+
+              <Card
+                title="Utmanare"
+                age="15+ år"
+                imageUrl={adultIcon.src}
+                description="När man kommer upp från äventyrarscouterna bildar man ett lag tillsammans med kullkamraterna. Sedan arbet man mot att lära sig  saker och anta svårare utmaningar för att öka sammanhållningen."
               />
             </div>
           </div>
@@ -62,7 +89,7 @@ export default function Home() {
 
         <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 p-6">
           <Button variant="yellow">Bli Scout</Button>
           <Button variant="blue">Bli Ledare</Button>
           <Button variant="outline">Läs mer</Button>
