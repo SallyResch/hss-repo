@@ -1,39 +1,38 @@
 import Image from "next/image";
 
-import hasselbyLogo from "../public/hasselbylogo.png"
-import whiteLine from "@/public/whiteline.png";
+import hasselbyLogo from "../public/hasselbylogo.png";
 import WhiteWaveLine from "@/components/WhiteWaveLine";
-import YellowWaveLine from "@/components/YellowWaveLine";
 import Button from "../components/Button";
-import HeroSectionProps from "../util/herosectiondata"
-const HeroSection = ({ title, description, imageUrl ,mobileImgUrl }:HeroSectionProps) => {
+import HeroSectionProps from "../util/herosectiondata";
+const HeroSection = ({
+  title,
+  description,
+  imageUrl,
+  mobileImgUrl,
+}: HeroSectionProps) => {
   return (
-    <section className="relative w-full h-[585px] md:h-202.5 mt-0">
-     
+    <section className="relative w-full h-146.25 md:h-202.5 mt-0">
       {mobileImgUrl && (
         <Image
-        src={mobileImgUrl}
-        alt="HSS Mobile Hero Image"
-        fill
-        priority
-        className="object-cover object-bottom"
-        sizes="100vw"
-      />
-      )
-      }
+          src={mobileImgUrl}
+          alt="HSS Mobile Hero Image"
+          fill
+          priority
+          className="object-cover object-bottom"
+          sizes="100vw"
+        />
+      )}
       {imageUrl && (
-       <div className="hidden md:block">
-    <Image
-      src={imageUrl}
-      alt="HSS Hero Image"
-      fill
-      priority
-      className="object-cover object-bottom"
-    />
-    </div>
-      )
-      }
-      
+        <div className="hidden md:block">
+          <Image
+            src={imageUrl}
+            alt="HSS Hero Image"
+            fill
+            priority
+            className="object-cover object-bottom"
+          />
+        </div>
+      )}
 
       <div
         className="absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 w-73.5 md:w-177 md:h-133.5 h-58.25 bg-[#003660E5] rounded-br-2xl rounded-bl-2xl
@@ -55,7 +54,7 @@ const HeroSection = ({ title, description, imageUrl ,mobileImgUrl }:HeroSectionP
         </p>
         <div className="hidden md:flex flex-row gap-6 mt-8">
           <Button variant="yellow">Bli Scout</Button>
-           <Button variant="outline">Bli Ledare</Button>
+          <Button variant="outline">Bli Ledare</Button>
         </div>
       </div>
     </section>
