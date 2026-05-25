@@ -16,15 +16,15 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
     setIsDropDownOpen(false);
   })
   return (
-    <>
+    <div ref={dropdownRef}>
       {/* Desktop view - hidden on 768px */}
       <nav className="hidden lg:flex flex-row gap-3 m-2 items-center">
         {items.map((item) => (
           <DesktopNavItem key={item.path} item={item} />
         ))}
       </nav>
-      {/*Hamburger menu button only visible under 768px in width*/}
-      <div ref={dropdownRef} className='block lg:hidden mr-6 text-hss-yellow rounded z-20'>
+      {/*Hamburger menu button visible under 1024px in width*/}
+      <div className='block lg:hidden mr-6 text-hss-yellow rounded z-20'>
         <button
           onClick={toggleDropDownMenu}
           aria-label='Öppna meny'
@@ -34,10 +34,10 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
         <DropDown
           items={items}
           isOpen={isDropDownOpen}
-          className='top-31 right-0 bg-hss-yellow text-black lg:hidden'
+          className='top-29 right-5 bg-hss-yellow text-black lg:hidden'
           onSelect={() => setIsDropDownOpen(false)}
         />
       </div>
-    </>
+    </div>
   )
 }
