@@ -55,7 +55,7 @@ const HeroSection = ({ title, description, imageUrl ,mobileImgUrl }:HeroSectionP
         </p>
         <div className="hidden md:flex flex-row gap-6 mt-8">
           <Button variant="yellow">Bli Scout</Button>
-          <Button variant="blue">Bli Ledare</Button>
+           <Button variant="outline">Bli Ledare</Button>
         </div>
       </div>
     </section>
