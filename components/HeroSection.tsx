@@ -9,9 +9,7 @@ import HeroSectionProps from "../util/herosectiondata"
 const HeroSection = ({ title, description, imageUrl ,mobileImgUrl }:HeroSectionProps) => {
   return (
     <section className="relative w-full h-[585px] md:h-202.5 mt-0">
-      <div className="absolute top-0 left-0 w-full z-20">
-        <YellowWaveLine />
-      </div>
+     
       {mobileImgUrl && (
         <Image
         src={mobileImgUrl}
@@ -65,4 +63,3 @@ const HeroSection = ({ title, description, imageUrl ,mobileImgUrl }:HeroSectionP
 };
 
 export default HeroSection;
-
