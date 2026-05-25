@@ -1,8 +1,8 @@
 import HeroSection from "@/components/HeroSection";
 import { Card } from "../components/Card";
-
 import Button from "../components/Button";
-
+import heroimg from "../public/hero.jpg";
+import heromob from "../public/heromob.png"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -33,7 +33,13 @@ export default function Home() {
       <main className="grow">
         <div>
           
-         <HeroSection/>
+         <HeroSection 
+         title="Välkommen till" 
+         description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån
+          finns det ett äventyr som väntar" 
+          imageUrl={heroimg}
+          mobileImgUrl={heromob}/>
+
         </div>
         <div>Vad är hss</div>
 
