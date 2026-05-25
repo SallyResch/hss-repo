@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import Link from "next/link";
 import hasselbyLogo from "../public/hasselbylogo.png";
 import WhiteWaveLine from "@/components/WhiteWaveLine";
 import Button from "../components/Button";
-import HeroSectionProps from "../util/herosectiondata";
+import HeroSectionProps from "../types/herosectiondata";
 const HeroSection = ({
   title,
   description,
@@ -53,8 +53,11 @@ const HeroSection = ({
           {description}
         </p>
         <div className="hidden md:flex flex-row gap-6 mt-8">
-          <Button variant="yellow">Bli Scout</Button>
-          <Button variant="outline">Bli Ledare</Button>
+          <Link href="/bli-scout">
+            <Button variant="yellow">Bli Scout</Button>
+          </Link>
+            <Button variant="outline">Bli Ledare</Button>
+          
         </div>
       </div>
     </section>
