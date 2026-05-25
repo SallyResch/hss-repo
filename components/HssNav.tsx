@@ -14,7 +14,7 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
   return (
     <>
       {/* Desktop view - hidden on 768px */}
-      <nav className="hidden lg:flex flex-row gap-3 m-5 items-center">
+      <nav className="hidden lg:flex flex-row gap-3 m-2 items-center">
         {items.map((item) => (
           <DesktopNavItem key={item.path} item={item} />
         ))}
