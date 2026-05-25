@@ -29,7 +29,7 @@
   --color-hss-lightblue: var(--hss-lightblue);
   --color-hss-yellow: var(--hss-yellow);
   --color-hss-white: var(--hss-white);
-  --color-hss-darkblue: var(--hss-darkgrey);
+  --color-hss-darkgrey: var(--hss-darkgrey);
 }
 
 @media (prefers-color-scheme: dark) {

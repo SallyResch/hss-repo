@@ -64,8 +64,8 @@ export default function Home() {
 
         <div className="flex gap-4">
           <Button variant="yellow">Bli Scout</Button>
-          <Button variant="blue">Bli Ledare</Button>
-          <Button variant="outline">Läs mer</Button>
+          <Button variant="outline">Bli Ledare</Button>
+           <Button variant="blue">Anmäl intresse</Button>
         </div>
       </main>
 
