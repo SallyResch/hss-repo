@@ -22,12 +22,14 @@ export default function DesktopNavItem({ item }: { item: NavItem }) {
 
     return (
         <div>
-            <Link href={item.path}>{item.label}</Link>
-            {hasChildren && (
-                <button onClick={() => setMenuOpen(prev => !prev)}>
-                    {isMenuOpen ? <ArrowDropUpIcon fontSize="large" /> : <ArrowDropDownIcon fontSize="large" />}
-                </button>
-            )}
+            <div className="flex flex-row items-center">
+                <Link href={item.path}>{item.label}</Link>
+                {hasChildren && (
+                    <button onClick={() => setMenuOpen(prev => !prev)}>
+                        {isMenuOpen ? <ArrowDropUpIcon fontSize="large" /> : <ArrowDropDownIcon fontSize="large" />}
+                    </button>
+                )}
+            </div>
             {hasChildren && (
                 <DropDown items={item.children!} isOpen={isMenuOpen} className="bg-hss-yellow top-32 text-hss-mediumblue mr-3" />
             )}
