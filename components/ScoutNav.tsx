@@ -3,7 +3,7 @@ import { NavProps, scoutNavItems } from "@/types/navigation"
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'
 import { useState } from "react";
 import DropDown from "./DropDown";
-export default function ScoutNav({ items = scoutNavItems, title = "Scouterna Official" }: NavProps) {
+export default function ScoutNav({ items = scoutNavItems }: NavProps) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -29,7 +29,6 @@ export default function ScoutNav({ items = scoutNavItems, title = "Scouterna Off
                 <DropDown
                     items={items}
                     isOpen={isOpen}
-                    onToggle={toggleMenu}
                     className="bg-hss-scout-darkblue text-hss-lightblue font-bold right-0"
                 />
             </div>
