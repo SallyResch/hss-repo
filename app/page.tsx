@@ -10,6 +10,7 @@ import teenIcon from "./assets/teen.svg";
 import adultIcon from "./assets/adult.svg";
 import familyIcon from "./assets/family.svg";
 import HistorySection from "@/components/HistorySection";
+import SafetySection from "@/components/SafetySection";
 
 export default function Home() {
   return (
@@ -26,11 +27,11 @@ export default function Home() {
             variant="home"
           />
         </div>
-        
+
         <div>
-          <HistorySection/>
+          <HistorySection />
         </div>
-        
+
         <div className="bg-hss-yellow py-12 px-4">
           <div className="max-w-[95rem] mx-auto">
             <h2 className="text-4xl font-bold mb-12 text-[#0d335d] text-center">
@@ -75,6 +76,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <SafetySection />
+
+        <div className="flex gap-4 p-6 justify-center bg-white">
+          <Button variant="yellow">Bli Scout</Button>
+          <Button variant="blue">Bli Ledare</Button>
+          <Button variant="outline">Läs mer</Button>
+        </div>
 
         <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
 
@@ -84,7 +92,7 @@ export default function Home() {
           <Button variant="blue">Anmäl intresse</Button>
         </div>
       </main>
-      
+
       <Footer />
     </div>
   );
