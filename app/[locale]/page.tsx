@@ -9,14 +9,13 @@ import { Card } from "@/components/Card";
 import Button from "@/components/Button"
 import Footer from "@/components/Footer"
 
-
 import heroimg from "@/public/hero.jpg";
 import heromob from "@/public/heromob.png";
-import kidIcon from "@/assets/kid.svg"; 
-import kiddIcon from "@/assets/kidd.svg";
-import teenIcon from "@/assets/teen.svg";
-import adultIcon from "@/assets/adult.svg";
-import familyIcon from "@/assets/family.svg";
+import kidIcon from "../assets/kid.svg"; 
+import kiddIcon from "../assets/kidd.svg";
+import teenIcon from "../assets/teen.svg";
+import adultIcon from "../assets/adult.svg";
+import familyIcon from "../assets/family.svg";
 
 
 export default  function Home ({
@@ -33,8 +32,8 @@ export default  function Home ({
         <main className="grow">
           <div>
             <HeroSection 
-            title="Välkommen till"
-            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar"
+            title={t('heroTitle')}
+            description={t('heroDesc')}
             imageUrl={heroimg}
             mobileImgUrl={heromob}
             showButtons={true}
@@ -48,59 +47,66 @@ export default  function Home ({
           
           <div>{t('aboutSectionTitle')}</div>
 
-          <div className="bg-hss-yellow p-6">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-xl font-bold mb-6 text-gray-950">
-              Våra avdelningar
+          <div className="bg-hss-yellow py-12 px-4">
+            <div className="max-w-[95rem] mx-auto">
+              <h2 className="text-4xl font-bold mb-12 text-hss-darkgrey text-center">
+                {t('departmentsTitle')}
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 items-stretch">
 
+                {/* 1\\ */}
                 <Card
-                title="Familjescouting"
+                title={t('cardFamily.title')}
                 imageUrl={familyIcon.src}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                description={t('cardFamily.desc')}
                 age=""
                 />
 
+                {/* 2\\ */}
                 <Card
-                  title="Sjöhumlor/Spårare"
-                  age="8-9 år"
+                  title={t('cardSparare.title')}
+                  age={t('cardSparare.age')}
                   imageUrl={kidIcon.src}
-                  description="Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout 'miniorscout')"
+                  description={t('cardSparare.desc')}
                 />
 
+                {/* 3\\ */}
                 <Card
-                title="Kaparna/Upptäckare"
-                age="10-11 år"
+                title={t('cardUpptackare.title')}
+                age={t('cardUpptackare.age')}
                 imageUrl={kiddIcon.src}
-                description="På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lä sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera."
+                description={t('cardUpptackare.desc')}
                 />
 
+                {/* 4 */}
                 <Card 
-                title="Konvojen/Äventyrare"
-                age="12-14 år"
+                title={t('cardAventyrare.title')}
+                age={t('cardAventyrare.age')}
                 imageUrl={teenIcon.src}
-                description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält."
+                description={t('cardAventyrare.desc')}
                 />
 
-              <Card
-              title="Utmanare"
-                age="15+ år"
+                {/* 5 */}
+                <Card
+                title={t('cardUtmanare.title')}
+                age={t('cardUtmanare.age')}
                 imageUrl={adultIcon.src}
-                description="När man kommer upp från äventyrarscouterna bildar man ett lag tillsammans med kullkamraterna. Sedan arbet mot att lära sig saker och anta svårare utmaningar för att öka sammanhållningen."
+                description={t('cardUtmanare.desc')}
                 />
 
               </div>
             </div>
           </div>
 
-          <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
+          <div className="bg-hss-mediumblue text-hss-white">
+            {t('safetyTitle')}
+          </div>
 
-          <div className="flex gap-4">
-            <Button variant="yellow">Bli Scout</Button>
-            <Button variant="outline">Bli Ledare</Button>
-            <Button variant="blue">Anmäl intresse</Button>
+          <div className="flex gap-4 p-6">
+            <Button variant="yellow">{t('btnBecomeScout')}</Button>
+            <Button variant="outline">{t('btnBecomeLeader')}</Button>
+            <Button variant="blue">{t('btnShowInterest')}</Button>
           </div>
         </main>
 

@@ -20,11 +20,11 @@ export default function LanguageSwitcher() {
     <select 
       value={locale} 
       onChange={switchLocale}
-      className="bg-transparent text-gray-900 font-semibold cursor-pointer outline-none"
+      className="bg-transparent text-hss-white font-semibold cursor-pointer outline-none"
     >
 
-      <option value="sv">Svenska</option>
-      <option value="en">English</option>
+      <option className="text-black" value="sv">Svenska</option>
+      <option className="text-black" value="en">English</option>
     </select>
   );
 }

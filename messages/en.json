@@ -1,7 +1,38 @@
 {
   "home": {
     "aboutSectionTitle": "What is hss",
+    "btnBecomeLeader": "Become a Leader",
+    "btnBecomeScout": "Become a Scout",
+    "btnShoveInterest": "Express interest",
+    "btnShowInterest": "Express interest",
+    "cardAventyrare": {
+      "age": "12-14 years",
+      "desc": "Here sailing begins in earnest and it opens up in the archipelago during the summer. When we are not sailing, we practice navigation and also engage in traditional landscape scouting activities. In winter, when it is coldest, we have a proper winter hike where we stay in tents.",
+      "title": "The Convoy/Adventurer"
+    },
+    "cardFamily": {
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "title": "Family scouting"
+    },
+    "cardSparare": {
+      "age": "8-9 years",
+      "desc": "At the age of 8, one can start in HSS, i.e., when starting in grade 2. One then becomes a Trail Scout and a member of the department Sjöhumlorna. (Previously, the Trail Scout was called 'miniorscout')",
+      "title": "Sea bumblebees/Trackers"
+    },
+    "cardUpptackare": {
+      "age": "10-11 years",
+      "desc": "At Kaparna, the difficulty level of the tasks increases. The scouts learn to sail an optimist and get to try sailing a 2-krona and a keelboat. A fully trained explorer scout can, among other things, handle a knife, start a fire, and extinguish small fires, among other things.",
+      "title": "The Raiders/Explorers"
+    },
+    "cardUtmanare": {
+      "age": "15+ years",
+      "desc": "When you graduate from the adventure scouts, you form a team together with your classmates. Then you work towards learning things and taking on more difficult challenges to increase cohesion.",
+      "title": "Challenger"
+    },
     "departmentsTitle": "Our departments",
+    "heroDesc": "Here awaits the Adventure. No matter who you are or where you come from, there is an adventure waiting.",
+    "heroTitle": "Welcome to",
+    "safetyTitle": "Safety/Security",
     "security": "Safety/Security"
   }
 }
