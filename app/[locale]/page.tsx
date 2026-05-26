@@ -4,10 +4,19 @@ import { use } from 'react';
 import { useTranslations } from 'next-intl';
 
 import HeroSection from "@/components/HeroSection";
+import HistorySection from "@/components/HistorySection";
 import { Card } from "@/components/Card";
 import Button from "@/components/Button"
 import Footer from "@/components/Footer"
-import { routing } from '@/i18n/routing';
+
+
+import heroimg from "@/public/hero.jpg";
+import heromob from "@/public/heromob.png";
+import kidIcon from "@/assets/kid.svg"; 
+import kiddIcon from "@/assets/kidd.svg";
+import teenIcon from "@/assets/teen.svg";
+import adultIcon from "@/assets/adult.svg";
+import familyIcon from "@/assets/family.svg";
 
 
 export default  function Home ({
@@ -23,8 +32,20 @@ export default  function Home ({
       <div className="flex flex-col min-h-screen box-border">
         <main className="grow">
           <div>
-            <HeroSection />
+            <HeroSection 
+            title="Välkommen till"
+            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar"
+            imageUrl={heroimg}
+            mobileImgUrl={heromob}
+            showButtons={true}
+            variant="home"
+            />
           </div>
+
+          <div>
+            <HistorySection />
+          </div>
+          
           <div>{t('aboutSectionTitle')}</div>
 
           <div className="bg-hss-yellow p-6">
@@ -33,19 +54,43 @@ export default  function Home ({
               Våra avdelningar
               </h2>
 
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 justify-items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 items-stretch">
+
                 <Card
-                title="Spårarna"
-                description="This is the first department section using our custom reusable card."
+                title="Familjescouting"
+                imageUrl={familyIcon.src}
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                age=""
                 />
+
                 <Card
-                title="Upptäckarna"
-                description="This is the second department section using our custom reusable card."
+                  title="Sjöhumlor/Spårare"
+                  age="8-9 år"
+                  imageUrl={kidIcon.src}
+                  description="Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout 'miniorscout')"
                 />
+
                 <Card
-                title="Äventyrarna"
-                description="This is the third department section using our custom reusable card."
+                title="Kaparna/Upptäckare"
+                age="10-11 år"
+                imageUrl={kiddIcon.src}
+                description="På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lä sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera."
                 />
+
+                <Card 
+                title="Konvojen/Äventyrare"
+                age="12-14 år"
+                imageUrl={teenIcon.src}
+                description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält."
+                />
+
+              <Card
+              title="Utmanare"
+                age="15+ år"
+                imageUrl={adultIcon.src}
+                description="När man kommer upp från äventyrarscouterna bildar man ett lag tillsammans med kullkamraterna. Sedan arbet mot att lära sig saker och anta svårare utmaningar för att öka sammanhållningen."
+                />
+
               </div>
             </div>
           </div>
