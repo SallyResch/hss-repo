@@ -14,7 +14,7 @@ export default function HistorySection() {
     <section className="relative overflow-hidden bg-white py-32">
       <div className="absolute top-0 left-0 w-full">
         <Image
-          src={topWave}
+          src={topWave} 
           alt="Top wave"
           className="w-full"
           priority
