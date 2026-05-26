@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import mainImage from "@/public/image 16.png";
 import image4 from "@/public/image4.png";
 import image1 from "@/public/image1.png";
@@ -58,7 +60,7 @@ export default function HistorySection() {
 
       <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6">
         <h1
-          className="mb-14 text-center font-montserrat text-[32px] font-semibold leading-[100%] tracking-[0%] text-[hss-mediumblue]"
+          className="mb-14 text-center font-montserrat text-[32px] font-semibold leading-[100%] tracking-[0%] text-hss-mediumblue"
         >
           Vad är HSS
         </h1>
@@ -70,11 +72,11 @@ export default function HistorySection() {
             width={639}
             height={360}
             priority
-            className="h-[360px] w-[639px] rounded-bl-[20px] rounded-br-[20px] border-t border-l border-[hss-mediumblue] object-cover shadow-xl"
+            className="h-[360px] w-[639px] rounded-bl-[20px] rounded-br-[20px] border-t border-l border-hss-mediumblue object-cover shadow-xl"
           />
         </div>
 
-        <div className="max-w-[639px] space-y-8 text-[hss-mediumblue]">
+        <div className="max-w-[639px] space-y-8 text-hss-mediumblue">
           <p className="font-montserrat text-[22px] font-normal leading-[100%] tracking-[0%]" >
             Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
             ungdomsverksamhet med fokus på scouting och båtliv.
@@ -86,10 +88,15 @@ export default function HistorySection() {
             största ungdomsorganisationer.
           </p>
 
-          <button className="ml-auto flex items-center gap-3 text-[22px] font-medium text-[hss-mediumblue] transition-all duration-300 hover:gap-5">
-            Läs mer
-            <span className="text-3xl">→</span>
-          </button>
+          <div className="flex justify-end">
+            <Link
+              href="/om-hss"
+              className="flex items-center gap-3 text-[22px] font-medium text-hss-mediumblue transition-all duration-300 hover:gap-5"
+            >
+             Läs mer
+              <span className="text-3xl">→</span>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
