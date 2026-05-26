@@ -13,6 +13,9 @@ import adultIcon from "./assets/adult.svg";
 import familyIcon from "./assets/family.svg";
 import HistorySection from "@/components/HistorySection";
 import SafetySection from "@/components/SafetySection";
+import familyIcon from "./assets/family.svg";
+import HistorySection from "@/components/HistorySection";
+import SafetySection from "@/components/SafetySection";
 
 export default function Home() {
   return (
@@ -33,7 +36,7 @@ export default function Home() {
           <HistorySection />
         </div>
 
-        <div className="bg-hss-yellow py-12 px-4 sm:px-6 lg:px-8">
+        <div className="bg-hss-yellow py-12 px-4">
           <div className="max-w-[95rem] mx-auto">
             <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-[#0d335d] text-center">
               Våra Avdelningar
@@ -85,7 +88,9 @@ export default function Home() {
           <Button variant="outline">Läs mer</Button>
         </div>
 
-        <div className="flex flex-wrap gap-4 p-6 justify-center bg-white">
+        <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
+
+        <div className="flex gap-4 p-6">
           <Button variant="yellow">Bli Scout</Button>
           <Button variant="outline">Bli Ledare</Button>
           <Button variant="blue">Anmäl intresse</Button>
