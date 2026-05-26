@@ -21,7 +21,7 @@ const HeroSection = () => {
       />
 
       <div
-        className="absolute  flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 w-73.5 md:w-177 md:h-133.5 h-58.25 bg-[#003660E5] rounded-br-2xl rounded-bl-2xl
+        className="absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 w-73.5 md:w-177 md:h-133.5 h-58.25 bg-[#003660E5] rounded-br-2xl rounded-bl-2xl
                    top-38.5 left-12 "
       >
         <span className="text-[#F4C430] font-bold text-sm md:font-semibold md:text-6xl ">
