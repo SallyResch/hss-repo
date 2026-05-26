@@ -1,14 +1,20 @@
 "use client"
 import { NavProps, scoutNavItems } from "@/types/navigation"
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'
-import { useState } from "react";
+import { useState, useRef } from "react";
 import DropDown from "./DropDown";
+import { useClickOutside } from '@/hooks/useClickOutside';
 export default function ScoutNav({ items = scoutNavItems }: NavProps) {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-        setIsOpen(prev => !prev);
+        setIsMenuOpen(prev => !prev);
     }
+    const dropdownRef = useRef<HTMLDivElement>(null);
+    useClickOutside(dropdownRef, () => {
+        setIsMenuOpen(false);
+    })
+
     return (
         <>
             {/* Desktop view - hidden on 768px */}
@@ -18,7 +24,7 @@ export default function ScoutNav({ items = scoutNavItems }: NavProps) {
                 ))}
             </nav>
             {/*Arrow only shown below 768px width */}
-            <div className="md:hidden">
+            <div ref={dropdownRef} className="md:hidden">
                 <button
                     onClick={toggleMenu}
                     className='block p-1 text-hss-white rounded'
@@ -30,6 +36,7 @@ export default function ScoutNav({ items = scoutNavItems }: NavProps) {
                     items={items}
                     isOpen={isOpen}
                     className="bg-hss-scout-darkblue text-hss-lightblue font-bold right-0"
+                    onSelect={() => setIsMenuOpen(false)}
                 />
             </div>
         </>
