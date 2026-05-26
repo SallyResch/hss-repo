@@ -40,7 +40,7 @@ const HeroSection = ({
       )}
 
       <div
-        className={`absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 w-73.5 md:w-177 md:h-133.5 h-58.25 bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
+        className={`absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 w-73.5 md:w-177 md:h-133.5 h-auto bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
                    top-38.5 left-12  ${desktopLeftPosition}`}
         
       >
@@ -52,21 +52,21 @@ const HeroSection = ({
           alt="HasselbyLogo"
           className="object-contain w-53.5 h-12.75 md:w-127 md:h-30.25 md:bg-opacity-1 bg-opacity-0"
         />
-
-        <WhiteWaveLine />
-
+        <div className="w-full flex justify-center px-4">
+        <WhiteWaveLine/>
+        </div>
         <p className="text-xs text-hss-yellow md:w-127 md:text-2xl  md:h-26.25 md:font-semibold  italic leading-relaxed">
           {description}
         </p>
         {showButtons && (
-           <div className="hidden md:flex flex-row gap-6 mt-8">
+           <div className="flex flex-row  justify-center gap-3 mt-4 pb-4 md:gap-6 md:mt-8">
           <Link href="https://www.scoutnet.se/register/in/group/764">
-            <Button variant="yellow">Bli Scout</Button>
+            <Button variant="yellow" className="whitespace-nowrap">Bli Scout</Button>
           </Link>
           <Link href="https://www.scoutnet.se/register/in/group/764">
-            <Button variant="outline">Bli Ledare</Button>
+            <Button variant="outline" className="whitespace-nowrap">Bli Ledare</Button>
           </Link>
-        </div>
+           </div>
 
         )}
        

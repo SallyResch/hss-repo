@@ -9,6 +9,7 @@ export default function BliScout({ }: Props) {
           title="Bli Scout" 
           description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn" 
           imageUrl={heroimg}
+          mobileImgUrl={heroimg}
           showButtons={false}
           variant="subpage"/>
         </div>
