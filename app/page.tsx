@@ -19,7 +19,7 @@ export default function Home() {
           mobileImgUrl={heromob}
           showButtons={true}
           variant="home"/>
-
+ 
         </div>
         <div>Vad är hss</div>
 
