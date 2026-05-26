@@ -3,7 +3,6 @@ import { Card } from "../components/Card";
 import HistorySection from "@/components/HistorySection";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
-
 import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
@@ -47,7 +46,7 @@ export default function Home() {
                 title="Kaparna/Upptäckare"
                 age="10-11 år"
                 imageUrl={kiddIcon.src}
-                description="På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får läرا sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera."
+                description="På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lä sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera."
               />
 
               <Card
