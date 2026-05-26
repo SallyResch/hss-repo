@@ -1,4 +1,5 @@
 import HeroSection from '@/components/HeroSection'
+import StartSection from '@/app/bli-scout/StartSection'
 import heroimg from '../../public/Wireframe.png'
 type Props = {}
 
@@ -12,6 +13,10 @@ export default function BliScout({ }: Props) {
           mobileImgUrl={heroimg}
           showButtons={false}
           variant="subpage"/>
+        
+        <div>
+            <StartSection/>
+        </div>
         </div>
     )
 }
