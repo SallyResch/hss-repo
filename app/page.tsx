@@ -80,7 +80,7 @@ export default function Home() {
           <Button variant="blue">Anmäl intresse</Button>
         </div>
       </main>
-
+      
       <Footer />
     </div>
   );
