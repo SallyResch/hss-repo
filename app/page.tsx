@@ -17,7 +17,8 @@ export default function Home() {
           finns det ett äventyr som väntar" 
           imageUrl={heroimg}
           mobileImgUrl={heromob}
-          showButtons={true}/>
+          showButtons={true}
+          variant="home"/>
 
         </div>
         <div>Vad är hss</div>

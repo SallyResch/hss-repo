@@ -10,7 +10,11 @@ const HeroSection = ({
   imageUrl,
   mobileImgUrl,
   showButtons = false,
+  variant = "home",
 }: HeroSectionProps) => {
+
+  const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "md:left-[366px]";
+  console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
   return (
     <section className="relative w-full h-146.25 md:h-202.5 mt-0">
       {mobileImgUrl && (
@@ -36,8 +40,9 @@ const HeroSection = ({
       )}
 
       <div
-        className="absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 w-73.5 md:w-177 md:h-133.5 h-58.25 bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
-                   top-38.5 left-12 "
+        className={`absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 w-73.5 md:w-177 md:h-133.5 h-58.25 bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
+                   top-38.5 left-12  ${desktopLeftPosition}`}
+        
       >
         <span className="text-hss-yellow font-bold text-sm md:font-semibold md:text-6xl ">
           {title}
@@ -55,10 +60,10 @@ const HeroSection = ({
         </p>
         {showButtons && (
            <div className="hidden md:flex flex-row gap-6 mt-8">
-          <Link href="/bli-scout">
+          <Link href="https://www.scoutnet.se/register/in/group/764">
             <Button variant="yellow">Bli Scout</Button>
           </Link>
-          <Link href="">
+          <Link href="https://www.scoutnet.se/register/in/group/764">
             <Button variant="outline">Bli Ledare</Button>
           </Link>
         </div>

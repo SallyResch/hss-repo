@@ -5,4 +5,5 @@ export default interface HeroSectionProps {
     imageUrl?: string | StaticImageData;
     mobileImgUrl?:string | StaticImageData;
     showButtons?: boolean;
+    variant?: "home" | "subpage";
   }
