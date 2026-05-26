@@ -9,6 +9,7 @@ import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
 import adultIcon from "./assets/adult.svg";
 import familyIcon from "./assets/family.svg";
+import HistorySection from "@/components/HistorySection";
 
 export default function Home() {
   return (
@@ -25,8 +26,11 @@ export default function Home() {
             variant="home"
           />
         </div>
-        <div>Vad är hss</div>
-
+        
+        <div>
+          <HistorySection/>
+        </div>
+        
         <div className="bg-hss-yellow py-12 px-4">
           <div className="max-w-[95rem] mx-auto">
             <h2 className="text-4xl font-bold mb-12 text-[#0d335d] text-center">
