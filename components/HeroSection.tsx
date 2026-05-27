@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl'
 import Image from "next/image";
 import Link from "next/link";
 import hasselbyLogo from "../public/hasselbylogo.png";
@@ -12,6 +13,7 @@ const HeroSection = ({
   showButtons = false,
   variant = "home",
 }: HeroSectionProps) => {
+  const t = useTranslations('home');
 
   const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "md:left-[366px]";
   console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
@@ -61,10 +63,10 @@ const HeroSection = ({
         {showButtons && (
            <div className="flex flex-row  justify-center gap-3 mt-4 pb-4 md:gap-6 md:mt-8">
           <Link href="https://www.scoutnet.se/register/in/group/764">
-            <Button variant="yellow" className="whitespace-nowrap">Bli Scout</Button>
+            <Button variant="yellow" className="whitespace-nowrap">{t('btnBecomeScout')}</Button>
           </Link>
           <Link href="https://www.scoutnet.se/register/in/group/764">
-            <Button variant="outline" className="whitespace-nowrap">Bli Ledare</Button>
+            <Button variant="outline" className="whitespace-nowrap">{t('btnBecomeLeader')}</Button>
           </Link>
            </div>
 

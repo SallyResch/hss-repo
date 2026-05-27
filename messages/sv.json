@@ -1,8 +1,22 @@
 {
+  "becomeScout": "Bli Scout",
+  "footer": {
+    "adventureDesc": "Tillsammans kan vi göra mer! Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer.",
+    "adventureTitle": "Äventyr och kompisar",
+    "becomeScoutNow": "Bli Scout nu",
+    "contactUs": "Kontakta oss",
+    "emailLabel": "E-post:",
+    "followUsTitle": "Följ oss i våra flöden",
+    "orgName": "Hässelby Strands Sjöscoutkår",
+    "stayUpdated": "Ha koll på det senaste"
+  },
   "home": {
+    "aboutSectionDesc1": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv.",
+    "aboutSectionDesc2": "Vi är religiöst och politiskt obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
     "aboutSectionTitle": "Vad är hss",
     "btnBecomeLeader": "Bli Ledare",
     "btnBecomeScout": "Bli Scout",
+    "btnReadMore": "Läs mer",
     "btnShoveInterest": "Anmäl intresse",
     "btnShowInterest": "Anmäl intresse",
     "cardAventyrare": {
@@ -34,5 +48,15 @@
     "heroTitle": "Välkommen till",
     "safetyTitle": "Trygghet/Säkerhet",
     "security": "Trygghet/Säkerhet"
+  },
+  "nav": {
+    "aboutHss": "Om HSS",
+    "becomeScout": "Bli Scout",
+    "contact": "Kontakt",
+    "departments": "Avdelningar",
+    "documents": "Dokument",
+    "membersInfo": "För medlemmar/Praktisk info",
+    "ourBoats": "Våra båtar",
+    "ourLocations": "Våra platser"
   }
 }

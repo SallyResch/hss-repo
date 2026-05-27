@@ -44,8 +44,6 @@ export default  function Home ({
           <div>
             <HistorySection />
           </div>
-          
-          <div>{t('aboutSectionTitle')}</div>
 
           <div className="bg-hss-yellow py-12 px-4">
             <div className="max-w-[95rem] mx-auto">

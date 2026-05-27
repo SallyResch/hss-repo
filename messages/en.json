@@ -1,8 +1,22 @@
 {
+  "becomeScout": "Become a Scout",
+  "footer": {
+    "adventureDesc": "Together we can do more! The Scouts give children and young people from all parts of society the chance to experience adventures together and grow as individuals.",
+    "adventureTitle": "Adventure and friends",
+    "becomeScoutNow": "Become a Scout now",
+    "contactUs": "Contact us",
+    "emailLabel": "Email:",
+    "followUsTitle": "Follow us in our feeds",
+    "orgName": "Hässelby Strand Sea Scout Corps",
+    "stayUpdated": "Keep an eye on the latest"
+  },
   "home": {
+    "aboutSectionDesc1": "Hässelby Strand's Sea Scout Corps (HSS) is a traditional non-profit youth organization focused on scouting and boating.",
+    "aboutSectionDesc2": "We are religiously and politically independent, and a member of the Swedish Scout Association, which with about 65,000 members is one of Sweden's largest youth organizations.",
     "aboutSectionTitle": "What is hss",
     "btnBecomeLeader": "Become a Leader",
     "btnBecomeScout": "Become a Scout",
+    "btnReadMore": "Read more",
     "btnShoveInterest": "Express interest",
     "btnShowInterest": "Express interest",
     "cardAventyrare": {
@@ -34,5 +48,15 @@
     "heroTitle": "Welcome to",
     "safetyTitle": "Safety/Security",
     "security": "Safety/Security"
+  },
+  "nav": {
+    "aboutHss": "About HSS",
+    "becomeScout": "Become a Scout",
+    "contact": "Contact",
+    "departments": "Departments",
+    "documents": "Document",
+    "membersInfo": "For members/Practical info",
+    "ourBoats": "Our boats",
+    "ourLocations": "Our places"
   }
 }
