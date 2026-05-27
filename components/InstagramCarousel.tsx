@@ -19,8 +19,8 @@ export default async function InstagramCarousel() {
                     <Image
                         src={post.image}
                         alt={post.caption || "Instagram post"}
-                        width={300}
-                        height={300}
+                        width={400}
+                        height={400}
                         className="rounded-xl object-cover"
                     />
                 </a>
