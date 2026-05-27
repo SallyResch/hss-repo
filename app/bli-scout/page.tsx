@@ -1,8 +1,11 @@
 import HeroSection from '@/components/HeroSection'
 import heroimg from '../../public/Wireframe.png'
-type Props = {}
-
-export default function BliScout({ }: Props) {
+import ScoutingCards from '@/components/ScoutingCards'
+import adventureImg from '../../public/adventure.png'
+import comraderyImg from '../../public/comradery.png'
+import developmentImg from '../../public/development.png'
+import natureImg from '../../public/nature.png'
+export default function BliScout({ }) {
     return (
         <div>
           <HeroSection 
@@ -12,6 +15,36 @@ export default function BliScout({ }: Props) {
           mobileImgUrl={heroimg}
           showButtons={false}
           variant="subpage"/>
+          
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-20 py-10 justify-items-center">
+
+          
+          <ScoutingCards 
+          imageUrl = {adventureImg}
+          title='Äventyr' 
+          description='Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra'
+          color='blue'/>
+          <ScoutingCards 
+          imageUrl = {comraderyImg}
+          title='comraderyImg'
+          description='Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra'
+          color='yellow'/>
+
+          <ScoutingCards 
+          imageUrl = {developmentImg}
+          title='Utveckling'
+          description='Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra'
+          color='blue'/>
+
+          <ScoutingCards 
+          imageUrl = {natureImg}
+          title='Gemenskap'
+          description='Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra'
+          color='yellow'/>
+          
+          </section>
+
+
         </div>
     )
 }
