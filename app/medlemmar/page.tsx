@@ -1,11 +1,8 @@
-import InstagramFeed from "@/components/InstagramFeed"
 
-type Props = {}
-
-export default function Medlemmar({ }: Props) {
+export default function Medlemmar() {
     return (
         <div>
-            <InstagramFeed />
+
         </div>
     )
 }
