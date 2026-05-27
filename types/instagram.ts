@@ -1,5 +1,5 @@
 
-export interface InstagramCard {
+export interface InstagramCardProps {
     id: string;
     image: string;
     permalink: string;

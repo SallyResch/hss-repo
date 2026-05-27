@@ -1,6 +1,6 @@
 
-import Image from "next/image";
 import { getInstagramPosts, mapPost } from "@/lib/behold";
+import InstagramCard from "./InstagramCard";
 
 export default async function InstagramCarousel() {
 
@@ -8,23 +8,15 @@ export default async function InstagramCarousel() {
     const posts = rawPosts.map(mapPost);
 
     return (
-        <div className="flex gap-4 overflow-x-auto">
-            {posts.map((post) => (
-                <a
-                    key={post.id}
-                    href={post.permalink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <Image
-                        src={post.image}
-                        alt={post.caption || "Instagram post"}
-                        width={400}
-                        height={400}
-                        className="rounded-xl object-cover"
-                    />
-                </a>
-            ))}
+        <div className="w-full">
+            <div className="flex gap-2 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-none -webkit-overflow-scrolling-touch">
+                {posts.map((post) => (
+                    <div key={post.id} className="snap-start flex-shrink-0 w-[280px] sm:w-[350px]">
+                        <InstagramCard post={post} />
+                    </div>
+
+                ))}
+            </div>
         </div>
     )
 }

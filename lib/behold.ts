@@ -1,6 +1,6 @@
 
 import type {Feed, Post} from "@behold/types";
-import { InstagramCard } from "@/types/instagram";
+import { InstagramCardProps } from "@/types/instagram";
 
 const INSTA_FEED_API_URL = process.env.BEHOLD_API_URL!;
 
@@ -19,7 +19,7 @@ export async function getInstagramPosts(): Promise<Post[]>{
     return data.posts;
 }
 
-export function mapPost(post: Post): InstagramCard{
+export function mapPost(post: Post): InstagramCardProps{
     return{
         id:post.id,
         image:post.sizes.small.mediaUrl,
