@@ -1,26 +1,36 @@
 import HeroSection from "@/components/HeroSection";
 import { Card } from "../components/Card";
-import HistorySection from "@/components/HistorySection";
 import Button from "../components/Button";
+import heroimg from "../public/hero.jpg";
+import heromob from "../public/heromob.png";
 import Footer from "../components/Footer";
 import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
 import adultIcon from "./assets/adult.svg";
 import familyIcon from "./assets/family.svg";
+import HistorySection from "@/components/HistorySection";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen box-border">
       <main className="grow">
         <div>
-
-          <HeroSection />
+          <HeroSection
+            title="Välkommen till"
+            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån
+          finns det ett äventyr som väntar"
+            imageUrl={heroimg}
+            mobileImgUrl={heromob}
+            showButtons={true}
+            variant="home"
+          />
         </div>
+        
         <div>
           <HistorySection/>
         </div>
-
+        
         <div className="bg-hss-yellow py-12 px-4">
           <div className="max-w-[95rem] mx-auto">
             <h2 className="text-4xl font-bold mb-12 text-[#0d335d] text-center">
@@ -71,10 +81,10 @@ export default function Home() {
         <div className="flex gap-4 p-6">
           <Button variant="yellow">Bli Scout</Button>
           <Button variant="outline">Bli Ledare</Button>
-           <Button variant="blue">Anmäl intresse</Button>
+          <Button variant="blue">Anmäl intresse</Button>
         </div>
       </main>
-
+      
       <Footer />
     </div>
   );

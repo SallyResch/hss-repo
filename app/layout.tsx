@@ -30,7 +30,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <body className="min-h-full flex flex-col">
-        <div>
+        <div className="absolute right-0 left-0 z-50">
           <ScoutHeader />
           <HssHeader />
         </div>
