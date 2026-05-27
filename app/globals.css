@@ -30,6 +30,10 @@
   --color-hss-yellow: var(--hss-yellow);
   --color-hss-white: var(--hss-white);
   --color-hss-darkgrey: var(--hss-darkgrey);
+  --color-hss-green: var(--hss-green);
+  --color-hss-skyblue: var(--hss-skyblue);
+  --color-hss-orange: var(--hss-orange);
+  --color-hss-pink: var(--hss-pink);
 }
 
 @media (prefers-color-scheme: dark) {
