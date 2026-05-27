@@ -16,7 +16,10 @@ export default function BliScout({ }) {
           showButtons={false}
           variant="subpage"/>
           
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-20 py-10 justify-items-center">
+          <div className="w-full py-16 flex flex-col items-center">
+           
+             <p className="w-[276px] h-[39px] left-[582px] font-montserrat font-semibold text-[32px]  text-center align-middle">Varför Scouting?</p>
+             <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[1200px] px-4 md:px-20 py-10 justify-items-center">
 
           
           <ScoutingCards 
@@ -26,7 +29,7 @@ export default function BliScout({ }) {
           color='blue'/>
           <ScoutingCards 
           imageUrl = {comraderyImg}
-          title='comraderyImg'
+          title='Comradery'
           description='Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra'
           color='yellow'/>
 
@@ -43,6 +46,8 @@ export default function BliScout({ }) {
           color='yellow'/>
           
           </section>
+          </div>
+         
 
 
         </div>

@@ -3,24 +3,28 @@ import Image from 'next/image'
 import scoutingDeatils from '@/types/scoutingDetails'
 const ScoutingCards = ({imageUrl,title,description,color} : scoutingDeatils) => {
 
-  const cardColor = color === "yellow" ? "bg-hss-yellow" : "bg-hss-blue"
+  const cardColor = color === "yellow" ? "bg-hss-yellow" : "bg-hss-mediumblue"
   const textColor = color === "yellow" ? "text-hss-blue" : "text-white";
   return (
     <div>
-      <section className = "${cardColor} ${textColor} grid grid-cols-2 w-350px h-209px mt-171px left-20px rounded-br-bl-[20px]"
+      <section className = {`${cardColor} ${textColor} grid grid-cols-2 w-[350px] h-[209px]  p-8 gap-2 w-full max-w-[450px] min-h-[220px] rounded-bl-[20px] rounded-br-[20px]`}
       >
         <Image
          src = {imageUrl}
          alt="Top wave"
-         width={125}
+         width={150}
          height={124}
-         className=" mt-37px "
+         className=" mt-[25px] "
          priority
         />
-        <div className = "grid grid-rows-2 pt-40px pr-20px gap-8px">
-          <p>{title}</p>
-          <p>{description}</p>
-        </div>
+        <div className="flex flex-col gap-6 md:gap-4 pt-8 ">
+        <p className="font-montserrat font-semibold text-[24px] ">
+          {title}
+        </p>
+        <p className="font-montserrat font-medium text-[12px]">
+          {description}
+        </p>
+      </div>
       </section>
     </div>
   )
