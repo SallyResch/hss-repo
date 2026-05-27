@@ -13,12 +13,10 @@ const StartSection = () => {
 
   
       <div className="relative mx-auto mb-14 hidden max-w-5xl md:block">
-        {/* LINE */}
         <div className="absolute top-1/2 left-[5%] right-[5%] -translate-y-1/2">
           <BlueWaveLine />
         </div>
 
-        {/* NUMBER CIRCLES */}
         <div className="relative z-10 flex items-center justify-between">
           {[1, 2, 3].map((number) => (
             <div
@@ -31,14 +29,11 @@ const StartSection = () => {
         </div>
       </div>
 
-      {/* MOBILE LINE + CIRCLES */}
       <div className="relative mx-auto mb-10 flex w-full max-w-sm items-center justify-between md:hidden">
-        {/* LINE */}
         <div className="absolute left-[12%] right-[12%] top-1/2 -translate-y-1/2">
           <BlueWaveLine />
         </div>
 
-        {/* NUMBER CIRCLES */}
         {[1, 2, 3].map((number) => (
           <div
             key={number}
@@ -62,7 +57,6 @@ const StartSection = () => {
         ))}
       </div>
 
-      {/* CONTENT */}
       <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-3 md:items-stretch">
   
         <div className="flex h-full flex-col items-start">
