@@ -6,12 +6,12 @@ import Button from "@/components/Button";
 const StartSection = () => {
   return (
     <section className="w-full bg-[#F5F5F5] px-6 py-16 md:px-20">
-      {/* TITLE */}
+
       <h2 className="mb-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
         Såhär börjar du
       </h2>
 
-      {/* DESKTOP LINE + CIRCLES */}
+  
       <div className="relative mx-auto mb-14 hidden max-w-5xl md:block">
         {/* LINE */}
         <div className="absolute top-1/2 left-[5%] right-[5%] -translate-y-1/2">
@@ -64,7 +64,7 @@ const StartSection = () => {
 
       {/* CONTENT */}
       <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-3 md:items-stretch">
-        {/* STEP 1 */}
+  
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-3xl font-semibold text-black">
             Anmäl intresse
@@ -85,7 +85,7 @@ const StartSection = () => {
           </div>
         </div>
 
-        {/* STEP 2 */}
+  
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-3xl font-semibold text-black">
             Vi kontaktar dig
@@ -97,7 +97,6 @@ const StartSection = () => {
           </p>
         </div>
 
-        {/* STEP 3 */}
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-3xl font-semibold text-black">
             Prova på scouting
