@@ -11,9 +11,6 @@ import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
 import adultIcon from "./assets/adult.svg";
-import familyIcon from "./assets/family.svg";
-import HistorySection from "@/components/HistorySection";
-import SafetySection from "@/components/SafetySection";
 import familyIcon from "./assets/family.jpg";
 
 export default function Home() {
@@ -23,7 +20,7 @@ export default function Home() {
         <div>
           <HeroSection
             title="Välkommen till"
-            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntار"
+            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar"
             imageUrl={heroimg}
             mobileImgUrl={heromob}
             showButtons={true}
