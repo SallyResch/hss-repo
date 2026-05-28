@@ -8,7 +8,7 @@ export function Card({ title, description, imageUrl, age }: CardProps) {
     else if (imageUrl.includes("kidd.")) borderClass = "border-[#2196f3]";
     else if (imageUrl.includes("teen.")) borderClass = "border-[#ff5722]";
     else if (imageUrl.includes("adult.")) borderClass = "border-[#e91e63]";
-    else if (imageUrl.includes("family.")) borderClass = "border-[#f1b51e]";
+    else if (imageUrl.includes("family")) borderClass = "border-[#7b1fa2]";
   }
 
   return (
@@ -31,7 +31,9 @@ export function Card({ title, description, imageUrl, age }: CardProps) {
           )}
         </div>
 
-        <h3 className="mb-5 text-2xl font-bold text-[#0d335d]">{title}</h3>
+        <h3 className="mb-5 text-2xl font-bold text-[#0d335d] break-words">
+          {title}
+        </h3>
 
         <p className="text-sm text-gray-800 leading-relaxed font-normal whitespace-pre-line">
           {description}
