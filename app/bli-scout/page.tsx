@@ -5,6 +5,9 @@ import adventureImg from '../../public/adventure.png'
 import comraderyImg from '../../public/comradery.png'
 import developmentImg from '../../public/development.png'
 import natureImg from '../../public/nature.png'
+import topWave from "../../public/Wave - Blue.png";
+import Image from "next/image";
+
 export default function BliScout({ }) {
     return (
         <div>
@@ -16,9 +19,16 @@ export default function BliScout({ }) {
           showButtons={false}
           variant="subpage"/>
           
-          <div className="w-full py-16 flex flex-col items-center">
-           
-             <p className="w-[276px] h-[39px] left-[582px] font-montserrat font-semibold text-[32px]  text-center align-middle">Varför Scouting?</p>
+          <div className="w-full  flex flex-col items-center">
+             
+                    <Image
+                      src={topWave} 
+                      alt="Top wave"
+                      className="w-full"
+                      priority
+                    />
+              
+             <p className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[63px] font-montserrat font-semibold text-[32px]  text-center align-middle">Varför Scouting?</p>
              <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[1200px] px-4 md:px-20 py-10 justify-items-center">
 
           

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import scoutingDeatils from '@/types/scoutingDetails'
+import topWave from "@/public/Wave - Blue.png";
 const ScoutingCards = ({imageUrl,title,description,color} : scoutingDeatils) => {
 
   const cardColor = color === "yellow" ? "bg-hss-yellow" : "bg-hss-mediumblue"
