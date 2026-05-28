@@ -14,7 +14,7 @@ const HeroSection = ({
 }: HeroSectionProps) => {
 
   const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "lg:left-1/2 lg:-translate-x-1/2 md:left-[79px]";
-  console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
+  //console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
   return (
     <section className="relative w-full h-146.25 md:h-202.5 mt-0">
       {mobileImgUrl && (
