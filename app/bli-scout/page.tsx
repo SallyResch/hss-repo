@@ -16,7 +16,8 @@ export default function BliScout({ }: Props) {
           mobileImgUrl={heroimg}
           showButtons={false}
           variant="subpage"/>
-        
+ 
+        <div>
           <StartSection/>
           <TextSection
               title="Hur fungerar verksamheten?"
@@ -37,5 +38,7 @@ export default function BliScout({ }: Props) {
           <ClothingSection/>
           <VanligaFragor/>
         </div>
+        </div>
+        
     )
 }
