@@ -79,7 +79,7 @@ export default function Home() {
         <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
         <div className="flex flex-col gap-4 p-6 bg-hss-mediumblue text-hss-white">
           <h2 className="font-bold text-2xl text-center">Senaste händelserna:</h2>
-          <InstagramCarousel />
+          {/*<InstagramCarousel />*/}
         </div>
       </main>
     </div>
