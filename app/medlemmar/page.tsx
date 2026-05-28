@@ -1,7 +1,8 @@
-type Props = {}
 
-export default function Medlemmar({ }: Props) {
+export default function Medlemmar() {
     return (
-        <div>Medlemmar</div>
+        <div>
+
+        </div>
     )
 }

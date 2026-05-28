@@ -6,6 +6,7 @@ import heromob from "../public/heromob.png";
 import Footer from "../components/Footer";
 import HistorySection from "@/components/HistorySection";
 
+import InstagramCarousel from "@/components/InstagramCarousel";
 import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
@@ -75,15 +76,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div className="flex flex-wrap gap-4 p-6 justify-center bg-white">
-          <Button variant="yellow">Bli Scout</Button>
-          <Button variant="outline">Bli Ledare</Button>
-          <Button variant="blue">Anmäl intresse</Button>
+        <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
+        <div className="flex flex-col gap-4 p-6 bg-hss-mediumblue text-hss-white">
+          <h2 className="font-bold text-2xl text-center">Senaste händelserna:</h2>
+          <InstagramCarousel />
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }
