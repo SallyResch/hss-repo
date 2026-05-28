@@ -56,7 +56,7 @@ const HeroSection = ({
         <div className="w-full flex justify-center px-4">
         <WhiteWaveLine/>
         </div>
-        <p className="text-xs text-hss-yellow md:w-127 md:text-2xl  md:h-26.25 md:font-semibold  italic leading-relaxed">
+        <p className="text-xs text-hss-yellow md:w-127 md:text-2xl  md:h-26.25 md:font-semibold  leading-relaxed">
           {description}
         </p>
         {showButtons && (
