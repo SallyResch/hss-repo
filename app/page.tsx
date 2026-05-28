@@ -5,6 +5,7 @@ import heroimg from "../public/hero.jpg";
 import heromob from "../public/heromob.png";
 import Footer from "../components/Footer";
 import HistorySection from "@/components/HistorySection";
+import SafetySection from "@/components/SafetySection";
 
 import InstagramCarousel from "@/components/InstagramCarousel";
 import kidIcon from "./assets/kid.svg";
