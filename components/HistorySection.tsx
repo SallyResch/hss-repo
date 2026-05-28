@@ -11,7 +11,6 @@ import bottomWave from "@/public/Wave - yellow.png";
 export default function HistorySection() {
   return (
     <section className="relative overflow-hidden bg-white py-16 md:py-20 lg:py-32">
-      {/* Top Wave */}
       <div className="absolute top-0 left-0 w-full">
         <Image
           src={topWave}
@@ -21,7 +20,6 @@ export default function HistorySection() {
         />
       </div>
 
-      {/* Bottom Wave */}
       <div className="absolute bottom-0 left-0 w-full">
         <Image
           src={bottomWave}
@@ -30,9 +28,6 @@ export default function HistorySection() {
         />
       </div>
 
-      {/* Floating Images */}
-
-      {/* Left */}
       <div className="absolute left-2 top-[360px] hidden min-[1190px]:block lg:left-[147px] lg:top-[391px]">
         <Image
           src={image4}
@@ -43,7 +38,6 @@ export default function HistorySection() {
         />
       </div>
 
-      {/* Top Right */}
       <div className="absolute right-2 top-[210px] hidden min-[1190px]:block lg:right-[140px] lg:top-[197px]">
         <Image
           src={image1}
@@ -54,7 +48,6 @@ export default function HistorySection() {
         />
       </div>
 
-      {/* Bottom Right */}
       <div className="absolute right-2 top-[500px] hidden min-[1190px]:block lg:right-[140px] lg:top-[514px]">
         <Image
           src={image6}
@@ -65,14 +58,11 @@ export default function HistorySection() {
         />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center px-5">
-        {/* Heading */}
         <h1 className="mb-8 text-center font-montserrat text-2xl font-semibold text-hss-mediumblue md:text-[28px] lg:mb-14 lg:text-[32px]">
           Vad är HSS
         </h1>
 
-        {/* Main Image */}
         <div className="mb-8 w-full max-w-[420px] md:max-w-[480px] lg:mb-12 lg:max-w-[639px]">
           <Image
             src={mainImage}
@@ -83,7 +73,6 @@ export default function HistorySection() {
           />
         </div>
 
-        {/* Text */}
         <div className="max-w-[420px] space-y-5 text-hss-mediumblue md:max-w-[480px] lg:max-w-[639px] lg:space-y-8">
           <p className="font-montserrat text-base leading-relaxed sm:text-lg lg:text-[22px]">
             Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
