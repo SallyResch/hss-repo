@@ -5,6 +5,7 @@ import heroimg from "../public/hero.jpg";
 import heromob from "../public/heromob.png";
 import Footer from "../components/Footer";
 import HistorySection from "@/components/HistorySection";
+import SafetySection from "@/components/SafetySection";
 
 import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
@@ -13,9 +14,7 @@ import adultIcon from "./assets/adult.svg";
 import familyIcon from "./assets/family.svg";
 import HistorySection from "@/components/HistorySection";
 import SafetySection from "@/components/SafetySection";
-import familyIcon from "./assets/family.svg";
-import HistorySection from "@/components/HistorySection";
-import SafetySection from "@/components/SafetySection";
+import familyIcon from "./assets/family.jpg";
 
 export default function Home() {
   return (
@@ -24,7 +23,7 @@ export default function Home() {
         <div>
           <HeroSection
             title="Välkommen till"
-            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar"
+            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntار"
             imageUrl={heroimg}
             mobileImgUrl={heromob}
             showButtons={true}
@@ -36,7 +35,7 @@ export default function Home() {
           <HistorySection />
         </div>
 
-        <div className="bg-hss-yellow py-12 px-4">
+        <div className="bg-hss-yellow py-12 px-4 sm:px-6 lg:px-8">
           <div className="max-w-[95rem] mx-auto">
             <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-[#0d335d] text-center">
               Våra Avdelningar
@@ -68,7 +67,7 @@ export default function Home() {
                 title="Konvojen/Äventyrare"
                 age="12-14 år"
                 imageUrl={teenIcon.src}
-                description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält."
+                description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi een rejäl vinterhajk då vi bor i tält."
               />
 
               <Card
@@ -80,17 +79,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <SafetySection />
 
-        <div className="flex gap-4 p-6 justify-center bg-white">
-          <Button variant="yellow">Bli Scout</Button>
-          <Button variant="blue">Bli Ledare</Button>
-          <Button variant="outline">Läs mer</Button>
+        <div>
+          <SafetySection />
         </div>
 
-        <div className="bg-hss-mediumblue text-white">Trygghet/Säkerhet</div>
-
-        <div className="flex gap-4 p-6">
+        <div className="flex flex-wrap gap-4 p-6 justify-center bg-white">
           <Button variant="yellow">Bli Scout</Button>
           <Button variant="outline">Bli Ledare</Button>
           <Button variant="blue">Anmäl intresse</Button>
