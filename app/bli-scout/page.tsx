@@ -37,9 +37,10 @@ export default function BliScout({ }) {
           title='Äventyr' 
           description='Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra'
           color='blue'/>
+
           <ScoutingCards 
           imageUrl = {comraderyImg}
-          title='Comradery'
+          title='Natur'
           description='Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra'
           color='yellow'/>
 
