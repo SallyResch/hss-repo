@@ -1,13 +1,14 @@
 import {NextIntlClientProvider} from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
-import { notFound } from "next/navigation"
 
+import { notFound } from "next/navigation"
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import HssHeader from "@/components/HssHeader";
 import ScoutHeader from "@/components/ScoutHeader";
+import Footer from "@/components/Footer";
 
 export function generateStaticParams(){
   return routing.locales.map((locale) => ({locale}))
@@ -56,8 +57,9 @@ export default async function RootLayout({
             <ScoutHeader />
             <HssHeader />
           </div>
-          {children}
+          {children}         
         </NextIntlClientProvider>
+        <Footer />
       </body>
     </html>
   );
