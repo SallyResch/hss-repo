@@ -1,7 +1,7 @@
 
 import type {Feed, Post} from "@behold/types";
 import { InstagramCardProps } from "@/types/instagram";
-
+/* This is a comment to be able to merge to main to trigger deployment to master */
 const INSTA_FEED_API_URL = process.env.BEHOLD_API_URL!;
 
 export async function getInstagramPosts(): Promise<Post[]>{
