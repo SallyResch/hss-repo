@@ -1,0 +1,62 @@
+{
+  "becomeScout": "Become a Scout",
+  "footer": {
+    "adventureDesc": "Together we can do more! The Scouts give children and young people from all parts of society the chance to experience adventures together and grow as individuals.",
+    "adventureTitle": "Adventure and friends",
+    "becomeScoutNow": "Become a Scout now",
+    "contactUs": "Contact us",
+    "emailLabel": "Email:",
+    "followUsTitle": "Follow us in our feeds",
+    "orgName": "Hässelby Strand Sea Scout Corps",
+    "stayUpdated": "Keep an eye on the latest"
+  },
+  "home": {
+    "aboutSectionDesc1": "Hässelby Strand's Sea Scout Corps (HSS) is a traditional non-profit youth organization focused on scouting and boating.",
+    "aboutSectionDesc2": "We are religiously and politically independent, and a member of the Swedish Scout Association, which with about 65,000 members is one of Sweden's largest youth organizations.",
+    "aboutSectionTitle": "What is hss",
+    "btnBecomeLeader": "Become a Leader",
+    "btnBecomeScout": "Become a Scout",
+    "btnReadMore": "Read more",
+    "btnShoveInterest": "Express interest",
+    "btnShowInterest": "Express interest",
+    "cardAventyrare": {
+      "age": "12-14 years",
+      "desc": "Here sailing begins in earnest and it opens up in the archipelago during the summer. When we are not sailing, we practice navigation and also engage in traditional landscape scouting activities. In winter, when it is coldest, we have a proper winter hike where we stay in tents.",
+      "title": "The Convoy/Adventurer"
+    },
+    "cardFamily": {
+      "desc": "In Småttarne, children and adults discover scouting together through play, nature experiences, and simple outdoor adventures. Here, families can try scouting at a relaxed pace with a focus on community and the joy of discovery.",
+      "title": "Family scouting"
+    },
+    "cardSparare": {
+      "age": "8-9 years",
+      "desc": "At the age of 8, one can start in HSS, i.e., when starting in grade 2. One then becomes a Trail Scout and a member of the department Sjöhumlorna. (Previously, the Trail Scout was called 'miniorscout')",
+      "title": "Sea bumblebees/Trackers"
+    },
+    "cardUpptackare": {
+      "age": "10-11 years",
+      "desc": "At Kaparna, the difficulty level of the tasks increases. The scouts learn to sail an optimist and get to try sailing a 2-krona and a keelboat. A fully trained explorer scout can, among other things, handle a knife, start a fire, and extinguish small fires, among other things.",
+      "title": "The Raiders/Explorers"
+    },
+    "cardUtmanare": {
+      "age": "15+ years",
+      "desc": "When you graduate from the adventure scouts, you form a team together with your classmates. Then you work towards learning new things and taking on more difficult challenges to increase cohesion.",
+      "title": "Challenger"
+    },
+    "departmentsTitle": "Our departments",
+    "heroDesc": "Here awaits the Adventure. No matter who you are or where you come from, there is an adventure waiting.",
+    "heroTitle": "Welcome to",
+    "safetyTitle": "Safety/Security",
+    "security": "Safety/Security"
+  },
+  "nav": {
+    "aboutHss": "About HSS",
+    "becomeScout": "Become a Scout",
+    "contact": "Contact",
+    "departments": "Departments",
+    "documents": "Document",
+    "membersInfo": "For members/Practical info",
+    "ourBoats": "Our boats",
+    "ourLocations": "Our places"
+  }
+}

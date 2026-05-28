@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,6 +10,7 @@ import topWave from "@/public/Wave - Blue.png";
 import bottomWave from "@/public/Wave - yellow.png";
 
 export default function HistorySection() {
+  const t = useTranslations('home')
   return (
     <section className="relative overflow-hidden bg-white py-32">
       <div className="absolute top-0 left-0 w-full">
@@ -62,7 +64,7 @@ export default function HistorySection() {
         <h1
           className="mb-14 text-center font-montserrat text-[32px] font-semibold leading-[100%] tracking-[0%] text-hss-mediumblue"
         >
-          Vad är HSS
+         {t('aboutSectionTitle')}
         </h1>
 
         <div className="mb-12">
@@ -78,14 +80,11 @@ export default function HistorySection() {
 
         <div className="max-w-[639px] space-y-8 text-hss-mediumblue">
           <p className="font-montserrat text-[22px] font-normal leading-[100%] tracking-[0%]" >
-            Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
-            ungdomsverksamhet med fokus på scouting och båtliv.
+            {t('aboutSectionDesc1')}
           </p>
 
           <p className="font-montserrat text-[22px] font-normal leading-[100%] tracking-[0%]" >
-            Vi är religiöst och politiskt obundna, och medlem i Svenska
-            Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges
-            största ungdomsorganisationer.
+           {t('aboutSectionDesc2')}
           </p>
 
           <div className="flex justify-end">
@@ -93,7 +92,7 @@ export default function HistorySection() {
               href="/om-hss"
               className="flex items-center gap-3 text-[22px] font-medium text-hss-mediumblue transition-all duration-300 hover:gap-5"
             >
-             Läs mer
+            {t('btnReadMore')}
               <span className="text-3xl">→</span>
             </Link>
           </div>

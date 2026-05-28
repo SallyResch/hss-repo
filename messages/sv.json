@@ -1,0 +1,62 @@
+{
+  "becomeScout": "Bli Scout",
+  "footer": {
+    "adventureDesc": "Tillsammans kan vi göra mer! Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer.",
+    "adventureTitle": "Äventyr och kompisar",
+    "becomeScoutNow": "Bli Scout nu",
+    "contactUs": "Kontakta oss",
+    "emailLabel": "E-post:",
+    "followUsTitle": "Följ oss i våra flöden",
+    "orgName": "Hässelby Strands Sjöscoutkår",
+    "stayUpdated": "Ha koll på det senaste"
+  },
+  "home": {
+    "aboutSectionDesc1": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv.",
+    "aboutSectionDesc2": "Vi är religiöst och politiskt obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
+    "aboutSectionTitle": "Vad är hss",
+    "btnBecomeLeader": "Bli Ledare",
+    "btnBecomeScout": "Bli Scout",
+    "btnReadMore": "Läs mer",
+    "btnShoveInterest": "Anmäl intresse",
+    "btnShowInterest": "Anmäl intresse",
+    "cardAventyrare": {
+      "age": "12-14 år",
+      "desc": "Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält.",
+      "title": "Konvojen/Äventyrare"
+    },
+    "cardFamily": {
+      "desc": "I Småttarne upptäcker barn och vuxna scouting tillsammans genom lek, naturupplevelser och enklare friluftsäventyr. Här får familjer prova på scouting i lugn takt med fokus på gemenskap och upptäckarglädje",
+      "title": "Familjescouting"
+    },
+    "cardSparare": {
+      "age": "8-9 år",
+      "desc": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”)",
+      "title": "Sjöhumlor/Spårare"
+    },
+    "cardUpptackare": {
+      "age": "10-11 år",
+      "desc": "På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lä sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera.",
+      "title": "Kaparna/Upptäckare"
+    },
+    "cardUtmanare": {
+      "age": "15+ år",
+      "desc": "När man kommer upp från äventyrarscouterna bildar man ett lag tillsammans med kullkamraterna. Sedan arbetar man mot att lära sig nya saker och anta svårare utmaningar för att öka sammanhållningen.",
+      "title": "Utmanare"
+    },
+    "departmentsTitle": " Våra avdelningar",
+    "heroDesc": "Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar",
+    "heroTitle": "Välkommen till",
+    "safetyTitle": "Trygghet/Säkerhet",
+    "security": "Trygghet/Säkerhet"
+  },
+  "nav": {
+    "aboutHss": "Om HSS",
+    "becomeScout": "Bli Scout",
+    "contact": "Kontakt",
+    "departments": "Avdelningar",
+    "documents": "Dokument",
+    "membersInfo": "För medlemmar/Praktisk info",
+    "ourBoats": "Våra båtar",
+    "ourLocations": "Våra platser"
+  }
+}

@@ -1,5 +1,5 @@
 import HeroSection from '@/components/HeroSection'
-import heroimg from '../../public/Wireframe.png'
+import heroimg from '../../../public/Wireframe.png'
 
 type Props = {}
 
