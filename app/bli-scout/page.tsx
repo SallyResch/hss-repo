@@ -7,6 +7,8 @@ import developmentImg from "../../public/development.png";
 import natureImg from "../../public/nature.png";
 import topWave from "../../public/Wave - Blue.png";
 import Image from "next/image";
+import StartSection from "./StartSection";
+
 
 export default function BliScout({}) {
   return (
@@ -56,7 +58,11 @@ export default function BliScout({}) {
           />
         </section>
       </div>
+      <div>
+        <StartSection/>
+      </div>
       
     </div>
   );
 }
+

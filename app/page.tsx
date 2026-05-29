@@ -3,7 +3,6 @@ import { Card } from "../components/Card";
 import Button from "../components/Button";
 import heroimg from "../public/hero.jpg";
 import heromob from "../public/heromob.png";
-import Footer from "../components/Footer";
 import HistorySection from "@/components/HistorySection";
 import SafetySection from "@/components/SafetySection";
 
