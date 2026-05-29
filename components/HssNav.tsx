@@ -36,7 +36,7 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
         <DropDown
           items={items}
           isOpen={isDropDownOpen}
-          className='top-28 right-5 bg-hss-yellow text-black lg:hidden'
+          className='top-28 right-5 bg-hss-yellow text-hss-mediumblue lg:hidden'
           onSelect={() => setIsDropDownOpen(false)}
         />
       </div>

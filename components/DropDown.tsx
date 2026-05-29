@@ -10,7 +10,7 @@ export default function DropDown({ items, isOpen, className, onSelect }: DropDow
     <div className={`absolute flex flex-col gap-4 p-4 rounded shadow-lg z-20 ${className}`}>
       {items?.map((item) => (
         <div>
-          <Link className="hover:border-t-hss-mediumblue hover:bg-hss-mediumblue hover:text-hss-yellow p-2 hover:rounded-xl"
+          <Link className="hover:bg-hss-mediumblue hover:text-hss-yellow hover:w-full"
             key={item.path}
             href={item.path}
             onClick={onSelect}
