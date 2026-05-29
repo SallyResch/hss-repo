@@ -13,8 +13,8 @@ const HeroSection = ({
   variant = "home",
 }: HeroSectionProps) => {
 
-  const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "md:left-[366px]";
-  console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
+  const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "lg:left-1/2 lg:-translate-x-1/2 md:left-[79px]";
+  //console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
   return (
     <section className="relative w-full h-146.25 md:h-202.5 mt-0">
       {mobileImgUrl && (
@@ -40,7 +40,8 @@ const HeroSection = ({
       )}
 
       <div
-        className={`absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 w-73.5 md:w-177 md:h-133.5 h-auto bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
+        className={`absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 
+          md:left-[120px] w-73.5 md:w-150 lg:w-177 md:h-133.5 h-auto bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
                    top-38.5 left-12  ${desktopLeftPosition}`}
         
       >
@@ -55,7 +56,7 @@ const HeroSection = ({
         <div className="w-full flex justify-center px-4">
         <WhiteWaveLine/>
         </div>
-        <p className="text-xs text-hss-yellow md:w-127 md:text-2xl  md:h-26.25 md:font-semibold  italic leading-relaxed">
+        <p className="text-xs text-hss-yellow md:w-127 md:text-2xl  md:h-26.25 md:font-semibold  leading-relaxed">
           {description}
         </p>
         {showButtons && (
