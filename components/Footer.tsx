@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
+
 export default function Footer() {
   return (
     <footer className="bg-white py-16 px-6 border-t border-hss-lightblue">
