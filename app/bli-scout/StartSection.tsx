@@ -60,7 +60,7 @@ const StartSection = () => {
       <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-3 md:items-stretch">
   
         <div className="flex h-full flex-col items-start">
-          <h3 className="mb-4 text-3xl font-semibold text-black">
+          <h3 className="mb-4 text-3xl font-semibold text-hss-mediumblue">
             Anmäl intresse
           </h3>
 
@@ -81,7 +81,7 @@ const StartSection = () => {
 
   
         <div className="flex h-full flex-col items-start">
-          <h3 className="mb-4 text-3xl font-semibold text-black">
+          <h3 className="mb-4 text-3xl font-semibold text-hss-mediumblue">
             Vi kontaktar dig
           </h3>
 
@@ -92,7 +92,7 @@ const StartSection = () => {
         </div>
 
         <div className="flex h-full flex-col items-start">
-          <h3 className="mb-4 text-3xl font-semibold text-black">
+          <h3 className="mb-4 text-3xl font-semibold text-hss-mediumblue">
             Prova på scouting
           </h3>
 
