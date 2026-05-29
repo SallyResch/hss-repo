@@ -4,5 +4,4 @@ export default interface scoutingDeatils {
   title: string;
   description: string;
   color:"yellow" | "blue" ;
-
 }

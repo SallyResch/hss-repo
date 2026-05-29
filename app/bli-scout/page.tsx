@@ -28,7 +28,7 @@ export default function BliScout({ }) {
                       priority
                     />
               
-             <p className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[63px] font-montserrat font-semibold text-[32px]  text-center align-middle">Varför Scouting?</p>
+             <p className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[69px] font-montserrat font-semibold text-[32px]  text-center align-middle">Varför Scouting?</p>
              <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[1200px] px-4 md:px-20 py-10 justify-items-center">
 
           
