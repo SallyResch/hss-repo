@@ -7,10 +7,10 @@ export default function DropDown({ items, isOpen, className, onSelect }: DropDow
   const [openItem, setOpenItem] = useState<string | null>(null);
   if (!isOpen) return false;
   return (
-    <div className={`absolute flex flex-col gap-4 p-4 rounded shadow-lg z-20 ${className}`}>
+    <div className={`absolute flex flex-col gap-4 p-4 rounded shadow-lg z-20 text-hss-mediumblue ${className}`}>
       {items?.map((item) => (
         <div>
-          <Link className="hover:border-t-hss-mediumblue hover:bg-hss-mediumblue hover:text-hss-yellow p-2 hover:rounded-xl"
+          <Link className="hover:border-b-2 border-hss-mediumblue"
             key={item.path}
             href={item.path}
             onClick={onSelect}

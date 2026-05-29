@@ -17,7 +17,7 @@ export default function DesktopNavItem({ item }: { item: NavItem }) {
     })
     return (
         <div ref={navItemRef}>
-            <div className="flex flex-row items-center mr-2">
+            <div className="flex flex-row items-center mr-2 hover:border-b-3 border-hss-yellow">
                 <Link aria-current="page" href={item.path}>{item.label}</Link>
                 {hasChildren && (
                     <button onClick={() => setMenuOpen(prev => !prev)} className="hover:cursor-pointer">
@@ -26,7 +26,7 @@ export default function DesktopNavItem({ item }: { item: NavItem }) {
                 )}
             </div>
             {hasChildren && isMenuOpen && (
-                <DropDown onSelect={() => setMenuOpen(false)} items={item.children!} isOpen={isMenuOpen} className="bg-hss-yellow top-31 text-hss-mediumblue font-semibold mr-5" />
+                <DropDown onSelect={() => setMenuOpen(false)} items={item.children!} isOpen={isMenuOpen} className="bg-hss-yellow top-31 mr-5" />
             )}
         </div>
     )
