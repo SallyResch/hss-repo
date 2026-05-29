@@ -6,7 +6,6 @@ import { useRef, useState } from "react";
 import DropDown from './DropDown';
 import DesktopNavItem from './DesktopNavItem';
 import { useClickOutside } from '@/hooks/useClickOutside';
-import Button from './Button';
 import Link from 'next/link';
 export default function HssNav({ items = hssNavItems }: NavProps) {
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);

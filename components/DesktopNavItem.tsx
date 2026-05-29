@@ -2,10 +2,9 @@ import { NavItem } from "@/types/navigation";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import Link from "next/link";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import DropDown from "./DropDown";
 import { useClickOutside } from "@/hooks/useClickOutside";
-import Button from "./Button";
 
 export default function DesktopNavItem({ item }: { item: NavItem }) {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -19,7 +18,7 @@ export default function DesktopNavItem({ item }: { item: NavItem }) {
     return (
         <div ref={navItemRef}>
             <div className="flex flex-row items-center mr-2">
-                <Link href={item.path}>{item.label}</Link>
+                <Link aria-current="page" href={item.path}>{item.label}</Link>
                 {hasChildren && (
                     <button onClick={() => setMenuOpen(prev => !prev)} className="hover:cursor-pointer">
                         {isMenuOpen ? <ArrowDropUpIcon fontSize="large" /> : <ArrowDropDownIcon fontSize="large" />}
