@@ -24,7 +24,7 @@ export default function ScoutNav({ items = scoutNavItems }: NavProps) {
                 ))}
             </nav>
             {/*Arrow only shown below 768px width */}
-            <div ref={dropdownRef} className="md:hidden">
+            <div ref={dropdownRef} className="hidden">
                 <button
                     onClick={toggleMenu}
                     className='block p-1 text-hss-white rounded'
