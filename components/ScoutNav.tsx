@@ -20,11 +20,11 @@ export default function ScoutNav({ items = scoutNavItems }: NavProps) {
             {/* Desktop view - hidden on 768px */}
             <nav className="hidden md:flex flex-row gap-5 items-center">
                 {items.map((item) => (
-                    <a key={item.path} href={item.path} className="font-bold text-hss-lightblue">{item.label}</a>
+                    <a key={item.path} href={item.path} className="font-bold text-hss-lightblue hover:border-b-2 border-hss-lightblue">{item.label}</a>
                 ))}
             </nav>
             {/*Arrow only shown below 768px width */}
-            <div ref={dropdownRef} className="md:hidden">
+            <div ref={dropdownRef} className="hidden">
                 <button
                     onClick={toggleMenu}
                     className='block p-1 text-hss-white rounded'

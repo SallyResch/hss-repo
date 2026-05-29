@@ -6,6 +6,7 @@ import { useRef, useState } from "react";
 import DropDown from './DropDown';
 import DesktopNavItem from './DesktopNavItem';
 import { useClickOutside } from '@/hooks/useClickOutside';
+import Link from 'next/link';
 export default function HssNav({ items = hssNavItems }: NavProps) {
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
   const toggleDropDownMenu = () => {
@@ -18,10 +19,11 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
   return (
     <div ref={dropdownRef}>
       {/* Desktop view - hidden on 768px */}
-      <nav className="hidden lg:flex flex-row gap-3 m-2 items-center">
+      <nav className="hidden lg:flex flex-row gap-3 my-2 items-center">
         {items.map((item) => (
           <DesktopNavItem key={item.path} item={item} />
         ))}
+        <Link href={"/https://www.scoutnet.se/register/in/group/764"} className='bg-hss-yellow text-hss-darkblue font-bold rounded-md py-[10px] px-[12px] mr-7'>Bli Medlem</Link>
       </nav>
       {/*Hamburger menu button visible under 1024px in width*/}
       <div className='block lg:hidden mr-6 text-hss-yellow rounded z-20'>
@@ -34,7 +36,7 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
         <DropDown
           items={items}
           isOpen={isDropDownOpen}
-          className='top-29 right-5 bg-hss-yellow text-black lg:hidden'
+          className='top-28 right-5 bg-hss-yellow text-black lg:hidden'
           onSelect={() => setIsDropDownOpen(false)}
         />
       </div>
