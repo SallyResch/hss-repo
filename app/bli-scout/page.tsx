@@ -18,7 +18,7 @@ export default function BliScout({}) {
     <div>
       <HeroSection
         title="Bli Scout"
-        description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn"
+        description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn."
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}
@@ -35,7 +35,7 @@ export default function BliScout({}) {
           <ScoutingCards
             imageUrl={adventureImg}
             title="Äventyr"
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
+            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra."
             color="blue"
           />
 
