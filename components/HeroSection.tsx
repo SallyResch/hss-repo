@@ -43,7 +43,7 @@ const HeroSection = ({
         className={`absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 
           md:left-[120px] w-73.5 md:w-150 lg:w-177 md:h-133.5 h-auto bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
                    top-38.5 left-12  ${desktopLeftPosition}`}
-        
+
       >
         <span className="text-hss-yellow font-bold text-sm md:font-semibold md:text-6xl ">
           {title}
@@ -60,7 +60,7 @@ const HeroSection = ({
           {description}
         </p>
         {showButtons && (
-           <div className="flex flex-row  justify-center gap-3 mt-4 pb-4 md:gap-6 md:mt-8">
+           <div className="flex flex-row  justify-center gap-3  pb-4 md:gap-6">
           <Link href="https://www.scoutnet.se/register/in/group/764">
             <Button variant="yellow" className="whitespace-nowrap">Bli Scout</Button>
           </Link>
