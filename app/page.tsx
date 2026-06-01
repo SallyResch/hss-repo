@@ -64,7 +64,7 @@ export default function Home() {
                   title="Äventyrare"
                   age="12-14 år"
                   imageUrl={teenIcon.src}
-                  description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en kejäl vinterhajk då vi bor i tält."
+                  description="Här börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält."
                 />
 
                 <Card
