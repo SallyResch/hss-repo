@@ -81,7 +81,7 @@ const HeroSection = ({
        
       </div>
     </section>
-   <Image src={bottomBlueWave} alt="Top wave" className="w-full" priority />
+     <Image src={bottomBlueWave} alt="Top wave" className="w-full" priority />
     </>
   );
 };
