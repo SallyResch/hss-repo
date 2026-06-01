@@ -11,9 +11,8 @@ export default function DropDown({ items, isOpen, className, onSelect }: DropDow
   return (
     <div className={`absolute flex flex-col gap-4 p-4 rounded shadow-lg z-20 text-hss-mediumblue ${className}`}>
       {items?.map((item) => (
-        <div>
+        <div key={item.path}>
           <Link className="hover:border-b-2 border-hss-mediumblue"
-            key={item.path}
             href={item.path}
             onClick={onSelect}
           >
