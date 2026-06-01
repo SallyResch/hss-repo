@@ -6,7 +6,6 @@ import heromob from "../public/heromob.png";
 import HistorySection from "@/components/HistorySection";
 import SafetySection from "@/components/SafetySection";
 import InstagramCarousel from "@/components/InstagramCarousel";
-
 import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
