@@ -8,11 +8,12 @@ import natureImg from "../../public/nature.png";
 import topWave from "../../public/Wave - Blue.png";
 import Image from "next/image";
 import StartSection from "./StartSection";
-import TextSection from "@/components/TextSection";
-import VanligaFragor from "@/app/bli-scout/FAQSection";
-import ClothingSection from "@/app/bli-scout/ClothingSection";
+import TextSection from '@/components/TextSection'
+import VanligaFragor from '@/app/bli-scout/FAQSection'
+import ClothingSection from '@/app/bli-scout/ClothingSection'
 
-export default function BliScout({}) {
+
+export default function BliScout({ }) {
   return (
     <div>
       <HeroSection
@@ -81,6 +82,7 @@ export default function BliScout({}) {
         <ClothingSection />
         <VanligaFragor />
       </div>
+
     </div>
   );
 }
