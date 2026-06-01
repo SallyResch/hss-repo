@@ -26,7 +26,7 @@ export default function BliScout({}) {
       />
 
       <div className="w-full  flex flex-col items-center">
-        <Image src={topWave} alt="Top wave" className="w-full" priority />
+       
 
         <p className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[69px] font-montserrat font-semibold text-[32px]  text-center align-middle">
           Varför Scouting?

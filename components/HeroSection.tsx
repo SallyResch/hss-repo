@@ -4,6 +4,8 @@ import hasselbyLogo from "../public/hasselbylogo.png";
 import WhiteWaveLine from "@/components/WhiteWaveLine";
 import Button from "../components/Button";
 import HeroSectionProps from "../types/herosectiondata";
+import BlueWaveLine from "./BlueWaveLine";
+import bottomBlueWave from "../public/Wave - Blue.png";
 const HeroSection = ({
   title,
   description,
@@ -16,8 +18,11 @@ const HeroSection = ({
   const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "lg:left-1/2 lg:-translate-x-1/2 md:left-[79px]";
   //console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
   return (
+    <>
+    
     <section className="relative w-full h-screen min-h-[600px]  mt-10 md:mt-10 ">
-      {mobileImgUrl && (
+      
+        {mobileImgUrl && (
         <Image
           src={mobileImgUrl}
           alt="HSS Mobile Hero Image"
@@ -38,6 +43,9 @@ const HeroSection = ({
           />
         </div>
       )}
+      
+      
+      
 
       <div
         className={`absolute flex flex-col items-center pt-10 pr-5 pb-8 pl-5 gap-5 
@@ -73,6 +81,8 @@ const HeroSection = ({
        
       </div>
     </section>
+   <Image src={bottomBlueWave} alt="Top wave" className="w-full" priority />
+    </>
   );
 };
 
