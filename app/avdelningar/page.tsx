@@ -8,8 +8,8 @@ export default function Avdelningar() {
   return (
     <>
       <HeroSection
-        title="Bli Scout"
-        description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn"
+        title="Vara avdelningar" 
+        description="Verksamheten är indelad efter ålder. Varje avdelning har sitt eget program och sina egna utmaningar" 
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}

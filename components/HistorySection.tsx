@@ -11,14 +11,7 @@ import bottomWave from "@/public/Wave - yellow.png";
 export default function HistorySection() {
   return (
     <section className="relative overflow-hidden bg-white py-16 md:py-20 lg:py-32">
-      <div className="absolute top-0 left-0 w-full">
-        <Image
-          src={topWave}
-          alt="Top wave"
-          className="h-auto w-full"
-          priority
-        />
-      </div>
+      
 
       <div className="absolute bottom-0 left-0 w-full">
         <Image
