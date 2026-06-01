@@ -23,17 +23,19 @@ export default function SafetySection() {
             Äventyra i en trygg miljö
           </h3>
           <p className="text-sm sm:text-[15px] text-gray-700 leading-relaxed font-normal">
-            Scouterna ska vara en trygg plats där du kan utforska och utmanas på
-            dina villkor. Därför jobbar vi med{" "}
+            Scouterna ska vara una trygg plats där du kan utforska och utmanas
+            på dina villkor. Därför jobbar vi med{" "}
             <span className="font-bold text-[#0d335d]">Trygga Möten</span>.
             Målet är att Scouterna ska vara fritt från kränkningar och övergrepp
             i alla former.
           </p>
         </div>
       </div>
+
       <div className="w-full z-20 pointer-events-none mt-[-20px] md:mt-[-32px]">
         <img src="/blue.png" alt="" className="w-full object-contain block" />
       </div>
+
       <div className="relative bg-[#0d335d] text-white pt-2 pb-16 sm:pb-20 px-4 sm:px-6 mt-[-1px]">
         <div className="max-w-[95rem] mx-auto w-full md:px-14">
           <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 tracking-wide text-center">
@@ -73,14 +75,6 @@ export default function SafetySection() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="w-full pointer-events-none mt-[-2px]">
-        <img
-          src="/Wave - Blue.png"
-          alt=""
-          className="w-full object-contain block"
-        />
       </div>
     </section>
   );
