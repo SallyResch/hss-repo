@@ -5,12 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns:[
       {
-        protocol: "https",
-        hostname: "*.behold.pictures", 
-      },
-      {
         protocol:"https",
-        hostname:"hop.behold.pictures",
+        hostname:"behold.pictures",
       },
       {
         protocol:"https",
