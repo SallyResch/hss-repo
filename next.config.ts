@@ -6,11 +6,11 @@ const nextConfig: NextConfig = {
     remotePatterns:[
       {
         protocol:"https",
-        hostname:"behold.pictures",
+        hostname:"hop.behold.pictures",
       },
       {
         protocol:"https",
-        hostname:"*.cdinstagram.com"
+        hostname:"*.cdninstagram.com"
       },
     ],
   },

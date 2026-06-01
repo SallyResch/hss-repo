@@ -1,6 +1,8 @@
 import HeroSection from "@/components/HeroSection";
 import { Card } from "../components/Card";
-import Footer from "../components/Footer";
+import Button from "../components/Button";
+import heroimg from "../public/hero.jpg";
+import heromob from "../public/heromob.png";
 import HistorySection from "@/components/HistorySection";
 import SafetySection from "@/components/SafetySection";
 import InstagramCarousel from "@/components/InstagramCarousel";
