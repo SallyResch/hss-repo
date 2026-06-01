@@ -20,7 +20,7 @@ export default function Home() {
         <div>
           <HeroSection
             title="Välkommen till"
-            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar. AAAAAA BBBBBB CCCCCC DDDDDD EEEEEEE FFFFFFFF GGGGG HHHHH IIIIII JJJJJJJ KKKKKK LLLLLL MMMMMM NNNNNNN OOOOOOP."
+            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar."
             imageUrl={heroimg}
             mobileImgUrl={heromob}
             showButtons={true}
