@@ -89,8 +89,6 @@ export default function Home() {
           <InstagramCarousel />
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }
