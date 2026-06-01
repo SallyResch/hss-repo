@@ -7,8 +7,6 @@ import HistorySection from "@/components/HistorySection";
 import SafetySection from "@/components/SafetySection";
 import InstagramCarousel from "@/components/InstagramCarousel";
 
-import heroimg from "../public/hero.jpg";
-import heromob from "../public/heromob.png";
 import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
@@ -92,8 +90,6 @@ export default function Home() {
           <InstagramCarousel />
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }
