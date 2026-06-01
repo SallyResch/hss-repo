@@ -4,6 +4,8 @@ import hasselbyLogo from "../public/hasselbylogo.png";
 import WhiteWaveLine from "@/components/WhiteWaveLine";
 import Button from "../components/Button";
 import HeroSectionProps from "../types/herosectiondata";
+import BlueWaveLine from "./BlueWaveLine";
+import bottomBlueWave from "../public/Wave - Blue.png";
 const HeroSection = ({
   title,
   description,
@@ -16,8 +18,11 @@ const HeroSection = ({
   const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "lg:left-1/2 lg:-translate-x-1/2 md:left-[79px]";
   //console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
   return (
-    <section className="relative w-full h-146.25 md:h-202.5 mt-0">
-      {mobileImgUrl && (
+    <>
+    
+    <section className="relative w-full h-screen min-h-[600px]  mt-10 md:mt-10 ">
+      
+        {mobileImgUrl && (
         <Image
           src={mobileImgUrl}
           alt="HSS Mobile Hero Image"
@@ -38,14 +43,17 @@ const HeroSection = ({
           />
         </div>
       )}
+      
+      
+      
 
       <div
-        className={`absolute flex flex-col items-center pt-5 pr-10 pb-5 pl-10.75 gap-5 
-          md:left-[120px] w-73.5 md:w-150 lg:w-177 md:h-133.5 h-auto bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
+        className={`absolute flex flex-col items-center pt-10 pr-5 pb-8 pl-5 gap-5 
+          md:left-[120px] w-73.5 md:w-150 lg:w-150  h-auto bg-hss-mediumblue rounded-br-2xl rounded-bl-2xl
                    top-38.5 left-12  ${desktopLeftPosition}`}
-        
+
       >
-        <span className="text-hss-yellow font-bold text-sm md:font-semibold md:text-6xl ">
+        <span className="text-hss-yellow font-bold text-sm md:font-semibold md:text-4xl ">
           {title}
         </span>
         <Image
@@ -56,11 +64,11 @@ const HeroSection = ({
         <div className="w-full flex justify-center px-4">
         <WhiteWaveLine/>
         </div>
-        <p className="text-xs text-hss-yellow md:w-127 md:text-2xl  md:h-26.25 md:font-semibold  leading-relaxed">
+        <p className="text-xs text-hss-yellow md:w-127 md:text-xl   md:font-semibold line-clamp-3 md:line-clamp-2">
           {description}
         </p>
         {showButtons && (
-           <div className="flex flex-row  justify-center gap-3 mt-4 pb-4 md:gap-6 md:mt-8">
+           <div className="flex flex-row  justify-center gap-3 mt-0 md:gap-6">
           <Link href="https://www.scoutnet.se/register/in/group/764">
             <Button variant="yellow" className="whitespace-nowrap">Bli Scout</Button>
           </Link>
@@ -73,6 +81,8 @@ const HeroSection = ({
        
       </div>
     </section>
+     <Image src={bottomBlueWave} alt="Top wave" className="w-full" priority />
+    </>
   );
 };
 
