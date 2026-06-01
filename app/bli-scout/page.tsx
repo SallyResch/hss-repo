@@ -7,11 +7,16 @@ import developmentImg from "../../public/development.png";
 import natureImg from "../../public/nature.png";
 import topWave from "../../public/Wave - Blue.png";
 import Image from "next/image";
+import type { Metadata } from "next";
 import StartSection from "./StartSection";
 import TextSection from '@/components/TextSection'
 import VanligaFragor from '@/app/bli-scout/FAQSection'
 import ClothingSection from '@/app/bli-scout/ClothingSection'
 
+export const metadata: Metadata = {
+  title: "HSS | Bli Scout",
+  description: "En sida för att ta reda på mer information om hur man blir scout och vad det innebär"
+}
 
 export default function BliScout({ }) {
   return (

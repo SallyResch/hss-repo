@@ -20,9 +20,7 @@ export const hssNavItems: NavItem[] = [
         ]
     },
     {
-        label: "För medlemmar/Praktisk info", path: "/medlemmar", children: [
-            { label: "Dokument", path: "/medlemmar/dokument" },
-        ]
+        label: "För medlemmar/Praktisk info", path: "/medlemmar"
     },
     { label: "Kontakt", path: "/kontakt" },
 ]
