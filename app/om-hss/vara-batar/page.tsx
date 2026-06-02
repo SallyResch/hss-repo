@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import heroimg from "@/public/Wireframe.png";
 import BoatCard from "@/components/BoatCard";
 import { currentBoats } from "@/data/boatsData";
+import TextContentBlock from "@/components/TextContentBlock"
 
 
 export default function VaraBatarPage(){
@@ -14,6 +15,14 @@ export default function VaraBatarPage(){
         imageUrl={heroimg}
         />
 
+        <TextContentBlock
+        title="En flotta för alla åldrar"
+        isCentered={true}
+        >         
+            <p>Vi tror på att lära genom att göra. Vår båtpark är anpassad för att ge scouter i alla åldrar möjlighet att lära sig segla, navigera och hantera båtar på ett säkert sätt i Mälaren och Stockholms skärgård.</p>
+        </TextContentBlock>
+       
+        {/* boat */}
         <section className="w-full max-w-5xl px-6 mt-16">
             <div className="flex items-center justify-between pb-4 mb-6 border-b border-blue-200 cursor-pointer">
                 <h2 className="text-2xl font-bold text-hss-mediumblue">
