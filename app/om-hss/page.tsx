@@ -84,6 +84,16 @@ export default function AboutHSSPage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-8">Våra traditioner</h2>
+export default function OmHss({ }: Props) {
+    return (
+        <div>
+          <HeroSection 
+          title="Om HSS" 
+          description="Hässelby Strands Sjöscoutkår - En traditionsrik ideell ungdomsverksamhet sedan många år" 
+          imageUrl={heroimg}
+          mobileImgUrl={heroimg}
+          showButtons={false}
+          variant="subpage"/>
         </div>
       </section>
 
