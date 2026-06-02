@@ -21,6 +21,14 @@ export const metadata: Metadata = {
     default: 'HSS',
   },
   description: "Hässelby Strands Sjöscoutkår",
+  openGraph: {
+    title: "Hässelby Strands sjöscoutkår",
+    description: "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv. Vi är religiöst och politisk obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
+    url: "https://www.hss-repo.vercel.app",
+    siteName: "Hässelby Strands sjöscoutkår",
+    locale: 'sv-SE',
+    type: "website",
+  }
 };
 
 export default function RootLayout({
