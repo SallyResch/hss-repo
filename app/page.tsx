@@ -5,8 +5,8 @@ import heroimg from "../public/hero.jpg";
 import heromob from "../public/heromob.png";
 import HistorySection from "@/components/HistorySection";
 import SafetySection from "@/components/SafetySection";
-
 import InstagramCarousel from "@/components/InstagramCarousel";
+
 import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
@@ -32,9 +32,7 @@ export default function Home() {
           <HistorySection />
         </div>
 
-
         <div className="bg-hss-yellow py-12 px-4">
-
           <div className="bg-hss-yellow py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-[95rem] mx-auto">
               <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-[#0d335d] text-center">
@@ -67,7 +65,7 @@ export default function Home() {
                   title="Konvojen/Äventyrare"
                   age="12-14 år"
                   imageUrl={teenIcon.src}
-                  description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält."
+                  description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en kejäl vinterhajk då vi bor i tält."
                 />
 
                 <Card
@@ -85,7 +83,9 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-4 p-6 bg-hss-mediumblue text-hss-white">
-          <h2 className="font-bold text-2xl text-center">Senaste händelserna:</h2>
+          <h2 className="font-bold text-2xl text-center">
+            Senaste händelserna:
+          </h2>
           <InstagramCarousel />
         </div>
       </main>
