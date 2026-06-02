@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 type Props = {}
 
 export const metadata: Metadata = {
-    title: 'HSS | Om HSS',
+    title: 'Om HSS',
     description: 'Om Hässelby Strands Sjöscoutkår',
 }
 export default function OmHss({ }: Props) {

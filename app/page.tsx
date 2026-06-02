@@ -13,10 +13,6 @@ import adultIcon from "./assets/adult.svg";
 import familyIcon from "./assets/family.jpg";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "HSS | Startsida",
-  description: "Startsida för Hässelby Strands Scoutsjökår"
-}
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen box-border">

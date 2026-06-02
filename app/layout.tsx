@@ -16,7 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HSS",
+  title: {
+    template: 'HSS | %s',
+    default: 'HSS',
+  },
   description: "Hässelby Strands Sjöscoutkår",
 };
 

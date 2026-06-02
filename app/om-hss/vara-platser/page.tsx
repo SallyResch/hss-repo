@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "HSS | Våra platser",
+    title: "Våra platser",
     description: "Sida för alla våra lokaler"
 }
 export default function VaraPlatser() {

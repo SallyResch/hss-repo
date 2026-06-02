@@ -3,7 +3,7 @@ import heroimg from '../../public/Wireframe.png'
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "HSS | Avdelningar",
+    title: "Avdelningar",
     description: "Sida för alla våra avdelningar"
 }
 type Props = {}
