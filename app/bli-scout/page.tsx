@@ -23,7 +23,7 @@ export default function BliScout({ }) {
     <div>
       <HeroSection
         title="Bli Scout"
-        description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn"
+        description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn."
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}
@@ -31,7 +31,7 @@ export default function BliScout({ }) {
       />
 
       <div className="w-full  flex flex-col items-center">
-        <Image src={topWave} alt="Top wave" className="w-full" priority />
+       
 
         <p className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[69px] font-montserrat font-semibold text-[32px]  text-center align-middle">
           Varför Scouting?
@@ -40,7 +40,7 @@ export default function BliScout({ }) {
           <ScoutingCards
             imageUrl={adventureImg}
             title="Äventyr"
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
+            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra."
             color="blue"
           />
 
