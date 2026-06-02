@@ -42,6 +42,15 @@ export default function VaraPlatser() {
             isReverse={true}
           />
         </div>
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 lg:gap-0">
+    <p className="font-semibold text-hss-mediumblue text-[32px] leading-tight">
+      〰️ Hitta hit
+    </p>
+    <p className="font-normal text-hss-mediumblue text-[16px] lg:text-right">
+      Så här hittar du till våra platser
+    </p>
+       </div>
+
       </section>
     </>
   );
