@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import heroimg from "../../public/Wireframe.png";
+import Footer from "@/components/Footer";
 
 export default function AboutHSSPage() {
   return (
@@ -77,25 +78,80 @@ export default function AboutHSSPage() {
 
       {/* 4. Vår historia */}
       <section className="py-16 px-4 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6">Vår historia</h2>
+        <h2 className="text-3xl font-bold mb-6 text-[#0d335d]">Vår historia</h2>
+        <p className="text-lg mb-4">
+          Hässelby Strands Sjöscoutkår har en lång och stolt tradition av
+          scoutverksamhet i området. Genom åren har tusentals barn och unga
+          passerat genom våra avdelningar och lärt sig allt från knopar till
+          ledarskap.
+        </p>
+        <p className="text-lg">
+          Kåren har alltid haft en stark koppling till vatten och båtar. Vårt
+          läge vid Mälaren har gett oss unika möjligheter att bedriva
+          sjöscoutverksamhet på hög nivå.
+        </p>
       </section>
 
       {/* 5. Våra traditioner */}
-      <section className="py-16 px-4 bg-gray-50">
+      <section className="py-16 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8">Våra traditioner</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#0d335d]">
+            Våra traditioner
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-[#cceeff] p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-2">Isvaksbadet</h3>
+              <p className="text-sm">
+                En klassisk tradition där äventyrarscouter badar i isvak under
+                vintern. Inte bara modigt - också en viktig övning i
+                sjösäkerhet!
+              </p>
+            </div>
+            <div className="bg-[#cceeff] p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-2">Sommarsegling</h3>
+              <p className="text-sm">
+                Varje sommar ger vi oss ut på äventyr i Stockholms skärgård.
+                Våra scouter lär sig segling, navigation och teamwork.
+              </p>
+            </div>
+            <div className="bg-[#cceeff] p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-2">Vinterhajken</h3>
+              <p className="text-sm">
+                Äventyrarscouter bor i tält även när det är som kallast. En
+                utmaning som stärker både kropp och själ!
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* 6. Våra samarbetspartners */}
       <section className="py-16 px-4 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6">Våra samarbetspartners</h2>
-      </section>
-
-      {/* 7. Vill du veta mer? */}
-      <section className="py-20 px-4 bg-[#0d335d] text-white text-center">
-        <h2 className="text-3xl font-bold mb-6">Vill du veta mer?</h2>
+        <div className="bg-[#0d335d] text-white p-10 rounded-lg">
+          <h2 className="text-3xl font-bold mb-6 text-center">
+            Våra samarbetspartners
+          </h2>
+          <p className="mb-6 text-center">
+            Vi samarbetar med flera organisationer för att ge våra scouter bästa
+            möjliga verksamhet:
+          </p>
+          <ul className="list-disc pl-6 space-y-4">
+            <li>
+              <strong>Scouterna:</strong> Vi är medlemmar i Svenska
+              Scoutförbundet och följer deras riktlinjer och värderingar.
+            </li>
+            <li>
+              <strong>Stockholms Sjöscoutdistrikt:</strong> Vi är en del av
+              distriktets gemenskap och deltar i gemensamma aktiviteter.
+            </li>
+            <li>
+              <strong>Lokala partners:</strong> Vi samarbetar med lokala
+              föreningar och organisationer i Hässelby.
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   );
 }
+<Footer />;
