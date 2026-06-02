@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Medlem",
+    title: "Medlemmar",
     description: "Sida för alla våra medlemmar med nödvändig information"
 }
 export default function Medlemmar() {
