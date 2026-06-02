@@ -17,7 +17,7 @@ export default function VaraPlatser() {
         />
       </div>
       <section className="mt-[64px] px-6 md:px-[150px] ">
-      <div className="flex flex-col gap-[24px]">
+        <div className="flex flex-col gap-[24px]">
           <p className="h-[39px] font-semibold text-hss-mediumblue text-[32px] ">
             〰️ Våra scoutplatser
           </p>
@@ -25,23 +25,23 @@ export default function VaraPlatser() {
             Vi har två fantastiska platser vid Mälaren där vi möts, umgås och
             skapar minnen.
           </p>
-      </div>
-      <div>
-      <ScoutPlatserCard
+        </div>
+        <div>
+          <ScoutPlatserCard
             imageUrl={ruffenImage}
             title="Ruffen"
             description=" Ruffen ligger vid Mälaren och är vår egna stuga. Här har vi brygga,
             båtplats och gott om utrymme för aktiviteter och läger."
             isReverse={false}
-      />
-      <ScoutPlatserCard
+          />
+          <ScoutPlatserCard
             imageUrl={mysetImage}
             title="Myset"
             description=" Ruffen ligger vid Mälaren och är vår egna stuga. Här har vi brygga,
             båtplats och gott om utrymme för aktiviteter och läger."
             isReverse={true}
-      />
-      </div>
+          />
+        </div>
       </section>
     </>
   );
