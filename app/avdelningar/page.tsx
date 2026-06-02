@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import ScoutGroupSection from "@/app/avdelningar/Department";
+import FindUrDept from "@/app/avdelningar/findurdept"
 
 import heroimg from "@/public/Wireframe.png";
 import { scoutGroups } from "@/data/scoutGroups";
@@ -24,6 +25,9 @@ export default function Avdelningar() {
           />
         ))}
       </main>
+      <section>
+        <FindUrDept/>
+      </section>
     </>
   );
 }

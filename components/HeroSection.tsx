@@ -6,6 +6,7 @@ import Button from "../components/Button";
 import HeroSectionProps from "../types/herosectiondata";
 import BlueWaveLine from "./BlueWaveLine";
 import bottomBlueWave from "../public/Wave - Blue.png";
+
 const HeroSection = ({
   title,
   description,
