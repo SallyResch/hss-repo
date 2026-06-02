@@ -8,7 +8,7 @@ const ScoutPlatserCard = ({imageUrl,title,description,isReverse}:scoutPlatserCar
   }
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 lg:w-[1000px] lg:min-h-[400px] gap-[24px] mt-2 overflow-hidden rounded-2xl mb-6">
-     <div className={`relative w-full h-[250px] lg:h-full ${isReverse ? "lg:order-last" : "lg:order-first"}`}>
+     <div className={`relative w-full h-[250px] lg:h-full ${ isReverse ? "lg:order-last" : "lg:order-first"}`}>
         <Image
           src={imageUrl}
           alt="RuffenImage"
