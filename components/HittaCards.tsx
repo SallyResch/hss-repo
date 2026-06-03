@@ -1,5 +1,6 @@
 import React from 'react'
 import hittacardsprops from '../types/hittacardsprops'
+
 const HittaCards = (
   {
     cardTitle,
