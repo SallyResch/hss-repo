@@ -1,8 +1,11 @@
 import HeroSection from "@/components/HeroSection";
 import heroimg from "@/public/Wireframe.png";
-import BoatCard from "@/components/BoatCard";
 import { currentBoats } from "@/data/boatsData";
 import TextContentBlock from "@/components/TextContentBlock"
+import PreviousBoatsSection from '@/components/cards/PreviousBoatsSection';
+import BoatCard from "@/components/cards/BoatCard";
+import TextCard from "@/components/cards/TextCard";
+import BottomText from "@/components/BottomText";
 
 
 export default function VaraBatarPage(){
@@ -46,6 +49,9 @@ export default function VaraBatarPage(){
                 ))}               
             </div>
         </section> 
+
+        <PreviousBoatsSection />
+        <BottomText />
 
 
         </main>
