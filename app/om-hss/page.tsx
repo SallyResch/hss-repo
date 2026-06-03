@@ -1,11 +1,9 @@
 import HeroSection from "@/components/HeroSection";
 import heroimg from "../../public/Wireframe.png";
-import Footer from "@/components/Footer";
 
 export default function AboutHSSPage() {
   return (
     <main className="w-full flex flex-col bg-white text-[#0d335d]">
-      {/* 1. Hero Section */}
       <HeroSection
         title="Om HSS"
         description="HÄSSELBY STRANDS SJÖSCOUTKÅR - Hässelby Strands Sjöscoutkår - En traditionsrik ideell ungdomsverksamhet sedan många år"
@@ -35,11 +33,11 @@ export default function AboutHSSPage() {
       </section>
 
       <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto bg-[#FDE68A] p-10 md:p-12">
+        <div className="max-w-4xl mx-auto bg-[#FDE68A] p-10 md:p-12">
           <h2 className="text-3xl font-bold mb-8 text-[#0d335d]">
             Vad gör oss unika?
           </h2>
-          <div className="grid md:grid-cols-2 gap-x-12 gap-y-8 text-[#0d335d]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 text-[#0d335d]">
             <div>
               <h3 className="text-xl font-bold mb-2">Sjöscouterna</h3>
               <p>
@@ -76,14 +74,18 @@ export default function AboutHSSPage() {
         </div>
       </section>
 
-      {/* 4. Vår historia */}
-      <section className="py-16 px-4 max-w-5xl mx-auto">
+      <section className="py-16 px-6 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-[#0d335d]">Vår historia</h2>
         <p className="text-lg mb-4">
           Hässelby Strands Sjöscoutkår har en lång och stolt tradition av
           scoutverksamhet i området. Genom åren har tusentals barn och unga
           passerat genom våra avdelningar och lärt sig allt från knopar till
           ledarskap.
+        </p>
+        <p className="text-lg mb-4">
+          Många av våra traditioner lever kvar än idag - från isvaksbadet på
+          vintern till sommarsegling i skärgården. Dessa traditioner förenar
+          generationer av scouter och skapar en stark känsla av tillhörighet.
         </p>
         <p className="text-lg">
           Kåren har alltid haft en stark koppling till vatten och båtar. Vårt
@@ -92,7 +94,6 @@ export default function AboutHSSPage() {
         </p>
       </section>
 
-      {/* 5. Våra traditioner */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-[#0d335d]">
@@ -125,28 +126,40 @@ export default function AboutHSSPage() {
         </div>
       </section>
 
-      {/* 6. Våra samarbetspartners */}
-      <section className="py-16 px-4 max-w-5xl mx-auto">
-        <div className="bg-[#0d335d] text-white p-10 rounded-lg">
-          <h2 className="text-3xl font-bold mb-6 text-center">
+      <section className="py-16 px-6 max-w-4xl mx-auto w-full">
+        <div className="bg-[#0d335d] text-white p-12 rounded-t-none rounded-b-3xl text-left">
+          <h2 className="text-3xl font-bold mb-8 text-center text-[#FDE68A]">
             Våra samarbetspartners
           </h2>
-          <p className="mb-6 text-center">
+          <p className="mb-8 text-center text-lg">
             Vi samarbetar med flera organisationer för att ge våra scouter bästa
             möjliga verksamhet:
           </p>
-          <ul className="list-disc pl-6 space-y-4">
-            <li>
-              <strong>Scouterna:</strong> Vi är medlemmar i Svenska
-              Scoutförbundet och följer deras riktlinjer och värderingar.
+
+          <ul className="space-y-4 max-w-2xl mx-auto">
+            <li className="flex items-start gap-2">
+              <span className="mt-1">•</span>
+              <p>
+                <span className="font-bold">Scouterna:</span> Vi är medlemmar i
+                Svenska Scoutförbundet och följer deras riktlinjer och
+                värderingar.
+              </p>
             </li>
-            <li>
-              <strong>Stockholms Sjöscoutdistrikt:</strong> Vi är en del av
-              distriktets gemenskap och deltar i gemensamma aktiviteter.
+            <li className="flex items-start gap-2">
+              <span className="mt-1">•</span>
+              <p>
+                <span className="font-bold">Stockholms Sjöscoutdistrikt:</span>{" "}
+                Vi är en del av distriktets gemenskap och deltar i gemensamma
+                aktiviteter.
+              </p>
             </li>
-            <li>
-              <strong>Lokala partners:</strong> Vi samarbetar med lokala
-              föreningar och organisationer i Hässelby.
+            <li className="flex items-start gap-2">
+              <span className="mt-1">•</span>
+              <p>
+                <span className="font-bold">Lokala partners:</span> Vi
+                samarbetar med lokala föreningar och organisationer i Hässelby
+                Strand för att stärka vår verksamhet.
+              </p>
             </li>
           </ul>
         </div>
@@ -154,4 +167,3 @@ export default function AboutHSSPage() {
     </main>
   );
 }
-<Footer />;
