@@ -8,7 +8,7 @@ export default function OmHss({ }: Props) {
         <div>
           <HeroSection 
           title="Om HSS" 
-          description="Hässelby Strands Sjöscoutkår - En traditionsrik ideell ungdomsverksamhet sedan många år" 
+          description="Hässelby Strands Sjöscoutkår - En traditionsrik ideell ungdomsverksamhet sedan många år." 
           imageUrl={heroimg}
           mobileImgUrl={heroimg}
           showButtons={false}
