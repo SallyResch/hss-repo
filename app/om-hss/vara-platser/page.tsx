@@ -26,7 +26,7 @@ export default function VaraPlatser() {
         />
       </div>
       <section className="flex flex-col mt-[64px] px-6 md:px-full m-auto gap-[64px]  ">
-        <div className="flex flex-col gap-[24px]">
+        <div className="flex flex-col gap-[24px] text-center item-center">
           <p className="h-[39px] font-semibold text-hss-mediumblue text-[32px] ">
             〰️ Våra scoutplatser
           </p>
