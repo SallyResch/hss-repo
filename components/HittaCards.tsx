@@ -13,8 +13,8 @@ const HittaCards = ({
   parkeringDetails,
 }: hittacardsprops) => {
   return (
-    <section className="flex flex-col gap-[16px] p-[12px] rounded-[12px] w-[482px] h-auto bg-[#F8F9FA]">
-      <p className="font-semibold text-2xl text-hss-mediumblue ">{cardTitle}</p>
+  <section className="flex flex-col gap-[16px] p-[24px] rounded-[12px] w-full h-full bg-[#F8F9FA]">
+      <p className ="font-semibold text-2xl text-hss-mediumblue ">{cardTitle}</p>
       <div>
         <p className="font-semibold text-base text-hss-mediumblue mb-0">
           {address}
@@ -23,6 +23,8 @@ const HittaCards = ({
           {addressDeatils}
         </p>
       </div>
+   
+
       <div>
         <p className="font-semibold text-base text-hss-mediumblue mb-0">
           {coordinater}

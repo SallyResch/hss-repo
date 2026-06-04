@@ -17,7 +17,7 @@ export default function VaraPlatser() {
           variant="subpage"
         />
       </div>
-      <section className="flex flex-col mt-[64px] px-6 md:px-[150px] gap-[64px]">
+      <section className="flex flex-col mt-[64px] px-6 md:px-full m-auto gap-[64px]  ">
         <div className="flex flex-col gap-[24px]">
           <p className="h-[39px] font-semibold text-hss-mediumblue text-[32px] ">
             〰️ Våra scoutplatser
@@ -27,7 +27,7 @@ export default function VaraPlatser() {
             skapar minnen.
           </p>
         </div>
-        <div>
+        <div >
           <ScoutPlatserCard
             imageUrl={ruffenImage}
             title="Ruffen"
@@ -43,8 +43,8 @@ export default function VaraPlatser() {
             isReverse={true}
           />
         </div>
-        <div className="flex flex-col gap-[40px]">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 lg:gap-0">
+        <div className="flex flex-col gap-[40px] lg:w-[1000px] p-2.5">
+         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 ">
           <p className="font-semibold text-hss-mediumblue text-[32px] leading-tight">
             〰️ Hitta hit
           </p>
@@ -52,31 +52,35 @@ export default function VaraPlatser() {
             Så här hittar du till våra platser
           </p>
           </div>
-          <div className ="flex flex-col lg:flex-row gap-[40px] mb-[10px]">
+          <div className="flex flex-col lg:flex-row  gap-[40px] mb-[10px] w-full">
+    
+          <div className="lg:flex-1"> 
             <HittaCards 
-          cardTitle="📍 Ruffen"
-          address="Adress:"
-          addressDeatils="Ruffenvägen 1, 165 55 Hässelby"
-          coordinater="Koordinater:"
-          coordinaterDetails={`N 59°22'10", E 17°48'20"`}
-          parkering="Parkering:"
-          parkeringDetails="Följ skyltning till grusparkeringen"
-          />
-          <HittaCards 
-          cardTitle="📍 Myset"
-          address="Adress:"
-          addressDeatils="Mysetvägen 2, 165 55 Hässelby"
-          coordinater="Koordinater:"
-          coordinaterDetails={`N 59°22'10", E 17°48'20"`}
-          parkering="Parkering:"
-          parkeringDetails="Följ skyltning till grusparkeringen"
-          />
+              cardTitle="📍 Ruffen"
+              address="Adress:"
+              addressDeatils="Ruffenvägen 1, 165 55 Hässelby"
+              coordinater="Koordinater:"
+              coordinaterDetails={`N 59°22'10", E 17°48'20"`}
+              parkering="Parkering:"
+              parkeringDetails="Följ skyltning till grusparkeringen"
+            />
+          </div>
+
+          <div className="lg:flex-1"> 
+            <HittaCards 
+              cardTitle="📍 Myset"
+              address="Adress:"
+              addressDeatils="Mysetvägen 2, 165 55 Hässelby"
+              coordinater="Koordinater:"
+              coordinaterDetails={`N 59°22'10", E 17°48'20"`}
+              parkering="Parkering:"
+              parkeringDetails="Följ skyltning till grusparkeringen"
+            />
+          </div>
+          </div>
 
           </div>
-          
-
-
-        </div>
+        
        
       </section>
     </>
