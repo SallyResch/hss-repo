@@ -1,7 +1,14 @@
 import HeroSection from "@/components/HeroSection";
 import heroimg from "../../public/Wireframe.png";
+import type { Metadata } from 'next'
 
-export default function AboutHSSPage() {
+type Props = {}
+
+export const metadata: Metadata = {
+  title: 'Om HSS',
+  description: 'Om Hässelby Strands Sjöscoutkår',
+}
+export default function OmHss({ }: Props) {
   return (
     <main className="w-full flex flex-col bg-white text-[#0d335d]">
       <HeroSection
