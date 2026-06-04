@@ -24,8 +24,6 @@ const HittaCards = ({
           {addressDeatils}
         </p>
       </div>
-
-
       <div>
         <p className="font-semibold text-base text-hss-mediumblue mb-0">
           {coordinater}
