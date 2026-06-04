@@ -46,13 +46,13 @@ export default function Medlemmar() {
                             <ArrowForwardOutlined />
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row gap-4 flex-1 rounded-2xl">
+                    <div className="flex flex-col md:flex-row gap-6 flex-1 rounded-2xl bg-hss-lightblue p-6 w-[60%] text-hss-mediumblue shadow-sm">
                         <div>
                             <div className="flex flex-row gap-2">
                                 <TextSnippetOutlinedIcon />
-                                <p>Stadgar</p>
+                                <p className="font-bold">Stadgar</p>
                             </div>
-                            <p>Hässelby Strands Sjöscoutkårs stadgar</p>
+                            <p className="mt-2 mb-2">Hässelby Strands Sjöscoutkårs stadgar</p>
                             <div className="flex flex-row gap-2 cursor-pointer">
                                 <p>Läs mer</p>
                                 <ArrowForwardOutlined />
@@ -61,9 +61,9 @@ export default function Medlemmar() {
                         <div>
                             <div className="flex flex-row gap-2">
                                 <TextSnippetOutlinedIcon />
-                                <p>Verksamhetsplan</p>
+                                <p className="font-bold">Verksamhetsplan</p>
                             </div>
-                            <p>Kårens Verksamhetsplan</p>
+                            <p className="mt-2 mb-2">Kårens Verksamhetsplan</p>
                             <div className="flex flex-row gap-2 cursor-pointer">
                                 <p>Läs mer</p>
                                 <ArrowForwardOutlined />
