@@ -7,6 +7,12 @@ import TextSnippetOutlinedIcon from '@mui/icons-material/TextSnippetOutlined';
 import Button from "@/components/Button"
 import QuickAccessCard from "@/components/QuickAccessCard"
 import RutinCard from "@/components/RutinCard"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Medlemmar",
+    description: "Sida för alla våra medlemmar med nödvändig information"
+}
 export default function Medlemmar() {
     return (
         <div>
