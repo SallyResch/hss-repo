@@ -87,9 +87,6 @@ export default function Home() {
           <h2 className="font-bold text-2xl text-center">
             Senaste händelserna:
           </h2>
-          <h2 className="font-bold text-2xl text-center">
-            Senaste händelserna:
-          </h2>
           <InstagramCarousel />
         </div>
       </main>
