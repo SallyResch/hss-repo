@@ -46,8 +46,8 @@ export default function Medlemmar() {
                             <ArrowForwardOutlined />
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row gap-6 flex-1 rounded-2xl bg-hss-lightblue p-6 w-[60%] text-hss-mediumblue shadow-sm">
-                        <div>
+                    <div className="flex flex-col md:flex-row gap-6 flex-1 rounded-2xl bg-hss-lightblue p-6 md:w-[60%] text-hss-mediumblue shadow-sm">
+                        <div className="bg-hss-lightblue border-hss-mediumblue border-2 p-6 rounded-2xl">
                             <div className="flex flex-row gap-2">
                                 <TextSnippetOutlinedIcon />
                                 <p className="font-bold">Stadgar</p>
@@ -58,7 +58,7 @@ export default function Medlemmar() {
                                 <ArrowForwardOutlined />
                             </div>
                         </div>
-                        <div>
+                        <div className="bg-hss-lightblue border-hss-mediumblue border-2 p-6 rounded-2xl">
                             <div className="flex flex-row gap-2">
                                 <TextSnippetOutlinedIcon />
                                 <p className="font-bold">Verksamhetsplan</p>
