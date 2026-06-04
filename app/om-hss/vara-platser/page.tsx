@@ -1,9 +1,13 @@
+import GallerySection from "@/app/om-hss/vara-platser/gallery"
 
 export default function VaraPlatser() {
-    return (
+  return (
+    <>
+    <section>
         <div>
-            
-            
-        </div>
-    )
+        <GallerySection/>
+        </div>         
+    </section>   
+    </>
+  );
 }
