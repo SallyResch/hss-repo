@@ -1,10 +1,12 @@
 import HeroSection from "@/components/HeroSection"
 import heroImage from "@/public/IMG_0085.png"
-import MemberCard from "@/components/MemberCard"
+import MemberCard from "@/components/QuickAccessCard"
 import { quickAccessData, rutinItemData } from "@/data/members"
 import ArrowForwardOutlined from "@mui/icons-material/ArrowForwardOutlined"
 import TextSnippetOutlinedIcon from '@mui/icons-material/TextSnippetOutlined';
 import Button from "@/components/Button"
+import QuickAccessCard from "@/components/QuickAccessCard"
+import RutinCard from "@/components/RutinCard"
 export default function Medlemmar() {
     return (
         <div>
@@ -19,32 +21,32 @@ export default function Medlemmar() {
             {/*Snabb åtkomst*/}
             <div className="w-full max-w-7xl mx-auto px-4 py-8 space-y-12">
                 <div>
-                    <h2 className="text-2xl font-bold mb-4">Snabb Åtkomst</h2>
+                    <h2 className="text-2xl font-bold mb-4 text-hss-mediumblue">Snabb Åtkomst</h2>
                     <div className="flex flex-col md:flex-row gap-4">
                         {quickAccessData.map((card) => {
-                            return <MemberCard key={card.id} card={card} />
+                            return <QuickAccessCard key={card.id} card={card} />
                         })}
                     </div>
                 </div>
                 {/*Rutins*/}
                 <div>
-                    <h2 className="text-2xl font-bold mb-4">Våra Rutiner</h2>
+                    <h2 className="text-2xl font-bold mb-4 text-hss-mediumblue">Våra Rutiner</h2>
                     <div className="flex flex-col gap-4 wrap-break-word">
                         {rutinItemData.map((card) => {
-                            return <MemberCard key={card.id} card={card} />
+                            return <RutinCard key={card.id} card={card} />
                         })}
                     </div>
                 </div>
                 {/*Documents*/}
                 <div className="flex flex-col gap-6 justify-between">
                     <div className="flex flex-row justify-between mb-4 md:mb-0">
-                        <h2 className="text-2xl font-bold">Dokument</h2>
+                        <h2 className="text-2xl font-bold text-hss-mediumblue">Dokument</h2>
                         <div className="flex flex-row gap-2 cursor-pointer mt-2">
-                            <p>Visa alla dokument</p>
+                            <p className="text-hss-mediumblue">Visa alla dokument</p>
                             <ArrowForwardOutlined />
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row gap-4 flex-1">
+                    <div className="flex flex-col md:flex-row gap-4 flex-1 rounded-2xl">
                         <div>
                             <div className="flex flex-row gap-2">
                                 <TextSnippetOutlinedIcon />

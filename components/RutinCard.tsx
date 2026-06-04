@@ -3,10 +3,10 @@ import Image from "next/image"
 interface CardProps {
     card: QuickAccessItem;
 }
-export default function MemberCard({ card }: CardProps) {
+export default function RutinCard({ card }: CardProps) {
     const { title, description, topIcon: TopIcon, bottomIcon: BottomIcon } = card
     return (
-        <div className="border-2 border-hss-lightblue">
+        <div className="flex-1 bg-hss-white border border-gray-100">
             <div>
                 <div>
                     {TopIcon?.src ? (

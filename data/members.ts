@@ -1,7 +1,7 @@
 import { QuickAccessItem } from "@/types/memberTypes";
 import { ArrowForwardOutlined, ArticleOutlined, GroupsOutlined} from "@mui/icons-material";
 import BackpackOutlinedIcon from '@mui/icons-material/BackpackOutlined';
-import discordIcon from "@/public/discord-brands-solid.svg"
+import discordIcon from "@/public/discord-brands-solid -dark.svg"
 import speechbubble from "@/public/comment-dots-regular.svg"
 export const quickAccessData: QuickAccessItem[]=[
     {
