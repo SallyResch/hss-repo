@@ -6,18 +6,21 @@ interface CardProps {
 export default function MemberCard({ card }: CardProps) {
     const { title, description, topIcon: TopIcon, bottomIcon: BottomIcon } = card
     return (
-        <div>
+        <div className="border-2 border-hss-lightblue">
             <div>
-                {TopIcon?.src ? (
-                    <Image className="max-w-[50px]" src={TopIcon} alt="card icon" />
-                ) : (<TopIcon />)}
-
-                <h2>{title}</h2>
+                <div>
+                    {TopIcon?.src ? (
+                        <Image className="max-w-[50px]" src={TopIcon} alt="card icon" />
+                    ) : (<TopIcon />)}
+                </div>
+                <div>
+                    <h2>{title}</h2>
+                    <p>{description}</p>
+                </div>
             </div>
-            <p>{description}</p>
-            {BottomIcon?.src ? (
+            {BottomIcon && (BottomIcon.src ? (
                 <Image src={BottomIcon} alt="card icon" />
-            ) : (<BottomIcon />)}
+            ) : (<BottomIcon />))}
         </div>
     )
 }

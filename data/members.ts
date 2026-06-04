@@ -27,7 +27,7 @@ export const quickAccessData: QuickAccessItem[]=[
     }
 ]
 
-export const rutinItem: QuickAccessItem[]=[
+export const rutinItemData: QuickAccessItem[]=[
     {
         id:1,
         title:"Närvaro",
