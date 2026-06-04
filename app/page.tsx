@@ -12,6 +12,7 @@ import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
 import adultIcon from "./assets/adult.svg";
 import familyIcon from "./assets/family.jpg";
+import type { Metadata } from "next";
 
 export default function Home() {
   return (

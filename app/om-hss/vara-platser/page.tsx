@@ -3,7 +3,13 @@ import ScoutPlatserCard from "@/components/ScoutPlatserCard";
 import varaplasterhero from "@/public/varaplasterhero.png";
 import ruffenImage from "@/public/ruffen.png";
 import mysetImage from "@/public/myset.jpg";
+import type { Metadata } from "next"
 import HittaCards from "@/components/HittaCards";
+export const metadata: Metadata = {
+  title: "Våra platser",
+  description: "Sida för alla våra lokaler"
+}
+
 export default function VaraPlatser() {
   return (
     <>

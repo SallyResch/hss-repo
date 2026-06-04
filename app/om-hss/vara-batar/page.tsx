@@ -1,8 +1,14 @@
+import type { Metadata } from "next"
 import HeroSection from "@/components/HeroSection";
 import heroimg from "@/public/Wireframe.png";
 import BoatCard from "@/components/BoatCard";
 import { currentBoats } from "@/data/boatsData";
 import TextContentBlock from "@/components/TextContentBlock"
+
+export const metadata: Metadata = {
+    title: "Våra båtar",
+    description: "Sida för alla våra båtar"
+}
 
 
 export default function VaraBatarPage(){
