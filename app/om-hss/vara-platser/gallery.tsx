@@ -12,7 +12,7 @@ export default function GallerySection() {
   return (
     <section>
       <div className="mx-auto max-w-[1200px] px-6">
-        <div className="mb-8 flex items-center justify-between">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 ">
           <h2 className="flex items-center gap-3 font-semibold text-hss-mediumblue text-[32px]">
             〰️ Bilder från våra platser
           </h2>
@@ -28,7 +28,7 @@ export default function GallerySection() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
+        <div className="grid grid-col gap-6 md:grid-cols-4 pb-6">
           {images.map((image, index) => (
             <div key={index} className="overflow-hidden rounded-[20px]">
               <Image

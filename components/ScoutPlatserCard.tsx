@@ -38,8 +38,4 @@ const ScoutPlatserCard = ({imageUrl,title,description,isReverse}:scoutPlatserCar
   );
 };
 
-<<<<<<< HEAD
 export default ScoutPlatserCard;
-=======
-export default ScoutPlatserCard;
->>>>>>> feature/HSS-034D-Gallery

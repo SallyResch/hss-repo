@@ -86,10 +86,10 @@ export default function VaraPlatser() {
             </div>
           </div>
         </div>
-        <div>
-          <GallerySection />
-        </div>
       </section>
+      <div>
+          <GallerySection />
+      </div>
     </>
   );
 }
