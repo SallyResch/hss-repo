@@ -75,7 +75,9 @@ export default function Medlemmar() {
                 <div className="text-center bg-hss-mediumblue text-hss-white p-6 rounded-2xl">
                     <h2 className="text-2xl text-hss-yellow">Har du frågor?</h2>
                     <p className="p-3">Kontakta din avdelningsledare eller hör av dig till oss via kontaktsidan.</p>
-                    <Button variant="yellow" className="mt-3 cursor-pointer">Kontakta oss</Button>
+                    <a href="/kontakt">
+                        <Button variant="yellow" className="mt-3 cursor-pointer">Kontakta oss</Button>
+                    </a>
                 </div>
             </div>
         </div>
