@@ -1,17 +1,16 @@
 import HeroSection from "@/components/HeroSection";
 import { Card } from "../components/Card";
-import Button from "../components/Button";
 import heroimg from "../public/hero.jpg";
 import heromob from "../public/heromob.png";
 import HistorySection from "@/components/HistorySection";
 import SafetySection from "@/components/SafetySection";
 import InstagramCarousel from "@/components/InstagramCarousel";
+
 import kidIcon from "./assets/kid.svg";
 import kiddIcon from "./assets/kidd.svg";
 import teenIcon from "./assets/teen.svg";
 import adultIcon from "./assets/adult.svg";
 import familyIcon from "./assets/family.jpg";
-import type { Metadata } from "next";
 
 export default function Home() {
   return (
@@ -32,7 +31,6 @@ export default function Home() {
           <HistorySection />
         </div>
 
-        <div className="bg-hss-yellow py-12 px-4">
           <div className="bg-hss-yellow py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-[95rem] mx-auto">
               <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-[#0d335d] text-center">
@@ -77,7 +75,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
 
         <div>
           <SafetySection />

@@ -22,25 +22,26 @@ const HeroSection = ({
     <>
     
     <section className="relative w-full h-screen min-h-[600px]  mt-10 md:mt-10 ">
-      
-        {mobileImgUrl && (
-        <Image
+      {mobileImgUrl && (
+        <div className="block md:hidden">
+          <Image
           src={mobileImgUrl}
           alt="HSS Mobile Hero Image"
           fill
           priority
           className="object-cover object-bottom"
           sizes="100vw"
-        />
+          />
+        </div>
       )}
       {imageUrl && (
-        <div className="hidden md:block">
+        <div>
           <Image
-            src={imageUrl}
-            alt="HSS Hero Image"
-            fill
-            priority
-            className="object-cover object-bottom"
+          src={imageUrl}
+          alt="HSS Hero Image"
+          fill
+          priority
+          className="object-cover object-botttom" 
           />
         </div>
       )}
