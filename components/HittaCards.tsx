@@ -13,8 +13,9 @@ const HittaCards = ({
   parkeringDetails,
 }: hittacardsprops) => {
   return (
-  <section className="flex flex-col gap-[16px] p-[24px] rounded-[12px] w-full h-full bg-[#F8F9FA]">
-      <p className ="font-semibold text-2xl text-hss-mediumblue ">{cardTitle}</p>
+
+    <section className="flex flex-col gap-[16px] p-[24px] rounded-[12px] w-full h-full bg-[#F8F9FA]">
+      <p className="font-semibold text-2xl text-hss-mediumblue ">{cardTitle}</p>
       <div>
         <p className="font-semibold text-base text-hss-mediumblue mb-0">
           {address}
@@ -23,8 +24,6 @@ const HittaCards = ({
           {addressDeatils}
         </p>
       </div>
-   
-
       <div>
         <p className="font-semibold text-base text-hss-mediumblue mb-0">
           {coordinater}
@@ -43,7 +42,7 @@ const HittaCards = ({
       </div>
       <div>
         <Button
-          variant="outlined"         
+          variant="outlined"
           startIcon={<img src="/mapicon.jpg" width="30" />}
           endIcon={<LaunchIcon />}
           href={`https://www.google.com/maps/search/?api=1&query=${coordinaterDetails}`}
@@ -52,16 +51,16 @@ const HittaCards = ({
             mt: 2,
             width: "fit-content",
             borderRadius: "12px",
-            borderColor: "#FFC832", 
-            color: "#003057", 
+            borderColor: "#FFC832",
+            color: "#003057",
             borderWidth: "2px",
             fontWeight: "bold",
-            textTransform: "none", 
+            textTransform: "none",
             "&:hover": {
               borderWidth: "2px",
               borderColor: "#FFC832",
-                backgroundColor: "rgba(255, 200, 50, 0.1)",
-              color : "#FFC832"
+              backgroundColor: "rgba(255, 200, 50, 0.1)",
+              color: "#FFC832"
             },
           }}
         >
