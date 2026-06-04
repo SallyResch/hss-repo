@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Startsida-HSS",
-  description: "Hässelby",
+  title: "HSS | Startsida",
+  description: "Hässelby Strands Sjöscoutkår",
 };
 
 export default function RootLayout({

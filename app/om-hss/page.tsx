@@ -7,8 +7,8 @@ export default function OmHss({ }: Props) {
     return (
         <div>
           <HeroSection 
-          title="Bli Scout" 
-          description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn" 
+          title="Om HSS" 
+          description="Hässelby Strands Sjöscoutkår - En traditionsrik ideell ungdomsverksamhet sedan många år" 
           imageUrl={heroimg}
           mobileImgUrl={heroimg}
           showButtons={false}
