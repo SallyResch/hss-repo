@@ -17,7 +17,7 @@ export default function VaraPlatser() {
           variant="subpage"
         />
       </div>
-      <section className="flex flex-col mt-[64px] px-6 md:px-[150px] gap-[64px] ">
+      <section className="flex flex-col mt-[64px] px-6 md:px-full m-auto gap-[64px]  ">
         <div className="flex flex-col gap-[24px]">
           <p className="h-[39px] font-semibold text-hss-mediumblue text-[32px] ">
             〰️ Våra scoutplatser
