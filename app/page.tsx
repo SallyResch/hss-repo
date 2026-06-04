@@ -41,31 +41,31 @@ export default function Home() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 items-stretch">
                 <Card
-                  title="Småttarne/Familjescouter"
+                  title="Familjescouter"
                   age="5–7 år"
                   imageUrl={familyIcon.src}
                   description="I Småttarne upptäcker barn och vuxna scouting tillsammans genom lek, naturupplevelser och enklare friluftsäventyr. Här får familjer prova på scouting i lugn takt med fokus på gemenskap och upptäckarglädje."
                 />
 
                 <Card
-                  title="Sjöhumlor/Spårare"
+                  title="Spårare"
                   age="8-9 år"
                   imageUrl={kidIcon.src}
                   description="Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout 'miniorscout')"
                 />
 
                 <Card
-                  title="Kaparna/Upptäckare"
+                  title="Upptäckare"
                   age="10-11 år"
                   imageUrl={kiddIcon.src}
                   description="På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lära sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera."
                 />
 
                 <Card
-                  title="Konvojen/Äventyrare"
+                  title="Äventyrare"
                   age="12-14 år"
                   imageUrl={teenIcon.src}
-                  description="Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en kejäl vinterhajk då vi bor i tält."
+                  description="Här börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en kejäl vinterhajk då vi bor i tält."
                 />
 
                 <Card
@@ -78,7 +78,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-hss-mediumblue text-white">
+
+        <div>
           <SafetySection />
         </div>
 
