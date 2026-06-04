@@ -13,8 +13,12 @@ const HittaCards = ({
   parkeringDetails,
 }: hittacardsprops) => {
   return (
+<<<<<<< HEAD
 
     <section className="flex flex-col gap-[16px] p-[24px] rounded-[12px] w-full h-full bg-[#F8F9FA]">
+=======
+    <section className="flex flex-col gap-[16px] p-[12px] rounded-[12px] w-[482px] h-auto bg-[#F8F9FA]">
+>>>>>>> feature/HSS-034D-Gallery
       <p className="font-semibold text-2xl text-hss-mediumblue ">{cardTitle}</p>
       <div>
         <p className="font-semibold text-base text-hss-mediumblue mb-0">
@@ -24,8 +28,11 @@ const HittaCards = ({
           {addressDeatils}
         </p>
       </div>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> feature/HSS-034D-Gallery
       <div>
         <p className="font-semibold text-base text-hss-mediumblue mb-0">
           {coordinater}
@@ -44,7 +51,11 @@ const HittaCards = ({
       </div>
       <div>
         <Button
+<<<<<<< HEAD
           variant="outlined"
+=======
+          variant="outlined"         
+>>>>>>> feature/HSS-034D-Gallery
           startIcon={<img src="/mapicon.jpg" width="30" />}
           endIcon={<LaunchIcon />}
           href={`https://www.google.com/maps/search/?api=1&query=${coordinaterDetails}`}
@@ -53,6 +64,7 @@ const HittaCards = ({
             mt: 2,
             width: "fit-content",
             borderRadius: "12px",
+<<<<<<< HEAD
             borderColor: "#FFC832",
             color: "#003057",
             borderWidth: "2px",
@@ -63,6 +75,18 @@ const HittaCards = ({
               borderColor: "#FFC832",
               backgroundColor: "rgba(255, 200, 50, 0.1)",
               color: "#FFC832"
+=======
+            borderColor: "#FFC832", 
+            color: "#003057", 
+            borderWidth: "2px",
+            fontWeight: "bold",
+            textTransform: "none", 
+            "&:hover": {
+              borderWidth: "2px",
+              borderColor: "#FFC832",
+                backgroundColor: "rgba(255, 200, 50, 0.1)",
+              color : "#FFC832"
+>>>>>>> feature/HSS-034D-Gallery
             },
           }}
         >
@@ -73,4 +97,8 @@ const HittaCards = ({
   );
 };
 
+<<<<<<< HEAD
 export default HittaCards;
+=======
+export default HittaCards;
+>>>>>>> feature/HSS-034D-Gallery

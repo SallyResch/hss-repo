@@ -3,12 +3,14 @@ import ScoutPlatserCard from "@/components/ScoutPlatserCard";
 import varaplasterhero from "@/public/varaplasterhero.png";
 import ruffenImage from "@/public/ruffen.png";
 import mysetImage from "@/public/myset.jpg";
-import type { Metadata } from "next"
+import type { Metadata } from "next";
 import HittaCards from "@/components/HittaCards";
+import GallerySection from "@/app/om-hss/vara-platser/gallery";
+
 export const metadata: Metadata = {
   title: "Våra platser",
-  description: "Sida för alla våra lokaler"
-}
+  description: "Sida för alla våra lokaler",
+};
 
 export default function VaraPlatser() {
   return (
@@ -33,7 +35,7 @@ export default function VaraPlatser() {
             skapar minnen.
           </p>
         </div>
-        <div >
+        <div>
           <ScoutPlatserCard
             imageUrl={ruffenImage}
             title="Ruffen"
@@ -50,44 +52,43 @@ export default function VaraPlatser() {
           />
         </div>
         <div className="flex flex-col gap-[40px] lg:w-[1000px] p-2.5">
-         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 ">
-          <p className="font-semibold text-hss-mediumblue text-[32px] leading-tight">
-            〰️ Hitta hit
-          </p>
-          <p className="font-normal text-hss-mediumblue text-[16px] lg:text-right">
-            Så här hittar du till våra platser
-          </p>
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 ">
+            <p className="font-semibold text-hss-mediumblue text-[32px] leading-tight">
+              〰️ Hitta hit
+            </p>
+            <p className="font-normal text-hss-mediumblue text-[16px] lg:text-right">
+              Så här hittar du till våra platser
+            </p>
           </div>
           <div className="flex flex-col lg:flex-row  gap-[40px] mb-[10px] w-full">
-    
-          <div className="lg:flex-1"> 
-            <HittaCards 
-              cardTitle="📍 Ruffen"
-              address="Adress:"
-              addressDeatils="Ruffenvägen 1, 165 55 Hässelby"
-              coordinater="Koordinater:"
-              coordinaterDetails={`N 59°22'10", E 17°48'20"`}
-              parkering="Parkering:"
-              parkeringDetails="Följ skyltning till grusparkeringen"
-            />
-          </div>
+            <div className="lg:flex-1">
+              <HittaCards
+                cardTitle="📍 Ruffen"
+                address="Adress:"
+                addressDeatils="Ruffenvägen 1, 165 55 Hässelby"
+                coordinater="Koordinater:"
+                coordinaterDetails={`N 59°22'10", E 17°48'20"`}
+                parkering="Parkering:"
+                parkeringDetails="Följ skyltning till grusparkeringen"
+              />
+            </div>
 
-          <div className="lg:flex-1"> 
-            <HittaCards 
-              cardTitle="📍 Myset"
-              address="Adress:"
-              addressDeatils="Mysetvägen 2, 165 55 Hässelby"
-              coordinater="Koordinater:"
-              coordinaterDetails={`N 59°22'10", E 17°48'20"`}
-              parkering="Parkering:"
-              parkeringDetails="Följ skyltning till grusparkeringen"
-            />
+            <div className="lg:flex-1">
+              <HittaCards
+                cardTitle="📍 Myset"
+                address="Adress:"
+                addressDeatils="Mysetvägen 2, 165 55 Hässelby"
+                coordinater="Koordinater:"
+                coordinaterDetails={`N 59°22'10", E 17°48'20"`}
+                parkering="Parkering:"
+                parkeringDetails="Följ skyltning till grusparkeringen"
+              />
+            </div>
           </div>
-          </div>
-
-          </div>
-        
-       
+        </div>
+        <div>
+          <GallerySection />
+        </div>
       </section>
     </>
   );
