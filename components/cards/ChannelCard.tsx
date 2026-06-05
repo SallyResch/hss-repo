@@ -8,14 +8,12 @@ export default function ChannelCard({
     description,
     linkText,
     linkHref,
-    showDefaultArrow = true,
 }: {
     icon:React.ReactNode;
     title:string;
     description:React.ReactNode;
     linkText:string;
     linkHref:string;
-    showDefaultArrow?: boolean;
 }){
     return(
         <div className="flex flex-row gap-5 p-8 bg-hss-bggrey rounded-xl w-full h-full 
@@ -35,7 +33,7 @@ export default function ChannelCard({
                     <a href={linkHref}
                     className="mt-auto text-hss-mediumblue font-semibold flex items-center gap-2 hover:opacity-70 transition-opacity w-fit"
                     >
-                        {linkText} {showDefaultArrow && <ArrowForwardOutlinedIcon fontSize="small" />}
+                        {linkText} <ArrowForwardOutlinedIcon fontSize="small" />
                     </a>
                 )}
             </div>
