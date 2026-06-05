@@ -44,7 +44,7 @@ export default function KontaktPage(){
 
             <ListCard
             icon={<SailingOutlinedIcon/>}
-            title="jöansvarig"
+            title="Sjöansvarig"
             description="Ansvarar för sjösäkerhet, båtar och att vi följer våra sjövärdiga rutiner."
             />
 
@@ -66,7 +66,7 @@ export default function KontaktPage(){
         <section>
           <SectionHeader
           title="〰 Hur du hör av dig"
-          subtitle="et finns flera sätt att komma i kontakt med oss. Välj det som passar dig bäst!"
+          subtitle="Det finns flera sätt att komma i kontakt med oss. Välj det som passar dig bäst!"
           />
          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
@@ -75,7 +75,7 @@ export default function KontaktPage(){
             title="E-post"
             description={
               <>
-              Skicka ett mejl till oss så svarar vi så snart vi kan.
+              Skicka ett mejl till oss så svarar vi så snart vi kan.<br /><br />
               <span className="font-bold text-hss-mediumblue">info@hss.scout.se</span>         
               </>
             }
@@ -96,12 +96,17 @@ export default function KontaktPage(){
             title="Besök oss"
             description="Vi finns vid Hässelby Strands båthamn. Hitta hit via kartan."
             linkText="Hitta hit"
-            linkHref="/vara-platser"
+            linkHref="https://www.google.com/maps/search/?api=1&query=N%2059%C2%B022%2710%22,%20E%2017%C2%B048%2720%22"
             />
           </div>    
         </section>   
       </div>
-      <BottomText />
+      <BottomText
+      title="Har du fler frågor?"
+      subtitle="Tveka inte att höra av dig – vi hjälper dig gärna!"
+      buttonText="Kontakta oss"
+      buttonHref="mailto:info@hss.scout.se"
+      />
 
     </main>
 
