@@ -11,11 +11,6 @@ import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined"
 import FlagOutlinedIcon from "@mui/icons-material/FlagOutlined"
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined"
 import SailingOutlinedIcon from "@mui/icons-material/SailingOutlined"
-import PersonOutlineOutlined from "@mui/icons-material/PersonOutlineOutlined"
-import MailOutlineOutlined from "@mui/icons-material/MailOutlineOutlined"
-
-
-
 
 
 export default function KontaktPage(){
@@ -28,13 +23,12 @@ export default function KontaktPage(){
       imageUrl={heroimg}
       />
 
-      <div className="max-w-[1000px] mx-auto w-full px-6 py-12 flex flex-col gap-12">
+      <div className="max-w-[1000px] mx-auto w-full px-6 py-12 flex flex-col gap-24">
         <section>
           <SectionHeader
           title="〰 Roller i kåren"
           subtitle="Här är några av de roller som finns i vår kår och vad de ansvarar för."
-           />
-    
+           />    
           <div className="flex flex-col gap-4 w-full max-w-[1000px]">
             <ListCard
             icon={<FlagOutlinedIcon />}
@@ -79,8 +73,13 @@ export default function KontaktPage(){
             <ChannelCard
             icon={<MailOutlineOutlinedIcon fontSize="large" />}
             title="E-post"
-            description="Skicka ett mejl till oss så svarar vi så snart vi kan."
-            linkText="info@hss.scout.se"
+            description={
+              <>
+              Skicka ett mejl till oss så svarar vi så snart vi kan.
+              <span className="font-bold text-hss-mediumblue">info@hss.scout.se</span>         
+              </>
+            }
+            linkText="Kontakta oss"
             linkHref="mailto:info@hss.scout.se" 
             />
 
