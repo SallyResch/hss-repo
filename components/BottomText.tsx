@@ -16,11 +16,13 @@ export default function BottomText({
     buttonHref = "https://www.scoutnet.se/register/in/group/764"
 }: BottomTextProps){
     return(
-        <div className="w-full max-w-[1000px] mx-auto bg-hss-mediumblue py-6 px-6 flex flex-col items-center justify-center justify-center text-center mt-16 mb-24 rounded-xl">
-            <h2 className="text-hss-yellow text-1xl md:text-3xl font-medium mb-4">
+        <section className="w-full px-6 py-12 md:px-20 md:py-16">
+
+          <div className="w-full max-w-[1000px] mx-auto bg-hss-mediumblue py-6 px-6 flex flex-col items-center justify-center justify-center text-center mt-16 mb-16 rounded-xl">
+            <h2 className="text-hss-yellow text-xl md:text-3xl font-medium mb-2">
                 {title}
             </h2>
-            <p className="text-white text-lg md:text-sm mb-8">
+            <p className="text-white text-base md:text-lg mb-6">
                 {subtitle}
             </p>           
 
@@ -33,7 +35,8 @@ export default function BottomText({
                     {buttonText}
                 </Button>               
             </Link>           
-        </div>  
+          </div>
+        </section>
     )
 }
 
