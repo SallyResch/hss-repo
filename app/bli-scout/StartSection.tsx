@@ -6,12 +6,10 @@ import Button from "@/components/Button";
 const StartSection = () => {
   return (
     <section className="w-full px-6 py-16 md:px-20">
-
-      <h2 className="mb-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
+      <h3 className="mb-14 text-center font-montserrat font-semibold text-[32px] text-hss-mediumblue ">
         Såhär börjar du
-      </h2>
+      </h3>
 
-  
       <div className="relative mx-auto mb-14 hidden max-w-5xl md:block">
         <div className="absolute top-1/2 left-[5%] right-[5%] -translate-y-1/2">
           <BlueWaveLine />
@@ -58,28 +56,28 @@ const StartSection = () => {
       </div>
 
       <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-3 md:items-stretch">
-  
-        <div className="flex h-full flex-col items-start">
+          <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-3xl font-semibold text-hss-mediumblue">
             Anmäl intresse
           </h3>
 
           <p className="mb-10 text-lg leading-relaxed text-hss-mediumblue">
-            Anmäl intresse genom att klicka på länken och fylla i uppgifterna
-            på dig eller ditt barn. Detta skickas vidare direkt till vårat
+            Anmäl intresse genom att klicka på länken och fylla i uppgifterna på
+            dig eller ditt barn. Detta skickas vidare direkt till vårat
             medlemsregister
           </p>
 
           <div className="mt-auto">
-            <Link href="https://www.scoutnet.se/register/in/group/764" target="_blank" rel="noopener noreferrer">
-              <Button variant="yellow">
-                Anmäl intresse
-              </Button>
+            <Link
+              href="https://www.scoutnet.se/register/in/group/764"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="yellow">Anmäl intresse</Button>
             </Link>
           </div>
         </div>
 
-  
         <div className="flex h-full flex-col items-start">
           <h3 className="mb-4 text-3xl font-semibold text-hss-mediumblue">
             Vi kontaktar dig
@@ -97,16 +95,18 @@ const StartSection = () => {
           </h3>
 
           <p className="mb-10 text-lg leading-relaxed text-hss-mediumblue">
-            Om det är väntelista kanske det dyker upp någon prova på dag.
-            Håll utkik!
+            Om det är väntelista kanske det dyker upp någon prova på dag. Håll
+            utkik!
           </p>
 
-          <div className="mt-auto">
-           <Link href="https://www.youtube.com/watch?v=_mMZJK1iWYY" target="_blank" rel="noopener noreferrer">
-              <Button variant="blue">
-              Se filmen “Jag är scout”
-             </Button>
-            </Link>
+          <div className="mt-auto w-full">
+            <iframe
+              className="aspect-video w-full rounded-lg"
+              src="https://www.youtube.com/embed/_mMZJK1iWYY"
+              title="Jag är scout"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
       </div>

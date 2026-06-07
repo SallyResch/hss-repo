@@ -33,9 +33,9 @@ export default function BliScout({ }) {
       <div className="w-full  flex flex-col items-center">
 
 
-        <p className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[69px] font-montserrat font-semibold text-[32px]  text-center align-middle">
+        <h2 className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[69px] font-montserrat font-semibold text-[32px]  text-center align-middle text-hss-mediumblue">
           Varför Scouting?
-        </p>
+        </h2>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[1200px] px-4 md:px-20 py-10 justify-items-center">
           <ScoutingCards
             imageUrl={adventureImg}

@@ -22,7 +22,7 @@ const ScoutingCards = ({imageUrl,title,description,color} : scoutingDeatils) => 
         <p className="font-montserrat font-semibold text-[24px] ">
           {title}
         </p>
-        <p className="font-montserrat font-medium text-[12px]">
+        <p className="font-montserrat font-medium text-[15px]">
           {description}
         </p>
       </div>
