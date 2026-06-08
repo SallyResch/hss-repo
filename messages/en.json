@@ -22,7 +22,7 @@
     "cardAventyrare": {
       "age": "12-14 years",
       "desc": "Here sailing begins in earnest and it opens up in the archipelago during the summer. When we are not sailing, we practice navigation and also engage in traditional landscape scouting activities. In winter, when it is coldest, we have a proper winter hike where we stay in tents.",
-      "title": "The Convoy/Adventurer"
+      "title": "Adventurer"
     },
     "cardFamily": {
       "desc": "In Småttarne, children and adults discover scouting together through play, nature experiences, and simple outdoor adventures. Here, families can try scouting at a relaxed pace with a focus on community and the joy of discovery.",
@@ -31,12 +31,12 @@
     "cardSparare": {
       "age": "8-9 years",
       "desc": "At the age of 8, one can start in HSS, i.e., when starting in grade 2. One then becomes a Trail Scout and a member of the department Sjöhumlorna. (Previously, the Trail Scout was called 'miniorscout')",
-      "title": "Sea bumblebees/Trackers"
+      "title": "Tracker"
     },
     "cardUpptackare": {
       "age": "10-11 years",
       "desc": "At Kaparna, the difficulty level of the tasks increases. The scouts learn to sail an optimist and get to try sailing a 2-krona and a keelboat. A fully trained explorer scout can, among other things, handle a knife, start a fire, and extinguish small fires, among other things.",
-      "title": "The Raiders/Explorers"
+      "title": "Explorer"
     },
     "cardUtmanare": {
       "age": "15+ years",
