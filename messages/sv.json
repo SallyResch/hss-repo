@@ -21,7 +21,7 @@
     "btnShowInterest": "Anmäl intresse",
     "cardAventyrare": {
       "age": "12-14 år",
-      "desc": "Här börjar seglingen på allvar och det åbr ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält.",
+      "desc": "Här börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält.",
       "title": "Äventyrare"
     },
     "cardFamily": {
@@ -30,12 +30,12 @@
     },
     "cardSparare": {
       "age": "8-9 år",
-      "desc": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”)",
+      "desc": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna/Spårare. (Tidigare hette spårarscout ”miniorscout”)",
       "title": "Spårare"
     },
     "cardUpptackare": {
       "age": "10-11 år",
-      "desc": "På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lä sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera.",
+      "desc": "På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lär sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera.",
       "title": "Upptäckare"
     },
     "cardUtmanare": {
@@ -46,7 +46,7 @@
     "departmentsTitle": " Våra avdelningar",
     "heroDesc": "Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar",
     "heroTitle": "Välkommen till",
-    "safetyCardText1": "Scouterna ska vara una trygg plats där du kan utforska och utmanas på dina villkor. Därför jobbar vi med",
+    "safetyCardText1": "Scouterna ska vara en trygg plats där du kan utforska och utmanas på dina villkor. Därför jobbar vi med",
     "safetyCardText2": "Trygga Möten",
     "safetyCardText3": "Målet är att Scouterna ska vara fritt från kränkningar och övergrepp i alla former.",
     "safetyCardTitle": "Äventyra i en trygg miljö",
@@ -56,9 +56,9 @@
   "nav": {
     "aboutHss": "Om HSS",
     "becomeScout": "Bli Scout",
+    "btnMember": "Bli Medlem",
     "contact": "Kontakt",
     "departments": "Avdelningar",
-    "documents": "Dokument",
     "membersInfo": "För medlemmar/Praktisk info",
     "ourBoats": "Våra båtar",
     "ourLocations": "Våra platser"

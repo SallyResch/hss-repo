@@ -6,7 +6,7 @@
     "becomeScoutNow": "Become a Scout now",
     "contactUs": "Contact us",
     "emailLabel": "Email:",
-    "followUsTitle": "Follow us in our feeds",
+    "followUsTitle": "Follow us",
     "orgName": "Hässelby Strand Sea Scout Corps",
     "stayUpdated": "Keep an eye on the latest"
   },
@@ -21,7 +21,7 @@
     "btnShowInterest": "Express interest",
     "cardAventyrare": {
       "age": "12-14 years",
-      "desc": "Here sailing begins in earnest and it opens up in the archipelago during the summer. When we are not sailing, we practice navigation and also engage in traditional landscape scouting activities. In winter, when it is coldest, we have a proper winter hike where we stay in tents.",
+      "desc": "Here the sailing begins in earnest and we head out into the archipelago in the summer. When we are not sailing, we practice navigation and also engage in traditional landscape scouting activities. In winter, when it is coldest, we have a proper winter hike where we stay in tents.",
       "title": "Adventurer"
     },
     "cardFamily": {
@@ -30,7 +30,7 @@
     },
     "cardSparare": {
       "age": "8-9 years",
-      "desc": "At the age of 8, one can start in HSS, i.e., when starting in grade 2. One then becomes a Trail Scout and a member of the department Sjöhumlorna. (Previously, the Trail Scout was called 'miniorscout')",
+      "desc": "At the age of 8, one can start in HSS, i.e., when starting in grade 2. One then becomes a Tracker Scout and a member of the department Sjöhumlorna/Spårare. (Previously, the Tracker Scout was called 'miniorscout')",
       "title": "Tracker"
     },
     "cardUpptackare": {
@@ -44,7 +44,7 @@
       "title": "Challenger"
     },
     "departmentsTitle": "Our departments",
-    "heroDesc": "Here awaits the Adventure. No matter who you are or where you come from, there is an adventure waiting.",
+    "heroDesc": "The Adventure. No matter who you are or where you come from, there is an adventure waiting.",
     "heroTitle": "Welcome to",
     "safetyCardText1": "The Scouts should be a safe place where you can explore and be challenged on your own terms. That is why we work with",
     "safetyCardText2": "Safe Meetings",
@@ -56,11 +56,11 @@
   "nav": {
     "aboutHss": "About HSS",
     "becomeScout": "Become a Scout",
+    "btnMember": "Become a Member",
     "contact": "Contact",
     "departments": "Departments",
-    "documents": "Document",
     "membersInfo": "For members/Practical info",
     "ourBoats": "Our boats",
-    "ourLocations": "Our places"
+    "ourLocations": "Our locations"
   }
 }

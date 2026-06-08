@@ -8,6 +8,7 @@ import DropDown from './DropDown';
 import DesktopNavItem from './DesktopNavItem';
 import { useClickOutside } from '@/hooks/useClickOutside';
 import Link from 'next/link';
+
 export default function HssNav({ items = hssNavItems }: NavProps) {
   const t = useTranslations('nav')
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
@@ -48,7 +49,7 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
         {translatedItems.map((item) => (
           <DesktopNavItem key={item.path} item={item} />
         ))}
-        <Link target="_blank" rel="noopener noreferrer" href="https://www.scoutnet.se/register/in/group/764" className='bg-hss-yellow text-hss-darkblue font-bold rounded-md py-[10px] px-[12px] mr-7'>Bli Medlem</Link>
+        <Link target="_blank" rel="noopener noreferrer" href="https://www.scoutnet.se/register/in/group/764" className='bg-hss-yellow text-hss-darkblue font-bold rounded-md py-[10px] px-[12px] mr-7'>{t('btnMember')}</Link>
       </nav>
 
       {/*Hamburger menu button visible under 1024px in width*/}
