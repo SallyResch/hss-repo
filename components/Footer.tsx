@@ -1,6 +1,9 @@
 import { useTranslations } from 'next-intl'
 import Link from "next/link";
 import React from "react";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -40,27 +43,33 @@ export default function Footer() {
           </h3>
           <p>{t('stayUpdated')}</p>
 
-          <div className="flex gap-6 text-lg font-bold text-hss-scout-darkblue mt-2">
+          <div className="flex gap-6 text-hss-scout-darkblue mt-2">
             <a
-              href="#"
+              href="https://www.instagram.com/hasselbystrandssjoscoutkar/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="hover:text-hss-yellow transition-colors"
             >
-              IG
+              <InstagramIcon fontSize="large" />
             </a>
             <a
-              href="#"
-              aria-label="Twitter"
+              href="https://www.youtube.com/watch?v=_mMZJK1iWYY"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
               className="hover:text-hss-yellow transition-colors"
             >
-              TW
+              <YouTubeIcon fontSize="large" />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/hasselbystrandssjoscoutkar"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Facebook"
               className="hover:text-hss-yellow transition-colors"
             >
-              FB
+              <FacebookIcon fontSize="large" />
             </a>
           </div>
 
