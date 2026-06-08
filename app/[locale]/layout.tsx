@@ -5,6 +5,7 @@ import HssHeader from "@/components/HssHeader";
 import ScoutHeader from "@/components/ScoutHeader";
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 
@@ -39,10 +40,12 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
 }
+
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -54,9 +57,10 @@ export default async function RootLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+  setRequestLocale(locale);
   return (
     <html
-      lang="en"
+      lang={locale}
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <body className="min-h-full flex flex-col">
