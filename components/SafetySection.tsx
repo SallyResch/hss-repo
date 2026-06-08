@@ -22,14 +22,12 @@ export default function SafetySection() {
 
         <div className="relative md:absolute md:top-12 left-0 md:left-20 mx-4 my-6 md:mx-0 md:my-0 max-w-full md:max-w-[420px] bg-white p-6 sm:p-10 rounded-[24px] md:rounded-[32px] shadow-xl shadow-black/5 md:shadow-black/10 z-10">
           <h3 className="text-2xl sm:text-3xl font-bold text-[#0d335d] mb-4 sm:mb-5 leading-tight tracking-tight">
-            Äventyra i en trygg miljö
+            {t('safetyCardTitle')}
           </h3>
           <p className="text-sm sm:text-[15px] text-gray-700 leading-relaxed font-normal">
-            Scouterna ska vara una trygg plats där du kan utforska och utmanas
-            på dina villkor. Därför jobbar vi med{" "}
-            <span className="font-bold text-[#0d335d]">Trygga Möten</span>.
-            Målet är att Scouterna ska vara fritt från kränkningar och övergrepp
-            i alla former.
+            {t('safetyCardText1')}{" "}
+            <span className="font-bold text-[#0d335d]">{t('safetyCardText2')}</span>.
+            {t('safetyCardText3')}
           </p>
         </div>
       </div>
