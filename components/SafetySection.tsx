@@ -50,7 +50,7 @@ export default function SafetySection() {
                 rel="noopener noreferrer"
                 className="leading-snug block hover:underline"
               >
-                Trygga möten utbildning
+                {t('safetyEducation')}
               </a>
             </div>
             <div className="transition-transform cursor-pointer hover:translate-x-1 py-1">
@@ -60,7 +60,7 @@ export default function SafetySection() {
                 rel="noopener noreferrer"
                 className="leading-snug block hover:underline"
               >
-                Råd och stöd - när något
+                {t('safetyAdviceSupport')}
               </a>
             </div>
             <div className="transition-transform cursor-pointer hover:translate-x-1 py-1">
