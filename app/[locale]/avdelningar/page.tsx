@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import ScoutGroupSection from "@/app/avdelningar/Department";
+import ScoutGroupSection from "@/app/[locale]/avdelningar/Department";
 import FindUrDept from "./findurdept";
 import { Metadata } from "next";
 
@@ -32,7 +32,7 @@ export default function Avdelningar() {
         ))}
       </main>
       <section>
-        <FindUrDept/>
+        <FindUrDept />
       </section>
     </>
   );

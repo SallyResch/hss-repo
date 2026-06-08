@@ -10,8 +10,8 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import StartSection from "./StartSection";
 import TextSection from '@/components/TextSection'
-import VanligaFragor from '@/app/bli-scout/FAQSection'
-import ClothingSection from '@/app/bli-scout/ClothingSection'
+import VanligaFragor from '@/app/[locale]/bli-scout/FAQSection'
+import ClothingSection from '@/app/[locale]/bli-scout/ClothingSection'
 
 export const metadata: Metadata = {
   title: "Bli Scout",
