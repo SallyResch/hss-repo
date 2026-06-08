@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import ScoutGroupSection from "@/app/avdelningar/Department";
+import ScoutGroupSection from "./Department";
 import FindUrDept from "./findurdept";
 import { Metadata } from "next";
 
