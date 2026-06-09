@@ -54,7 +54,7 @@ export default function VaraBatarPage(){
         </section> 
 
         <PreviousBoatsSection />
-        <BottomText />
+        <BottomText showSubtitle={false} />
         </main>
     )
 }

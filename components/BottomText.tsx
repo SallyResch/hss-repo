@@ -20,7 +20,7 @@ export default function BottomText({
         <section className="w-full max-w-[1000px] mx-auto px-6 pb-12 md:pb-16">
 
           <div className="w-full bg-hss-mediumblue py-12 md:py-16 px-6 md:px-8 flex flex-col items-center justify-center mb-16 rounded-xl">
-            <h2 className="text-hss-yellow text-xl md:text-3xl font-medium mb-2">
+            <h2 className={`text-hss-yellow text-xl md:text-3xl font-medium ${showSubtitle && subtitle ? 'mb-2' : 'mb-8'} mb-2`}>
                 {title}
             </h2>
             {showSubtitle && subtitle && (
