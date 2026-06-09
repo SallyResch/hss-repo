@@ -39,15 +39,13 @@ export default function VaraPlatser() {
           <ScoutPlatserCard
             imageUrl={ruffenImage}
             title="Ruffen"
-            description=" Ruffen ligger vid Mälaren och är vår egna stuga. Här har vi brygga,
-            båtplats och gott om utrymme för aktiviteter och läger."
+            description=" Parkera vid Hässelby Strand Centrum (Maltesholmsvägen), sedan ca 5 min promenad till stranden."
             isReverse={false}
           />
           <ScoutPlatserCard
             imageUrl={mysetImage}
             title="Myset"
-            description=" Ruffen ligger vid Mälaren och är vår egna stuga. Här har vi brygga,
-            båtplats och gott om utrymme för aktiviteter och läger."
+            description=" Närmaste parkering är vid Lövstaspåret, sedan ca 3,5 km promenad eller så kör du bil ända fram till stugdörren."
             isReverse={true}
           />
         </div>
