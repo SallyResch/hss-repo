@@ -262,7 +262,32 @@
     "btnContactUs": "Contact us"
   },
   "kontaktPage": {
-    "heroTitle": "Contact"
+    "heroTitle": "Contact",
+    "heroText": "Do you have questions about membership or our activities? Here is how you can get in touch with us.",
+    "sectionHeaderTitle1": "Roles within the Troupe",
+    "sectionSubTitle1": "Here are some of the roles within our scout troupe and what they are responsible for.",
+    "listCardTitle1": "Group Chairperson",
+    "listCardTitle2": "Troupe Leader",
+    "listCardTitle3": "Maritime Operations Officer",
+    "listCardTitle4": "Unit Leader",
+    "listCardTitle5": "Membership Coordinator",
+    "listCardDesc1": "Leads the board's work and has overall responsibility for the troupe.",
+    "listCardDesc2": "Has overall responsibility for the troupe's operations and leaders.",
+    "listCardDesc3": "Responsible for maritime safety, boats, and ensuring we follow our seaworthy routines.",
+    "listCardDesc4": "Leads the daily activities in the respective unit and supports scouts and leaders.",
+    "listCardDesc5": "Manages the membership registry, mailings, and questions regarding membership.",
+    "sectionHeaderTitle2": "How to Reach Out",
+    "sectionSubTitle2": "There are several ways to get in touch with us. Choose the one that suits you best!",
+    "channelCardTitle1": "Email",
+    "channelCardTitle2": "Via the Unit",
+    "channelCardTitle3": "Visit Us",
+    "channelCardDesc1": "Send us an email and we will reply as soon as we can.",
+    "channelCardDesc2": "Contact your unit leader directly – you can find contact details on the unit's page.",
+    "channelCardDesc3": "We are located at Hässelby Strand's boat harbor. Find your way here using the map.",
+    "channelCardLinkText1": "Contact us",
+    "channelCardLinkText2": "Find your way here",
+    "bottomTitle": "Do You Have More Questions?",
+    "bottomSubTitle": "Do not hesitate to reach out – we are happy to help!"
   },
   "footer": {
     "adventureDesc": "Together we can do more! The Scouts give children and youth from all parts of society the chance to experience adventures together and grow as individuals.",
