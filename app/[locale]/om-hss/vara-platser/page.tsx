@@ -5,7 +5,7 @@ import ruffenImage from "@/public/ruffen.png";
 import mysetImage from "@/public/myset.jpg";
 import type { Metadata } from "next";
 import HittaCards from "@/components/HittaCards";
-import GallerySection from "@/app/om-hss/vara-platser/gallery";
+import GallerySection from "@/app/[locale]/om-hss/vara-platser/gallery";
 
 export const metadata: Metadata = {
   title: "Våra platser",
@@ -88,7 +88,7 @@ export default function VaraPlatser() {
         </div>
       </section>
       <div>
-          <GallerySection />
+        <GallerySection />
       </div>
     </>
   );
