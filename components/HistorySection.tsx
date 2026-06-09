@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import mainImage from "@/public/Vad_ar_HSS1.jpg";
+import mainImage from "@/public/Vad_ar_HSS.jpg";
 import image1 from "@/public/poloroid1.png";
 import image2 from "@/public/poloroid2.jpg";
 import image3 from "@/public/poloroid3.jpg";
