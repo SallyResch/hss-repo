@@ -1,0 +1,116 @@
+{
+  "navigation": {
+    "aboutHss": "Om HSS",
+    "becomeScout": "Bli Scout",
+    "btnMember": "Bli Medlem",
+    "contact": "Kontakt",
+    "departments": "Avdelningar",
+    "membersInfo": "För medlemmar/Praktisk info",
+    "ourBoats": "Våra båtar",
+    "ourLocations": "Våra platser"
+  },
+  "homePage": {
+    "heroTitle": "Välkommen till",
+    "heroText": "Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar.",
+    "aboutTitle": "Vad är HSS",
+    "aboutDesc1": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv.",
+    "aboutDesc2": "Vi är religiöst och politiskt obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
+    "btnBecomeLeader": "Bli Ledare",
+    "btnBecomeScout": "Bli Scout",
+    "btnReadMore": "Läs mer",
+    "btnShowInterest": "Anmäl intresse",
+    "departmentsTitle": "Våra avdelningar",
+    "cardAventyrare": {
+      "age": "12-14 år",
+      "desc": "Här börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält.",
+      "title": "Äventyrare"
+    },
+    "cardFamily": {
+      "desc": "I Småttarne upptäcker barn och vuxna scouting tillsammans genom lek, naturupplevelser och enklare friluftsäventyr. Här får familjer prova på scouting i lugn takt med fokus på gemenskap och upptäckarglädje",
+      "title": "Familjescouting"
+    },
+    "cardSparare": {
+      "age": "8-9 år",
+      "desc": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna/Spårare. (Tidigare hette spårarscout ”miniorscout”)",
+      "title": "Spårare"
+    },
+    "cardUpptackare": {
+      "age": "10-11 år",
+      "desc": "På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lär sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera.",
+      "title": "Upptäckare"
+    },
+    "cardUtmanare": {
+      "age": "15+ år",
+      "desc": "När man kommer upp från äventyrarscouterna bildar man ett lag tillsammans med kullkamraterna. Sedan arbetar man mot att lära sig nya saker och anta svårare utmaningar för att öka sammanhållningen.",
+      "title": "Utmanare"
+    },
+    "safetyCardTitle": "Äventyra i en trygg miljö",
+    "safetyCardText1": "Scouterna ska vara en trygg plats där du kan utforska och utmanas på dina villkor. Därför jobbar vi med",
+    "safetyCardText2": "Trygga Möten",
+    "safetyCardText3": "Målet är att Scouterna ska vara fritt från kränkningar och övergrepp i alla former.",
+    "safetyTitle": "Trygghet/Säkerhet",
+    "safetyEducation": "Trygga möten utbildning",
+    "safetyAdviceSupport": "Råd och stöd - när något händer",
+    "safetyOperation": "Trygg verksamhet - Förebyggande",
+    "instagramTitle": "Senaste händelserna"
+  },
+  "bliScoutPage": {
+    "heroTitle": "Bli Scout",
+    "heroText": "Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn.",
+    "scoutingTitle": "Varför Scouting?",
+    "cardTitle1": "Äventyr",
+    "cardTitle2": "Natur",
+    "cardTitle3": "Utveckling",
+    "cardTitle4": "Gemenskap",
+    "startTitle": "Såhär börjar du",
+    "startStepTitle1": "Anmäl intresse",
+    "startStepDesc1": "Anmäl intresse genom att klicka på länken och fylla i uppgifterna på dig eller ditt barn. Detta skickas vidare direkt till vårat medlemsregister",
+    "startStepTitle2": "Vi kontaktar dig",
+    "startStepDesc2": "Vi hör av oss inom kort. Fält som är markerade med * är obligatoriska",
+    "startStepTitle3": "Prova på scouting",
+    "startStepDesc3": "Om det är väntelista kanske det dyker upp någon prova på dag. Håll utkik!",
+    "howItWorksTitle": "Hur fungerar verksamheten?",
+    "howItWorksDesc1": "Vi har möten en gång i veckan under terminstid. Mötena är cirka 2 timmar långa och varierar i innehåll. Förutom veckans möten arrangerar vi regelbundet hajker (övernattningar) och läger under helger och lov. Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen.",
+    "howItWorksDesc2": "Förutom veckans möten arrangerar vi regelbundet hajker (övernattningar) och läger under helger och lov. Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen.",
+    "howItWorksDesc3": "Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen.",
+    "needToKnowTitle": "Vad föräldrar behöver veta",
+    "needToKnowDesc1": "Som förälder är du alltid välkommen att delta i verksamheten. Vi uppskattar föräldraengagemang och många av våra aktiviteter kräver stöd från föräldrar.",
+    "needToKnowDesc2": "Alla våra ledare är utbildade i Trygga Möten och har registerutdrag. Vi arbetar aktivt för att skapa en trygg och inkluderande miljö för alla barn och unga.",
+    "needToKnowDesc3": "Kommunikation sker främst via e-post. Du kommer få information om hur du får tillgång till dessa kanaler efter registrering.",
+    "clothingTitle": "Kläder och utrustning",
+    "clothingSubTitle1": "Scoutskjorta:",
+    "clothingDesc1": "Alla scouter har en scoutskjorta som köps via Scoutshop. Skjortan används vid officiella tillfällen och har våra märken och insignier.",
+    "clothingSubTitle2": "Flytväst",
+    "clothingDesc2": "Eftersom vi är sjöscouter är flytväst obligatoriskt vid alla vattenaktiviteter. Kåren tillhandahåller flytvästar, men du är välkommen att ha en egen.",
+    "clothingSubTitle3": "Övrig utrustning",
+    "clothingDesc3": "För hajker och läger finns det packlistor som skickas ut i förväg. Grundläggande utomhuskläder och sovsäck är bra att ha.",
+    "questionsTitle": "Vanliga frågor",
+    "questionsSubTitle1": "Vilken ålder kan man börja?",
+    "questionsSubTitle2": "Vad kostar det?",
+    "questionsSubTitle3": "Måste man kunna simma?",
+    "questionsSubTitle4": "Hur vet jag om mitt barn fått plats?",
+    "questionsDesc1": "Man kan börja som scout hos oss vid 8 års ålder, när man går i årskurs 2.",
+    "questionsDesc2": "Det finns en årlig medlemsavgift som täcker basverksamheten. För läger och större aktiviteter tillkommer extra kostnader. Kontakta oss för aktuella priser.",
+    "questionsDesc3": "Det är bra om barnet kan simma, men det är inget krav. Vi använder alltid flytväst vid vattenaktiviteter.",
+    "questionsDesc4": "Vi kontaktar dig via e-post eller telefon så snart en plats blir tillgänglig. Vid hög efterfrågan kan det finnas väntelista."
+  },
+  "avdelningarPage": {
+    "heroTitle": "Våra Avdelningar"
+  },
+  "omHSSPage": {
+    "heroTitle": "Om HSS"
+  },
+  "kontaktPage": {
+    "heroTitle": "Kontakt"
+  },
+  "footer": {
+    "adventureDesc": "Tillsammans kan vi göra mer! Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer.",
+    "adventureTitle": "Äventyr och kompisar",
+    "becomeScoutNow": "Bli Scout nu",
+    "contactUs": "Kontakta oss",
+    "emailLabel": "E-post:",
+    "followUsTitle": "Följ oss i våra flöden",
+    "orgName": "Hässelby Strands Sjöscoutkår",
+    "stayUpdated": "Ha koll på det senaste"
+  }
+}
