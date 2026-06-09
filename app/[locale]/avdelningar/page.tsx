@@ -1,6 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import ScoutGroupSection from "@/app/[locale]/avdelningar/Department";
-import FindUrDept from "./findurdept";
+import BottomText  from "@/components/BottomText";
 import { Metadata } from "next";
 
 import heroimg from "@/public/Wireframe.png";
@@ -32,7 +32,11 @@ export default function Avdelningar() {
         ))}
       </main>
       <section>
-        <FindUrDept />
+        <BottomText
+        title="Hitta din avdelning"
+        subtitle="Är du redo att börja ditt scoutäventyr?"
+        buttonText="Anmäl intresse"
+         />
       </section>
     </>
   );
