@@ -58,8 +58,6 @@ export default function VaraBatarPage(){
 
         <PreviousBoatsSection />
         <BottomText />
-
-
         </main>
     )
 }

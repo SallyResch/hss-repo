@@ -15,6 +15,7 @@
   --hss-pink: #D60057;
   --hss-white: #ffffff;
   --hss-darkgrey: #2B2828;
+  --hss-bggrey: #F8F9FA;
 }
 
 @theme inline {
@@ -30,10 +31,11 @@
   --color-hss-yellow: var(--hss-yellow);
   --color-hss-white: var(--hss-white);
   --color-hss-darkgrey: var(--hss-darkgrey);
+  --color-hss-bggrey: var(--hss-bggrey);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root { 
     --background: #0a0a0a;
     --foreground: #ededed;
   }
