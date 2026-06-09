@@ -1,10 +1,10 @@
 import HeroSection from "@/components/HeroSection";
-import heroimg from "../../public/Wireframe.png";
+import heroimg from "@/public/Wireframe.png";
 import ScoutingCards from "@/components/ScoutingCards";
-import adventureImg from "../../public/adventure.png";
-import comraderyImg from "../../public/comradery.png";
-import developmentImg from "../../public/development.png";
-import natureImg from "../../public/nature.png";
+import adventureImg from "@/public/adventure.png";
+import comraderyImg from "@/public/comradery.png";
+import developmentImg from "@/public/development.png";
+import natureImg from "@/public/nature.png";
 import topWave from "../../public/Wave - Blue.png";
 import Image from "next/image";
 import type { Metadata } from "next";
