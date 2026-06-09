@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import mainImage from "@/public/image 16.png";
+import mainImage from "@/public/Vad_ar_HSS1.jpg";
 import image1 from "@/public/poloroid1.png";
 import image2 from "@/public/poloroid2.jpg";
 import image3 from "@/public/poloroid3.jpg";
@@ -50,24 +50,26 @@ export default function HistorySection() {
         src={image4}
         alt="Scout activity"
         rotation="-rotate-12"
-        className="right-[100px] top-[380px]"
+        className="right-[60px] top-[380px]"
       />
 
       <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center px-5">
         <h1 className="mb-8 text-center font-montserrat text-2xl font-semibold text-hss-mediumblue md:text-[28px] lg:mb-14 lg:text-[32px]">
           Vad är HSS
         </h1>
-
-        <div className="mb-8 w-full max-w-[420px] md:max-w-[480px] lg:mb-12 lg:max-w-[639px]">
-          <Image
-            src={mainImage}
-            alt="HSS scouts"
-            priority
-            style={{ width: "100%", height: "auto" }}
-            className="rounded-bl-[20px] rounded-br-[20px] border-l border-t border-hss-mediumblue object-cover shadow-xl"
-          />
-        </div>
-
+           
+<div className="mb-8 w-full max-w-[420px] md:max-w-[480px] lg:mb-12 lg:max-w-[639px]">
+  <div className="relative h-[220px] md:h-[260px] lg:h-[300px] w-full">
+    <Image
+      src={mainImage}
+      alt="HSS scouts"
+      fill
+      priority
+      className="rounded-xl object-cover object-center shadow-lg"
+      sizes="(max-width: 768px) 420px, (max-width: 1024px) 480px, 639px"
+    />
+  </div>
+</div>
         <div className="max-w-[420px] space-y-5 text-hss-mediumblue md:max-w-[480px] lg:max-w-[639px] lg:space-y-8">
           <p className="font-montserrat text-base leading-relaxed sm:text-lg lg:text-[22px]">
             Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
