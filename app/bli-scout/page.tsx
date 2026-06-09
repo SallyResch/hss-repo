@@ -73,8 +73,9 @@ export default function BliScout({}) {
         </div>
       </section>
 
+
       <div>
-        <StartSection />
+        <StartSection /> 
         <TextSection
           title="Hur fungerar verksamheten?"
           paragraphs={[
