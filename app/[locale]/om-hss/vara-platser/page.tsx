@@ -28,7 +28,7 @@ export default function VaraPlatser() {
       <section className="flex flex-col mt-[64px] px-6 md:px-full m-auto gap-[64px]  ">
         <div className="flex flex-col gap-[24px] text-center item-center">
           <p className="h-[39px] font-semibold text-hss-mediumblue text-[32px] ">
-            Våra scoutplatser
+            Våra mötesplatser
           </p>
           <p className="font-normal text-hss-mediumblue text-[16px] ">
             Vi har två fantastiska platser vid Mälaren där vi möts, umgås och
