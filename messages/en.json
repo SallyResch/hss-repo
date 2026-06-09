@@ -1,38 +1,117 @@
 {
   "navigation": {
     "aboutHss": "About HSS",
-    "becomeScout": "Become a Scout",
-    "btnMember": "Become a Member",
+    "becomeScout": "Become Scout",
+    "btnMember": "Become Member",
     "contact": "Contact",
     "departments": "Departments",
-    "membersInfo": "For members/Practical info",
+    "membersInfo": "For Members / Practical Information",
     "ourBoats": "Our boats",
     "ourLocations": "Our locations"
   },
   "homePage": {
     "heroTitle": "Welcome to",
-    "heroText": "The Adventure is waiting. No matter who you are or where you come from, there is an adventure just around the corner."
+    "heroText": "Adventure awaits here. No matter who you are or where you come from, there’s an adventure waiting for you.",
+    "aboutTitle": "What is HSS?",
+    "aboutDesc1": "The Hässelby Strand Sea Scout Troop (HSS) is a long-standing nonprofit youth organization focused on scouting and boating.",
+    "aboutDesc2": "We are non-denominational and non-partisan, and we are a member of the Swedish Scout Association, which, with approximately 65,000 members, is one of Sweden’s largest youth organizations.",
+    "btnBecomeLeader": "Become a Leader",
+    "btnBecomeScout": "Become a Scout",
+    "btnReadMore": "Read more",
+    "btnShowInterest": "Express your interest",
+    "departmentsTitle": "Our departments",
+    "cardAventyrare": {
+      "age": "Ages 12–14",
+      "desc": "This is where the sailing really begins, and in the summer we head out into the archipelago. When we’re not sailing, we practice navigation and also take part in traditional land scout activities. In the winter, when it’s at its coldest, we go on a proper winter hike where we sleep in tents.",
+      "title": "Adventurer"
+    },
+    "cardFamily": {
+      "desc": "At Småttarne, children and adults discover Scouting together through play, nature experiences, and simple outdoor adventures. Here, families can try out Scouting at a relaxed pace, with a focus on community and the joy of discovery",
+      "title": "Family Scouting"
+    },
+    "cardSparare": {
+      "age": "8–9 years old",
+      "desc": "Children can join HSS at age 8, that is, when they start second grade. They then become a Pathfinder Scout and a member of the Sjöhumlorna/Spårare troop. (Pathfinder Scouts were previously called “Mini Scouts”)",
+      "title": "Tracker"
+    },
+    "cardUpptackare": {
+      "age": "Ages 10–11",
+      "desc": "At Kaparna, the tasks become more challenging. Scouts learn to sail an Optimist dinghy and get to try sailing a 2-krona dinghy and a keelboat. A fully trained Explorer Scout can, among other things, handle a knife, build a fire, and extinguish small fires.",
+      "title": "Explorer"
+    },
+    "cardUtmanare": {
+      "age": "15+ years",
+      "desc": "When you move up from the Adventure Scouts, you form a team with your peers. Then you work toward learning new things and taking on more difficult challenges to build team spirit.",
+      "title": "Challenger"
+    },
+    "safetyCardTitle": "Adventure in a safe environment",
+    "safetyCardText1": "Scouts is meant to be a safe place where you can explore and take on challenges on your own terms. That’s why we work to",
+    "safetyCardText2": "Safe Meetings",
+    "safetyCardText3": "The goal is for Scouterna to be free from harassment and abuse in all forms.",
+    "safetyTitle": "Safety/Security",
+    "safetyEducation": "Safe Meetings Training",
+    "safetyAdviceSupport": "Advice and support – when something happens",
+    "safetyOperation": "Safe Operations - Prevention",
+    "instagramTitle": "Latest news"
   },
   "bliScoutPage": {
-    "heroTitle": "Welcome to"
+    "heroTitle": "Become a Scout",
+    "heroText": "If you or your child are thinking about joining the Scouts, here is some information about what you or your child can expect.",
+    "scoutingTitle": "Why Scouting?",
+    "cardTitle1": "Adventure",
+    "cardTitle2": "Nature",
+    "cardTitle3": "Development",
+    "cardTitle4": "Community",
+    "startTitle": "Here's how to get started",
+    "startStepTitle1": "Express your interest",
+    "startStepDesc1": "Express your interest by clicking the link and filling out the information about yourself or your child. This will be sent directly to our membership database.",
+    "startStepTitle2": "We'll get in touch with you",
+    "startStepDesc2": "We'll be in touch shortly. Fields marked with * are required",
+    "startStepTitle3": "Try Scouting",
+    "startStepDesc3": "If there's a waiting list, there might be a trial day coming up. Keep an eye out!",
+    "howItWorksTitle": "How does the business operate?",
+    "howItWorksDesc1": "We hold meetings once a week during the school term. The meetings last about two hours and vary in content. In addition to the weekly meetings, we regularly organize overnight hikes and camps on weekends and during school breaks. Our activities are divided into groups based on age. Each group has its own leaders and its own program tailored to the age group.",
+    "howItWorksDesc2": "In addition to our weekly meetings, we regularly organize overnight hikes and camps on weekends and during school breaks. Our activities are organized into groups based on age. Each group has its own leaders and its own program tailored to the age group.",
+    "howItWorksDesc3": "The program is divided into groups based on age. Each group has its own leaders and its own program tailored to the age group.",
+    "needToKnowTitle": "What Parents Need to Know",
+    "needToKnowDesc1": "As a parent, you are always welcome to participate in our activities. We value parental involvement, and many of our activities require parental support.",
+    "needToKnowDesc2": "All of our leaders are trained in Trygga Möten and have clean criminal records. We actively work to create a safe and inclusive environment for all children and young people.",
+    "needToKnowDesc3": "Communication takes place primarily via email. You will receive information on how to access these channels after registering.",
+    "clothingTitle": "Clothing and equipment",
+    "clothingSubTitle1": "Scout shirt:",
+    "clothingDesc1": "All Scouts have a Scout shirt, which is purchased through the Scout Shop. The shirt is worn on official occasions and features our badges and insignia.",
+    "clothingSubTitle2": "Life jacket",
+    "clothingDesc2": "Since we are Sea Scouts, life jackets are required for all water activities. The troop provides life jackets, but you are welcome to bring your own.",
+    "clothingSubTitle3": "Other equipment",
+    "clothingDesc3": "For hikes and camps, packing lists are sent out in advance. It’s a good idea to bring basic outdoor clothing and a sleeping bag.",
+    "questionsTitle": "Frequently Asked Questions",
+    "questionsSubTitle1": "At what age can you start?",
+    "questionsSubTitle2": "How much does it cost?",
+    "questionsSubTitle3": "Do you have to know how to swim?",
+    "questionsSubTitle4": "How do I know if my child has been accepted?",
+    "questionsDesc1": "You can join our Scouts at age 8, when you’re in second grade.",
+    "questionsDesc2": "There is an annual membership fee that covers our basic operations. Additional costs apply for camps and larger activities. Please contact us for current prices.",
+    "questionsDesc3": "It’s good if the child can swim, but it’s not a requirement. We always use life jackets during water activities.",
+    "questionsDesc4": "We will contact you by email or phone as soon as a spot becomes available. If demand is high, there may be a waiting list."
   },
   "avdelningarPage": {
-    "heroTitle": "Welcome to"
+    "heroTitle": "Our Departments",
+    "heroText": "The organization is devided by age group. Each group has its own schedule and its own challenges."
   },
   "omHSSPage": {
-    "heroTitle": "Welcome to"
+    "heroTitle": "About HSS"
   },
   "kontaktPage": {
-    "heroTitle": "Welcome to"
+    "heroTitle": "Contact"
   },
   "footer": {
-    "adventureDesc": "Together we can do more! The Scouts give children and young people from all parts of society the chance to experience adventures together and grow as individuals.",
-    "adventureTitle": "Adventure and friends",
-    "becomeScoutNow": "Become a Scout now",
+    "adventureDesc": "Together, we can do more! Scouting gives children and young people from all walks of life the chance to experience adventures together and grow as individuals.",
+    "adventureTitle": "Adventures and Friends",
+    "becomeScoutNow": "Join the Scouts Now",
     "contactUs": "Contact us",
     "emailLabel": "Email:",
-    "followUsTitle": "Follow us",
-    "orgName": "Hässelby Strand Sea Scout Corps",
-    "stayUpdated": "Keep an eye on the latest"
+    "followUsTitle": "Follow us on our social media channels",
+    "orgName": "Hässelby Strand Sea Scout Troop",
+    "stayUpdated": "Stay up to date"
   }
 }
