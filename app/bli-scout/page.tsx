@@ -43,14 +43,13 @@ export default function BliScout({}) {
               <ScoutingCards
                 imageUrl={adventureImg}
                 title="Äventyr"
-                description="Segla ut i skärgården Vid 12 år seglar vi ut i Stockholms skärgård. Här börjar seglingen på allvar. Knopar, navigation och minnesvärda nätter ombord."
+                description="Segla i skärgården och upplev nya äventyr."
                 color="blue"
               />
               <ScoutingCards
                 imageUrl={developmentImg}
                 title="Utveckling"
-                description="Lär dig segla, steg för steg. Hos oss lär sig barn knopar, grundläggande naturkunskap och sjömanskap på ett lekfullt sätt. 
-                "
+                description="Lär dig segling, knopar och sjömanskap."
                 color="yellow"
               />
             </div>
@@ -59,13 +58,13 @@ export default function BliScout({}) {
               <ScoutingCards
                 imageUrl={comraderyImg}
                 title="Natur"
-                description="Sjö, skog och vinterhajk. När vi inte seglar tränar vi navigation och gör traditionella landscoutaktiviteter. På vintern har vi rejäl vinterhajk "
+                description="Friluftsliv, hajker och naturupplevelser året runt."
                 color="yellow"
               />
               <ScoutingCards
                 imageUrl={natureImg}
                 title="Gemenskap"
-                description="För alla från 8 till 100. Oavsett om du är 8 eller 100 år är du välkommen. Du behöver inte vara en erfaren seglare, det enda kravet är "
+                description="Vänner, samarbete och minnen för livet."
                 color="blue"
               />
             </div>

@@ -31,7 +31,7 @@ const ScoutingCards = ({
           {title}
         </p>
 
-        <p className="font-montserrat font-medium text-[11px] md:text-[16px] leading-normal opacity-90">
+        <p className="font-montserrat font-medium text-[16px] md:text-[16px] leading-normal opacity-90">
           {description}
         </p>
       </div>
