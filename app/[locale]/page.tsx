@@ -13,7 +13,7 @@ import adultIcon from "../assets/adult.svg";
 import familyIcon from "../assets/family.jpg";
 import { useTranslations } from "next-intl";
 export default function Home() {
-  const t = useTranslations("HomePage")
+  const t = useTranslations("homePage")
   return (
     <div className="flex flex-col min-h-screen box-border">
       <main className="grow">

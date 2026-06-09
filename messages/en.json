@@ -1,5 +1,37 @@
 {
-  "HomePage": {
+  "navigation": {
+    "aboutHss": "About HSS",
+    "becomeScout": "Become a Scout",
+    "btnMember": "Become a Member",
+    "contact": "Contact",
+    "departments": "Departments",
+    "membersInfo": "For members/Practical info",
+    "ourBoats": "Our boats",
+    "ourLocations": "Our locations"
+  },
+  "homePage": {
     "title": "Welcome to"
+  },
+  "bliScoutPage": {
+    "title": "Welcome to"
+  },
+  "avdelningar": {
+    "title": "Welcome to"
+  },
+  "omHSSPage": {
+    "title": "Welcome to"
+  },
+  "kontaktPage": {
+    "title": "Welcome to"
+  },
+  "footer": {
+    "adventureDesc": "Together we can do more! The Scouts give children and young people from all parts of society the chance to experience adventures together and grow as individuals.",
+    "adventureTitle": "Adventure and friends",
+    "becomeScoutNow": "Become a Scout now",
+    "contactUs": "Contact us",
+    "emailLabel": "Email:",
+    "followUsTitle": "Follow us",
+    "orgName": "Hässelby Strand Sea Scout Corps",
+    "stayUpdated": "Keep an eye on the latest"
   }
 }
