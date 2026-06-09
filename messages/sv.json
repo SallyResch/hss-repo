@@ -262,7 +262,32 @@
     "btnContactUs": "Kontakta oss"
   },
   "kontaktPage": {
-    "heroTitle": "Kontakt"
+    "heroTitle": "Kontakt",
+    "heroText": "Har du frågor om medlemskap eller verksamheten? Här hittar du hur du kontaktar oss.",
+    "sectionHeaderTitle1": "Roller i kåren",
+    "sectionSubTitle1": "Här är några av de roller som finns i vår kår och vad de ansvarar för.",
+    "listCardTitle1": "Kårordförande",
+    "listCardTitle2": "Kårchef",
+    "listCardTitle3": "Sjöansvarig",
+    "listCardTitle4": "Avdelningsledare",
+    "listCardTitle5": "Medlemsansvarig",
+    "listCardDesc1": "Leder styrelsens arbete och har det övergripande ansvaret för kåren.",
+    "listCardDesc2": "Har det övergripande ansvaret för kårens verksamhet och ledare.",
+    "listCardDesc3": "Ansvarar för sjösäkerhet, båtar och att vi följer våra sjövärdiga rutiner.",
+    "listCardDesc4": "Leder den dagliga verksamheten i respektive avdelning och stöttar scouter och ledare.",
+    "listCardDesc5": "Hanterar medlemsregister, utskick och frågor om medlemskap.",
+    "sectionHeaderTitle2": "Hur du hör av dig",
+    "sectionSubTitle2": "Det finns flera sätt att komma i kontakt med oss. Välj det som passar dig bäst!",
+    "channelCardTitle1": "E-post",
+    "channelCardTitle2": "Via avdelningen",
+    "channelCardTitle3": "Besök oss",
+    "channelCardDesc1": "Skicka ett mejl till oss så svarar vi så snart vi kan.",
+    "channelCardDesc2": "Kontakta din avdelningsledare direkt – kontaktuppgifter hittar du på avdelningens sida.",
+    "channelCardDesc3": "Vi finns vid Hässelby Strands båthamn. Hitta hit via kartan.",
+    "channelCardLinkText1": "Kontakta oss",
+    "channelCardLinkText2": "Hitta hit",
+    "bottomTitle": "Har du fler frågor",
+    "bottomSubTitle": "Tveka inte att höra av dig – vi hjälper dig gärna!"
   },
   "footer": {
     "adventureDesc": "Tillsammans kan vi göra mer! Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer.",
