@@ -23,17 +23,26 @@ export default function Avdelningar() {
         variant="subpage"
       />
 
-      <main className="py-12">
-        {scoutGroups.map((group) => (
-          <ScoutGroupSection
-            key={group.title}
-            {...group}
-          />
-        ))}
-      </main>
-      <section>
-        <FindUrDept/>
-      </section>
+<main className="relative overflow-hidden py-12">
+  {/* Background watermark */}
+  <div
+    className="absolute inset-0 pointer-events-none opacity-[0.05]"
+    style={{
+      backgroundImage: "url('/scout-symbols.jpeg')",
+      backgroundRepeat: "repeat",
+      backgroundSize: "500px",
+    }}
+  />
+
+  <div className="relative z-10">
+    {scoutGroups.map((group) => (
+      <ScoutGroupSection
+        key={group.title}
+        {...group}
+      />
+    ))}
+  </div>
+</main>
     </>
   );
 }

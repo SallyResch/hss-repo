@@ -22,16 +22,16 @@ export default function ScoutGroupSection({
 }: ScoutGroupSectionProps) {
   return (
    <section className="relative mx-auto max-w-[900px] overflow-hidden px-4 pt-0 pb-6">
-      {/* Background watermark */}
+      {/* Background watermark 
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.05]"
         style={{
           backgroundImage: "url('/scout-symbols.jpeg')",
           backgroundRepeat: "repeat",
           backgroundPosition: "cover",
-          backgroundSize: "500px",
+          backgroundSize: "400px",
         }}
-      />
+      /> */}
 
       <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-4">
