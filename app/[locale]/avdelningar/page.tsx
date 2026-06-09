@@ -4,7 +4,7 @@ import FindUrDept from "./findurdept";
 import { Metadata } from "next";
 
 import heroimg from "@/public/Wireframe.png";
-import { scoutGroups } from "@/data/scoutGroups";
+import { getScoutGroups } from "@/data/scoutGroups";
 import { useTranslations } from "next-intl";
 
 export const metadata: Metadata = {
@@ -14,6 +14,8 @@ export const metadata: Metadata = {
 
 export default function Avdelningar() {
   const t = useTranslations("avdelningarPage")
+
+  const scoutGroups = getScoutGroups(t);
   return (
     <>
       <HeroSection
