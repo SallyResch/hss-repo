@@ -19,25 +19,22 @@ export default function Home() {
       <main className="grow">
         <div>
           <HeroSection
-            title={t('title')}
-            description="Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar."
+            title={t('heroTitle')}
+            description={t('heroText')}
             imageUrl={heroimg}
             mobileImgUrl={heromob}
             showButtons={true}
             variant="home"
           />
         </div>
-
         <div>
           <HistorySection />
         </div>
-
         <div className="bg-hss-yellow py-12 px-4 sm:px-6 lg:px-8">
           <div className="max-w-[95rem] mx-auto">
             <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-[#0d335d] text-center">
               Våra Avdelningar
             </h2>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 items-stretch">
               <Card
                 title="Familjescouter"
@@ -45,28 +42,24 @@ export default function Home() {
                 imageUrl={familyIcon.src}
                 description="I Småttarne upptäcker barn och vuxna scouting tillsammans genom lek, naturupplevelser och enklare friluftsäventyr. Här får familjer prova på scouting i lugn takt med fokus på gemenskap och upptäckarglädje."
               />
-
               <Card
                 title="Spårare"
                 age="8-9 år"
                 imageUrl={kidIcon.src}
                 description="Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout 'miniorscout')"
               />
-
               <Card
                 title="Upptäckare"
                 age="10-11 år"
                 imageUrl={kiddIcon.src}
                 description="På Kaparna stegras svårighetsgraden på uppgifterna. Scouterna får lära sig segla optimist samt prova på att segla 2-krona samt kölbåt. En färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder med mera."
               />
-
               <Card
                 title="Äventyrare"
                 age="12-14 år"
                 imageUrl={teenIcon.src}
                 description="Här börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält."
               />
-
               <Card
                 title="Utmanare"
                 age="15+ år"
@@ -76,11 +69,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div>
           <SafetySection />
         </div>
-
         <div className="flex flex-col gap-4 p-6 bg-hss-mediumblue text-hss-white">
           <h2 className="font-bold text-2xl text-center">
             Senaste händelserna:

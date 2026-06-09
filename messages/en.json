@@ -10,19 +10,20 @@
     "ourLocations": "Our locations"
   },
   "homePage": {
-    "title": "Welcome to"
+    "heroTitle": "Welcome to",
+    "heroText": "The Adventure is waiting. No matter who you are or where you come from, there is an adventure just around the corner."
   },
   "bliScoutPage": {
-    "title": "Welcome to"
+    "heroTitle": "Welcome to"
   },
-  "avdelningar": {
-    "title": "Welcome to"
+  "avdelningarPage": {
+    "heroTitle": "Welcome to"
   },
   "omHSSPage": {
-    "title": "Welcome to"
+    "heroTitle": "Welcome to"
   },
   "kontaktPage": {
-    "title": "Welcome to"
+    "heroTitle": "Welcome to"
   },
   "footer": {
     "adventureDesc": "Together we can do more! The Scouts give children and young people from all parts of society the chance to experience adventures together and grow as individuals.",

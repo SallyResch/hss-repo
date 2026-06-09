@@ -10,19 +10,22 @@
     "ourLocations": "Våra platser"
   },
   "homePage": {
-    "title": "Välkommen till"
+    "heroTitle": "Välkommen till",
+    "heroText": "Här väntar Äventyret. Oavsett vem du är eller var du kommer ifrån finns det ett äventyr som väntar.",
+    "aboutTitle": "Vad är HSS",
+    "aboutDesc": "Vi är religiöst och politiskt obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer."
   },
   "bliScoutPage": {
-    "title": "Välkommen till"
+    "heroTitle": "Bli Scout"
   },
-  "avdelningar": {
-    "title": "Välkommen till"
+  "avdelningarPage": {
+    "heroTitle": "Våra Avdelningar"
   },
   "omHSSPage": {
-    "title": "Välkommen till"
+    "heroTitle": "Om HSS"
   },
   "kontaktPage": {
-    "title": "Välkommen till"
+    "heroTitle": "Kontakt"
   },
   "footer": {
     "adventureDesc": "Tillsammans kan vi göra mer! Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer.",
