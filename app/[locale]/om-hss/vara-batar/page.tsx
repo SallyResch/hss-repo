@@ -33,13 +33,10 @@ export default function VaraBatarPage(){
        
         {/* boat */}
         <section className="w-full max-w-5xl px-6 mt-16">
-            <div className="flex items-center justify-between pb-4 mb-6 border-b border-blue-200 cursor-pointer">
+            <div className="flex items-center justify-start pb-4 mb-6 border-b border-blue-200 cursor-pointer">
                 <h2 className="text-2xl font-bold text-hss-mediumblue">
-                    〰 En flotta för alla åldrar
+                    〰 Våra båtar
                 </h2>
-                <span className="text-sm font-semibold text-hss-mediumblue hover:underline">
-                    Se alla våra båtar →
-                </span>
             </div>
 
             <p className="mb-8 text-sm text-gray-600">
