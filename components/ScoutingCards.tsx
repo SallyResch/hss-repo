@@ -10,13 +10,11 @@ const ScoutingCards = ({
 }: scoutingDeatils) => {
   const cardColor = color === "yellow" ? "bg-hss-yellow" : "bg-hss-mediumblue";
   const textColor = color === "yellow" ? "text-hss-blue" : "text-white";
-  
+
   return (
-   
     <section
       className={`${cardColor} ${textColor} flex p-5 md:p-8 gap-4 md:gap-6 h-auto w-full rounded-[20px] items-center`}
     >
-     
       <div className="relative w-[90px] h-[90px] md:w-[124px] md:h-[124px] flex-shrink-0">
         <Image
           src={imageUrl}
@@ -28,7 +26,6 @@ const ScoutingCards = ({
         />
       </div>
 
-     
       <div className="flex flex-col gap-1 md:gap-2 flex-1 min-w-0">
         <p className="font-montserrat font-semibold text-[20px] md:text-[24px] leading-tight break-words">
           {title}

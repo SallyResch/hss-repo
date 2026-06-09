@@ -38,8 +38,8 @@ export default function BliScout({}) {
 
       <section className="w-full px-6  md:px-20 ">
         <div className="mx-auto max-w-5xl w-full">
-          <div className="flex flex-col md:flex-row gap-6 items-center md:items-start justify-between w-full">
-            <div className="flex flex-col gap-6 flex-1 w-full md:max-w-[48%]">
+          <div className="flex flex-col lg:flex-row gap-6 items-stretch lg:justify-between w-full">
+            <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
               <ScoutingCards
                 imageUrl={adventureImg}
                 title="Äventyr"
@@ -55,7 +55,7 @@ export default function BliScout({}) {
               />
             </div>
 
-            <div className="flex flex-col gap-6 flex-1 w-full md:max-w-[48%]">
+            <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
               <ScoutingCards
                 imageUrl={comraderyImg}
                 title="Natur"
@@ -74,7 +74,7 @@ export default function BliScout({}) {
       </section>
 
       <div>
-         <StartSection /> 
+        <StartSection />
         <TextSection
           title="Hur fungerar verksamheten?"
           paragraphs={[
