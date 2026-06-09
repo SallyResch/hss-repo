@@ -9,16 +9,17 @@ import topWave from "../../public/Wave - Blue.png";
 import Image from "next/image";
 import type { Metadata } from "next";
 import StartSection from "./StartSection";
-import TextSection from '@/components/TextSection'
-import VanligaFragor from '@/app/bli-scout/FAQSection'
-import ClothingSection from '@/app/bli-scout/ClothingSection'
+import TextSection from "@/components/TextSection";
+import VanligaFragor from "@/app/bli-scout/FAQSection";
+import ClothingSection from "@/app/bli-scout/ClothingSection";
 
 export const metadata: Metadata = {
   title: "Bli Scout",
-  description: "En sida för att ta reda på mer information om hur man blir scout och vad det innebär"
-}
+  description:
+    "En sida för att ta reda på mer information om hur man blir scout och vad det innebär",
+};
 
-export default function BliScout({ }) {
+export default function BliScout({}) {
   return (
     <div>
       <HeroSection
@@ -30,12 +31,10 @@ export default function BliScout({ }) {
         variant="subpage"
       />
 
-      <div className="w-full  flex flex-col items-center">
-
-
-        <h2 className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[69px] font-montserrat font-semibold text-[32px]  text-center align-middle text-hss-mediumblue">
+      <div className="w-full  flex flex-col items-center ">
+        <p className="mb-14 mt-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
           Varför Scouting?
-        </h2>
+        </p>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[1200px] px-4 md:px-20 py-10 justify-items-center">
           <ScoutingCards
             imageUrl={adventureImg}
@@ -87,7 +86,6 @@ export default function BliScout({ }) {
         <ClothingSection />
         <VanligaFragor />
       </div>
-
     </div>
   );
 }
