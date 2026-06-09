@@ -19,13 +19,14 @@
     "btnBecomeScout": "Become Scout",
     "btnReadMore": "Read more",
     "btnShowInterest": "Join us / Sign up",
-    "departmentsTitle": "Our Units",
+    "departmentsTitle": "Our Departments",
     "cardAventyrare": {
       "age": "12-14 years",
       "desc": "This is where sailing begins in earnest, and we head out into the archipelago during the summer. When we aren't sailing, we practice navigation and also do traditional land-based scouting activities. In the winter, when it is at its coldest, we go on a proper winter hike where we camp in tents.",
       "title": "Adventurers"
     },
     "cardFamily": {
+      "age": "5-7 years",
       "desc": "In 'Småttarne', children and adults discover scouting together through play, nature experiences, and simpler outdoor adventures. Here, families can try out scouting at a relaxed pace with a focus on community and the joy of discovery.",
       "title": "Family Scouting"
     },

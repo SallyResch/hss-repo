@@ -19,13 +19,14 @@
     "btnBecomeScout": "Bli Scout",
     "btnReadMore": "Läs mer",
     "btnShowInterest": "Anmäl intresse",
-    "departmentsTitle": "Våra avdelningar",
+    "departmentsTitle": "Våra Avdelningar",
     "cardAventyrare": {
       "age": "12-14 år",
       "desc": "Här börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält.",
       "title": "Äventyrare"
     },
     "cardFamily": {
+      "age": "5-7 år",
       "desc": "I Småttarne upptäcker barn och vuxna scouting tillsammans genom lek, naturupplevelser och enklare friluftsäventyr. Här får familjer prova på scouting i lugn takt med fokus på gemenskap och upptäckarglädje",
       "title": "Familjescouting"
     },
