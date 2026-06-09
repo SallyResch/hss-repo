@@ -70,19 +70,19 @@ export default function BliScout({ }) {
       <div>
         <StartSection />
         <TextSection
-          title="Hur fungerar verksamheten?"
+          title={t("howItWorksTitle")}
           paragraphs={[
-            "Vi har möten en gång i veckan under terminstid. Mötena är cirka 2 timmar långa och varierar i innehåll.",
-            "Förutom veckans möten arrangerar vi regelbundet hajker (övernattningar) och läger under helger och lov.",
-            "Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen.",
+            `${t("howItWorksDesc1")}`,
+            `${t("howItWorksDesc2")}`,
+            `${t("howItWorksDesc3")}`,
           ]}
         />
         <TextSection
-          title="Vad föräldrar behöver veta"
+          title={t("needToKnowTitle")}
           paragraphs={[
-            "Som förälder är du alltid välkommen att delta i verksamheten. Vi uppskattar föräldraengagemang och många av våra aktiviteter kräver stöd från föräldrar.",
-            "Alla våra ledare är utbildade i Trygga Möten och har registerutdrag. Vi arbetar aktivt för att skapa en trygg och inkluderande miljö för alla barn och unga.",
-            "Kommunikation sker främst via e-post. Du kommer få information om hur du får tillgång till dessa kanaler efter registrering.",
+            `${t("needToKnowDesc1")}`,
+            `${t("needToKnowDesc2")}`,
+            `${t("needToKnowDesc3")}`,
           ]}
         />
         <ClothingSection />
