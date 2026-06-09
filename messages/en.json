@@ -234,6 +234,33 @@
     "pictureTitle": "Pictures from Our Locations",
     "pictureLinkText": "See more pictures"
   },
+  "membersPage": {
+    "heroTitle": "For Members",
+    "heroText": "Here you will find practical information for you as a member or guardian. Information about Scoutnet, Discord, safety, documents, and our routines.",
+    "fastAccessTitle": "Quick Access",
+    "accessCardTitle1": "Discord",
+    "accessCardTitle2": "Scoutnet",
+    "accessCardTitle3": "Documents",
+    "accessCardDesc1": "We use Discord for communication between older scouts, leaders, and officials.",
+    "accessCardDesc2": "Scoutnet is used for the membership registry, registrations, contact information, and mailings.",
+    "accessCardDesc3": "Here you will find important documents, policies, and information about the troupe.",
+    "rutinTitle": "Our Routines",
+    "rutinCardTitle1": "Attendance",
+    "rutinCardTitle2": "Communication",
+    "rutinCardTitle3": "Hikes and camps",
+    "rutinCardDesc1": "Notify leaders if you cannot participate in meetings or activities.",
+    "rutinCardDesc2": "Information is primarily sent via Scoutnet and the respective unit's communication channels.",
+    "rutinCardDesc3": "Prior to activities, specific information regarding packing, times, and contact details is always sent out.",
+    "documentTitle": "Documents",
+    "documentLink": "View all documents",
+    "documentCardTitle1": "Bylaws",
+    "documentCardTitle2": "Operations Plan",
+    "documentCardDesc1": "Hässelby Strands Sjöscoutkår's bylaws",
+    "documentCardDesc2": "The troupe's Operations Plan",
+    "questionsTitle": "Do you have questions?",
+    "questionsDesc": "Contact your unit leader or reach out to us via the contact page.",
+    "btnContactUs": "Contact us"
+  },
   "kontaktPage": {
     "heroTitle": "Contact"
   },

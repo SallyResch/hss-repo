@@ -234,6 +234,33 @@
     "pictureTitle": "Bilder från våra platser",
     "pictureLinkText": "Se fler bilder"
   },
+  "membersPage": {
+    "heroTitle": "För Medlemmar",
+    "heroText": "Här hittar du praktisk information för dig som är medlem eller vårdnadshavare. Information om Scoutnet, Discord, säkerhet, dokument och våra rutiner.",
+    "fastAccessTitle": "Snabb Åtkomst",
+    "accessCardTitle1": "Discord",
+    "accessCardTitle2": "Scoutnet",
+    "accessCardTitle3": "Dokument",
+    "accessCardDesc1": "Vi använder Discord för kommunication mellan äldre scouter, ledare och funktionärer.",
+    "accessCardDesc2": "Scoutnet används för medlemsregister, anmälningar, kontaktuppgifter och utskick.",
+    "accessCardDesc3": "Här hittar du viktiga dokument, policys och information on kåren",
+    "rutinTitle": "Våra Rutiner",
+    "rutinCardTitle1": "Närvaro",
+    "rutinCardTitle2": "Kommunikation",
+    "rutinCardTitle3": "Hajker och läger",
+    "rutinCardDesc1": "Meddela ledare om du inte kan delta på möten eller aktiviteter.",
+    "rutinCardDesc2": "Information skickas främst via Scoutnet och respektive avdelnings kommunikationskanaler.",
+    "rutinCardDesc3": "Inför aktiviteter skickas alltid särskild information ut om packning, tider och kontaktuppgifter.",
+    "documentTitle": "Dokument",
+    "documentLink": "Visa alla dokument",
+    "documentCardTitle1": "Stadgar",
+    "documentCardTitle2": "Verksamhetsplan",
+    "documentCardDesc1": "Hässelby Strands Sjöscoutkårs stadgar",
+    "documentCardDesc2": "Kårens Verksamhetsplan",
+    "questionsTitle": "Har du frågor?",
+    "questionsDesc": "Kontakta din avdelningsledare eller hör av dig till oss via kontaktsidan.",
+    "btnContactUs": "Kontakta oss"
+  },
   "kontaktPage": {
     "heroTitle": "Kontakt"
   },
