@@ -1,17 +1,20 @@
-import { faqData } from "@/data/faqdata";
+import { getFaqData } from "@/data/faqdata";
+import { useTranslations } from "next-intl";
 
 const VanligaFragor = () => {
+  const t = useTranslations("bliScoutPage");
+  const faqData = getFaqData(t)
   return (
     <section className="w-full  px-6 py-12 md:px-20 md:py-16">
       <div className="mx-auto max-w-5xl rounded-[24px] bg-hss-mediumblue px-8 py-10 md:px-14 md:py-12">
-        
+
         <h2 className="mb-10 text-4xl font-semibold text-hss-yellow md:text-5xl">
-          Vanliga frågor
+          {t("questionsTitle")}
         </h2>
         <div className="space-y-8">
           {faqData.map((faq, index) => (
             <div key={index}>
-              
+
               <h3 className="mb-2 text-2xl font-semibold text-hss-yellow md:text-3xl">
                 {faq.question}
               </h3>
