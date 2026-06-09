@@ -12,18 +12,19 @@ import StartSection from "./StartSection";
 import TextSection from '@/components/TextSection'
 import VanligaFragor from '@/app/[locale]/bli-scout/FAQSection'
 import ClothingSection from '@/app/[locale]/bli-scout/ClothingSection'
-
+import { useTranslations } from "next-intl";
 export const metadata: Metadata = {
   title: "Bli Scout",
   description: "En sida för att ta reda på mer information om hur man blir scout och vad det innebär"
 }
 
 export default function BliScout({ }) {
+  const t = useTranslations("bliScoutPage")
   return (
     <div>
       <HeroSection
-        title="Bli Scout"
-        description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn."
+        title={t('heroTitle')}
+        description={t('heroText')}
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}
@@ -34,33 +35,33 @@ export default function BliScout({ }) {
 
 
         <p className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[69px] font-montserrat font-semibold text-[32px]  text-center align-middle">
-          Varför Scouting?
+          {t("scoutingTitle")}
         </p>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[1200px] px-4 md:px-20 py-10 justify-items-center">
           <ScoutingCards
             imageUrl={adventureImg}
-            title="Äventyr"
+            title={t("cardTitle1")}
             description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra."
             color="blue"
           />
 
           <ScoutingCards
             imageUrl={comraderyImg}
-            title="Natur"
+            title={t("cardTitle2")}
             description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
             color="yellow"
           />
 
           <ScoutingCards
             imageUrl={developmentImg}
-            title="Utveckling"
+            title={t("cardTitle3")}
             description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
             color="blue"
           />
 
           <ScoutingCards
             imageUrl={natureImg}
-            title="Gemenskap"
+            title={t("cardTitle4")}
             description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
             color="yellow"
           />
