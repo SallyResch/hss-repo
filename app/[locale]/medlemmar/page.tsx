@@ -17,6 +17,7 @@ export default function Medlemmar() {
     const t = useTranslations("membersPage")
     const quickAccessData = getQuickAccessData(t);
     const rutinItemData = getRutinItemData(t);
+    const tBtn = useTranslations("homePage");
     return (
         <div>
             <HeroSection
@@ -63,7 +64,7 @@ export default function Medlemmar() {
                             </div>
                             <p className="mt-2 mb-2">{t("documentCardDesc1")}</p>
                             <div className="flex flex-row gap-2 cursor-pointer">
-                                <p>Läs mer</p>
+                                <p>{tBtn("btnReadMore")}</p>
                                 <ArrowForwardOutlined />
                             </div>
                         </div>
@@ -74,7 +75,7 @@ export default function Medlemmar() {
                             </div>
                             <p className="mt-2 mb-2">{t("documentCardDesc2")}</p>
                             <div className="flex flex-row gap-2 cursor-pointer">
-                                <p>Läs mer</p>
+                                <p>{tBtn("btnReadMore")}</p>
                                 <ArrowForwardOutlined />
                             </div>
                         </div>
