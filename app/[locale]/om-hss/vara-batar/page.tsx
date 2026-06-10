@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import HeroSection from "@/components/HeroSection";
 import heroimg from "@/public/Wireframe.png";
-import { currentBoats } from "@/data/boatsData";
+import { getCurrentBoats } from "@/data/boatsData";
 import TextContentBlock from "@/components/TextContentBlock"
 import PreviousBoatsSection from '@/components/cards/PreviousBoatsSection';
 import BoatCard from "@/components/cards/BoatCard";
@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 
 export default function VaraBatarPage() {
     const t = useTranslations("varaBatarPage")
+    const currentBoats = getCurrentBoats(t);
     return (
         <main className="flex flex-col items-center w-full">
             <HeroSection
