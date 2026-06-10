@@ -1,71 +1,75 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import mainImage from "@/public/image 16.png";
-import image4 from "@/public/image4.png";
-import image1 from "@/public/image1.png";
-import image6 from "@/public/image6.png";
-import topWave from "@/public/Wave - Blue.png";
+import mainImage from "@/public/Vad_ar_HSS.jpg";
+import image1 from "@/public/poloroid1.png";
+import image2 from "@/public/poloroid2.jpg";
+import image3 from "@/public/poloroid3.jpg";
+import image4 from "@/public/poloroid4.png";
+
 import bottomWave from "@/public/Wave - yellow.png";
+import FloatingPolaroid from "./FloatingPolaroid";
 
 export default function HistorySection() {
   return (
-    <section className="relative overflow-hidden bg-white py-16 md:py-20 lg:py-32">
-      
+    <section
+      className="relative overflow-hidden py-16 md:py-20 lg:py-12"
+      style={{
+        backgroundImage: "url('/ship-pattern.jpg')",
+        backgroundRepeat: "repeat",
+        backgroundSize: "600px",
+      }}
+    >
+      <div className="absolute inset-0 bg-white/85" />
 
       <div className="absolute bottom-0 left-0 w-full">
-        <Image
-          src={bottomWave}
-          alt="Bottom wave"
-          className="h-auto w-full"
-        />
+        <Image src={bottomWave} alt="Bottom wave" className="h-auto w-full" />
       </div>
+      <FloatingPolaroid
+        src={image1}
+        alt="Scout activity"
+        rotation="-rotate-6"
+        className="left-[60px] top-[360px]"
+      />
 
-      <div className="absolute left-2 top-[360px] hidden min-[1190px]:block lg:left-[147px] lg:top-[391px]">
-        <Image
-          src={image4}
-          alt="Floating image"
-          width={124}
-          height={122}
-          className="h-[65px] w-[65px] rounded-full object-cover shadow-lg lg:h-[122px] lg:w-[124px]"
-        />
-      </div>
+      <FloatingPolaroid
+        src={image2}
+        alt="Scout activity"
+        rotation="-rotate-12"
+        className="left-[40px] top-[20px]"
+      />
 
-      <div className="absolute right-2 top-[210px] hidden min-[1190px]:block lg:right-[140px] lg:top-[197px]">
-        <Image
-          src={image1}
-          alt="Floating image"
-          width={125}
-          height={124}
-          className="h-[65px] w-[65px] rounded-full object-cover shadow-lg lg:h-[124px] lg:w-[125px]"
-        />
-      </div>
+      <FloatingPolaroid
+        src={image3}
+        alt="Scout activity"
+        rotation="rotate-6"
+        className="right-[80px] top-[60px]"
+      />
 
-      <div className="absolute right-2 top-[500px] hidden min-[1190px]:block lg:right-[140px] lg:top-[514px]">
-        <Image
-          src={image6}
-          alt="Floating image"
-          width={124}
-          height={124}
-          className="h-[65px] w-[65px] rounded-full object-cover shadow-lg lg:h-[124px] lg:w-[124px]"
-        />
-      </div>
+      <FloatingPolaroid
+        src={image4}
+        alt="Scout activity"
+        rotation="-rotate-12"
+        className="right-[60px] top-[380px]"
+      />
 
       <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center px-5">
         <h1 className="mb-8 text-center font-montserrat text-2xl font-semibold text-hss-mediumblue md:text-[28px] lg:mb-14 lg:text-[32px]">
           Vad är HSS
         </h1>
-
-        <div className="mb-8 w-full max-w-[420px] md:max-w-[480px] lg:mb-12 lg:max-w-[639px]">
-          <Image
-            src={mainImage}
-            alt="HSS scouts"
-            priority
-            style={{ width: "100%", height: "auto" }}
-            className="rounded-bl-[20px] rounded-br-[20px] border-l border-t border-hss-mediumblue object-cover shadow-xl"
-          />
-        </div>
-
+           
+<div className="mb-8 w-full max-w-[420px] md:max-w-[480px] lg:mb-12 lg:max-w-[639px]">
+  <div className="relative h-[220px] md:h-[260px] lg:h-[300px] w-full">
+    <Image
+      src={mainImage}
+      alt="HSS scouts"
+      fill
+      priority
+      className="rounded-xl object-cover object-center shadow-lg"
+      sizes="(max-width: 768px) 420px, (max-width: 1024px) 480px, 639px"
+    />
+  </div>
+</div>
         <div className="max-w-[420px] space-y-5 text-hss-mediumblue md:max-w-[480px] lg:max-w-[639px] lg:space-y-8">
           <p className="font-montserrat text-base leading-relaxed sm:text-lg lg:text-[22px]">
             Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
