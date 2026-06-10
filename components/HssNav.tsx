@@ -45,7 +45,7 @@ export default function HssNav({ items = hssNavItems }: NavProps) {
         {translatedItems.map((item) => (
           <DesktopNavItem key={item.path} item={item} />
         ))}
-        <Link target="_blank" rel="noopener noreferrer" href="https://www.scoutnet.se/register/in/group/764" className='bg-hss-yellow text-hss-darkblue font-bold rounded-md py-[10px] px-[12px] mr-7'>Bli Medlem</Link>
+        <Link target="_blank" rel="noopener noreferrer" href="https://www.scoutnet.se/register/in/group/764" className='bg-hss-yellow text-hss-darkblue font-bold rounded-md py-[10px] px-[12px] mr-7'>{t("btnMember")}</Link>
       </nav>
       {/*Hamburger menu button visible under 1024px in width*/}
       <div className='block lg:hidden mr-6 text-hss-yellow rounded z-20'>
