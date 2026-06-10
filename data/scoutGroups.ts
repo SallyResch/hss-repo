@@ -12,18 +12,6 @@ import PinkWave from "@/public/waves/PinkWave.png";
 
 export const scoutGroups = [
   {
-    icon: familyIcon,
-    title: "Familjescouter",
-    age: "5-7 år",
-    color: "#8E44AD",
-    wave: PurpleWave,
-    paragraphs: [
-      "I Småttarne upptäcker barn och vuxna scouting tillsammans genom lek, naturupplevelser och enklare friluftsäventyr.",
-      "Här får familjer prova på scouting i lugn takt med fokus på gemenskap och upptäckarglädje.",
-    ],
-  },
-
-  {
     icon: kidIcon,
     title: "Spårare",
     age: "8-9 år",
@@ -83,4 +71,15 @@ export const scoutGroups = [
       "Kontakt: Lagen arbetar självständigt. För mer information, kontakta info@hss-scout.org"
     ],
   },
+  {
+    icon: familyIcon,
+    title: "Familjescouter",
+    age: "5-7 år",
+    color: "#8E44AD",
+    wave: PurpleWave,
+    paragraphs: [
+      "I Småttarne upptäcker barn och vuxna scouting tillsammans genom lek, naturupplevelser och enklare friluftsäventyr.",
+      "Här får familjer prova på scouting i lugn takt med fokus på gemenskap och upptäckarglädje.",
+    ],
+  }
 ];
