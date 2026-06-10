@@ -1,71 +1,77 @@
 import HeroSection from "@/components/HeroSection";
 import heroimg from "@/public/Wireframe.png";
 import ScoutingCards from "@/components/ScoutingCards";
-import adventureImg from "@/public/adventure.png";
-import comraderyImg from "@/public/comradery.png";
-import developmentImg from "@/public/development.png";
-import natureImg from "@/public/nature.png";
-import topWave from "../../public/Wave - Blue.png";
-import Image from "next/image";
+import adventureImg from "@/public/myset.jpg";
+import comraderyImg from "@/public/HSS-myset.jpeg";
+import developmentImg from "@/public/gallery2.jpg";
+import natureImg from "@/public/04.png";
 import type { Metadata } from "next";
 import StartSection from "./StartSection";
-import TextSection from '@/components/TextSection'
-import VanligaFragor from '@/app/[locale]/bli-scout/FAQSection'
-import ClothingSection from '@/app/[locale]/bli-scout/ClothingSection'
+import TextSection from "@/components/TextSection";
+import VanligaFragor from "@/app/[locale]/bli-scout/FAQSection";
+import ClothingSection from "@/app/[locale]/bli-scout/ClothingSection";
 
 export const metadata: Metadata = {
   title: "Bli Scout",
-  description: "En sida för att ta reda på mer information om hur man blir scout och vad det innebär"
-}
+  description:
+    "En sida för att ta reda på mer information om hur man blir scout och vad det innebär",
+};
 
-export default function BliScout({ }) {
+export default function BliScout({}) {
   return (
     <div>
       <HeroSection
         title="Bli Scout"
-        description="Har du eller dit barn funderingar på att bli scout, nedan följer information om vad som kan förväntas av dig eller dit barn."
+        description=" Vill du ge ditt barn möjlighet att upptäcka naturen, lära sig nya färdigheter och få
+                      vänner för livet? Här kan du läsa mer om hur du blir scout hos oss."
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}
         variant="subpage"
       />
 
-      <div className="w-full  flex flex-col items-center">
-
-
-        <p className="w-[276px] h-[39px] left-[582px] mt-[63px] mb-[69px] font-montserrat font-semibold text-[32px]  text-center align-middle">
+      <div className="w-full  flex flex-col items-center ">
+        <p className="mb-14 mt-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
           Varför Scouting?
         </p>
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[1200px] px-4 md:px-20 py-10 justify-items-center">
-          <ScoutingCards
-            imageUrl={adventureImg}
-            title="Äventyr"
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra."
-            color="blue"
-          />
-
-          <ScoutingCards
-            imageUrl={comraderyImg}
-            title="Natur"
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
-            color="yellow"
-          />
-
-          <ScoutingCards
-            imageUrl={developmentImg}
-            title="Utveckling"
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
-            color="blue"
-          />
-
-          <ScoutingCards
-            imageUrl={natureImg}
-            title="Gemenskap"
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
-            color="yellow"
-          />
-        </section>
       </div>
+
+      <section className="w-full px-6  md:px-20 ">
+        <div className="mx-auto max-w-5xl w-full">
+          <div className="flex flex-col lg:flex-row gap-6 items-stretch lg:justify-between w-full">
+            <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
+              <ScoutingCards
+                imageUrl={adventureImg}
+                title="Äventyr"
+                description="Segla i skärgården och upplev nya äventyr."
+                color="blue"
+              />
+              <ScoutingCards
+                imageUrl={developmentImg}
+                title="Utveckling"
+                description="Lär dig segling, knopar och sjömanskap."
+                color="yellow"
+              />
+            </div>
+
+            <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
+              <ScoutingCards
+                imageUrl={comraderyImg}
+                title="Natur"
+                description="Friluftsliv, hajker och naturupplevelser året runt."
+                color="yellow"
+              />
+              <ScoutingCards
+                imageUrl={natureImg}
+                title="Gemenskap"
+                description="Vänner, samarbete och minnen för livet."
+                color="blue"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div>
         <StartSection />
         <TextSection
@@ -87,7 +93,6 @@ export default function BliScout({ }) {
         <ClothingSection />
         <VanligaFragor />
       </div>
-
     </div>
   );
 }
