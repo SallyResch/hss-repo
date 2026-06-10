@@ -34,77 +34,43 @@ export default function BliScout({ }) {
         <p className="mb-14 mt-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
           {t("scoutingTitle")}
         </p>
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[1200px] px-4 md:px-20 py-10 justify-items-center">
-          <ScoutingCards
-            imageUrl={adventureImg}
-            title={t("cardTitle1")}
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra."
-            color="blue"
-          />
-
-          <ScoutingCards
-            imageUrl={comraderyImg}
-            title={t("cardTitle2")}
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
-            color="yellow"
-          />
-
-          <ScoutingCards
-            imageUrl={developmentImg}
-            title={t("cardTitle3")}
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
-            color="blue"
-          />
-
-          <ScoutingCards
-            imageUrl={natureImg}
-            title={t("cardTitle4")}
-            description="Utforska naturen, prova nya saker och utmana dig själv tillsammans med andra"
-            color="yellow"
-          />
-        </section>
-      </div>
-      </div>
-
-      <section className="w-full px-6  md:px-20 ">
-        <div className="mx-auto max-w-5xl w-full">
-          <div className="flex flex-col lg:flex-row gap-6 items-stretch lg:justify-between w-full">
-            <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
-              <ScoutingCards
-                imageUrl={adventureImg}
-                title="Äventyr"
-                description="Segla i skärgården och upplev nya äventyr."
-                color="blue"
-              />
-              <ScoutingCards
-                imageUrl={developmentImg}
-                title="Utveckling"
-                description="Lär dig segling, knopar och sjömanskap."
-                color="yellow"
-              />
-            </div>
-
-            <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
-              <ScoutingCards
-                imageUrl={comraderyImg}
-                title="Natur"
-                description="Friluftsliv, hajker och naturupplevelser året runt."
-                color="yellow"
-              />
-              <ScoutingCards
-                imageUrl={natureImg}
-                title="Gemenskap"
-                description="Vänner, samarbete och minnen för livet."
-                color="blue"
-              />
+        <section className="w-full px-6 md:px-20">
+          <div className="mx-auto max-w-5xl w-full">
+            <div className="flex flex-col lg:flex-row gap-6 items-stretch lg:justify-between w-full">
+              <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
+                <ScoutingCards
+                  imageUrl={adventureImg}
+                  title={t("cardTitle1")}
+                  description={t("cardDesc1")}
+                  color="blue"
+                />
+                <ScoutingCards
+                  imageUrl={developmentImg}
+                  title={t("cardTitle3")}
+                  description={t("cardDesc3")}
+                  color="yellow"
+                />
+              </div>
+              <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
+                <ScoutingCards
+                  imageUrl={comraderyImg}
+                  title={t("cardTitle2")}
+                  description={t("cardDesc2")}
+                  color="yellow"
+                />
+                <ScoutingCards
+                  imageUrl={natureImg}
+                  title={t("cardTitle4")}
+                  description={t("cardDesc4")}
+                  color="blue"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-
-
+        </section>
+      </div>
       <div>
-        <StartSection /> 
+        <StartSection />
         <TextSection
           title={t("howItWorksTitle")}
           paragraphs={[
