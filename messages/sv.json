@@ -296,13 +296,16 @@
     "bottomSubTitle": "Tveka inte att höra av dig – vi hjälper dig gärna!"
   },
   "footer": {
-    "adventureDesc": "Tillsammans kan vi göra mer! Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer.",
+    "adventureDesc1": "Tillsammans kan vi göra mer!",
+    "adventureDesc2": "Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer.",
+
     "adventureTitle": "Äventyr och kompisar",
     "becomeScoutNow": "Bli Scout nu",
     "contactUs": "Kontakta oss",
     "emailLabel": "E-post:",
     "followUsTitle": "Följ oss i våra flöden",
-    "orgName": "Hässelby Strands Sjöscoutkår",
+    "orgName1": "Hässelby Strands",
+    "orgName2": "Sjöscoutkår",
     "stayUpdated": "Ha koll på det senaste"
   }
 }

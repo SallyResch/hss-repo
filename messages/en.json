@@ -291,13 +291,15 @@
     "bottomSubTitle": "Do not hesitate to reach out – we are happy to help!"
   },
   "footer": {
-    "adventureDesc": "Together we can do more! The Scouts give children and youth from all parts of society the chance to experience adventures together and grow as individuals.",
+    "adventureDesc1": "Together we can do more!",
+    "adventureDesc2": "The Scouts give children and youth from all parts of society the chance to experience adventures together and grow as individuals.",
     "adventureTitle": "Adventures and Friends",
     "becomeScoutNow": "Become a Scout Now",
     "contactUs": "Contact Us",
     "emailLabel": "Email:",
     "followUsTitle": "Follow Us in Our Feeds",
-    "orgName": "Hässelby Strands Sjöscoutkår",
+    "orgName1": "Hässelby Strands",
+    "orgName2": "Sjöscoutkår",
     "stayUpdated": "Stay Updated with the Latest"
   }
 }
