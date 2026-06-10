@@ -8,7 +8,7 @@ interface SectionHeaderProps {
 
 export default function SectionHeader({ title, subtitle }:SectionHeaderProps){
     return(
-        <div className=" flex flex-col items-start gap-0 mb-8">
+        <div className=" flex flex-col items-start gap-2 mb-8">
             <h2 className="text-3xl font-bold text-hss-mediumblue">           
               {title}
             </h2>
