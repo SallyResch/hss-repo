@@ -36,7 +36,7 @@ export default function HistorySection() {
         src={image2}
         alt="Scout activity"
         rotation="-rotate-12"
-        className="left-[100px] top-[20px]"
+        className="left-[40px] top-[20px]"
       />
 
       <FloatingPolaroid
