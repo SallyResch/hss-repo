@@ -39,13 +39,13 @@ export default function VaraPlatser() {
           <ScoutPlatserCard
             imageUrl={ruffenImage}
             title="Ruffen"
-            description=" Parkera vid Hässelby Strand Centrum (Maltesholmsvägen), sedan ca 5 min promenad till stranden."
+            description="Ruffen ligger vid Mälaren och är vår egna stuga. Här har vi brygga, båtplats och gott om utrymme för aktiviteter och läger."
             isReverse={false}
           />
           <ScoutPlatserCard
             imageUrl={mysetImage}
             title="Myset"
-            description=" Närmaste parkering är vid Lövstaspåret, sedan ca 3,5 km promenad eller så kör du bil ända fram till stugdörren."
+            description=" Ruffen ligger vid Mälaren och är vår egna stuga. Här har vi brygga, båtplats och gott om utrymme för aktiviteter och läger."
             isReverse={true}
           />
         </div>
@@ -65,9 +65,10 @@ export default function VaraPlatser() {
                 address="Adress:"
                 addressDeatils="Ruffenvägen 1, 165 55 Hässelby"
                 coordinater="Koordinater:"
-                coordinaterDetails={`N 59°22'10", E 17°48'20"`}
+                coordinaterDetails={`N 59°22'10 E 17°48'20"`}
                 parkering="Parkering:"
-                parkeringDetails="Följ skyltning till grusparkeringen"
+                parkeringDetails="Parkera vid Hässelby Strand Centrum (Maltesholmsvägen), sedan ca 5 min promenad
+till stranden."
               />
             </div>
 
@@ -77,9 +78,10 @@ export default function VaraPlatser() {
                 address="Adress:"
                 addressDeatils="Mysetvägen 2, 165 55 Hässelby"
                 coordinater="Koordinater:"
-                coordinaterDetails={`N 59°22'10", E 17°48'20"`}
+                coordinaterDetails={`N 59°23.816'E 017°46.230'`}                
                 parkering="Parkering:"
-                parkeringDetails="Följ skyltning till grusparkeringen"
+                parkeringDetails="Närmaste parkering är vid Lövstaspåret, sedan ca 3,5 km promenad eller så kör du bil ända
+fram till stugdörren"
               />
             </div>
           </div>
