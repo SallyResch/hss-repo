@@ -5,6 +5,7 @@ const VanligaFragor = () => {
     <section className="w-full  px-6 py-12 md:px-20 md:py-16">
       <div className="mx-auto max-w-5xl rounded-[24px] bg-hss-mediumblue px-8 py-10 md:px-14 md:py-12">
         
+        
         <h2 className="text-4xl font-bold mb-6 text-hss-yellow">
           Vanliga frågor
         </h2>
