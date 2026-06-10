@@ -18,7 +18,7 @@
     "btnBecomeLeader": "Become Leader",
     "btnBecomeScout": "Become Scout",
     "btnReadMore": "Read more",
-    "btnShowInterest": "Join us / Sign up",
+    "btnShowInterest": "Sign up",
     "departmentsTitle": "Our Departments",
     "cardAventyrare": {
       "age": "12-14 years",
@@ -140,7 +140,9 @@
       "age": "5-7 years",
       "desc1": "In Family Scouting, children and adults discover scouting together through play, nature experiences, and simpler outdoor adventures.",
       "desc2": "Here, families can try out scouting at a relaxed pace with a focus on community and the joy of discovery."
-    }
+    },
+    "findDepartmentTitle": "Find your department",
+    "findDepartmentDesc": "Ready to start your scouting adventure?"
   },
   "omHSSPage": {
     "heroTitle": "About HSS",

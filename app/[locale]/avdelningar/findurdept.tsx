@@ -3,15 +3,16 @@ import Button from "@/components/Button";
 import { useTranslations } from "next-intl";
 const FindUrDept = () => {
   const tBtn = useTranslations("homePage");
+  const t = useTranslations("avdelningarPage");
   return (
     <section className="w-full px-6 py-12 md:px-20 md:py-16">
       <div className="mx-auto max-w-5xl rounded-b-[24px] bg-hss-mediumblue px-8 py-10 text-center md:px-14 md:py-12">
         <h2 className="mb-4 text-4xl font-semibold text-hss-yellow md:text-5xl">
-          Hitta din avdelning
+          {t("findDepartmentTitle")}
         </h2>
 
         <p className="mb-8 text-lg leading-relaxed text-white md:text-2xl">
-          Är du redo att börja ditt scoutäventyr?
+          {t("findDepartmentDesc")}
         </p>
 
         <Link
