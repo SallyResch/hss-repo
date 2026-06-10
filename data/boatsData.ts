@@ -24,24 +24,26 @@ export const getCurrentBoats  = (t:any) =>[
 export const getBoatDataList = (t:any) => [
     {
         id: 1, 
-        title: 'Kreti och Pleti', 
-        age: 'Trissjollar (2002-2009)', 
-        description: 'Populära trissjollar som fungerade som ett perfekt steg mellan Optimist och kölbåt' 
+        title: t("earlierCardTitle1"), 
+        age: t("earlierCardYear1"), 
+        description: t("earlierCardDesc1")
     },
     { 
         id: 2, 
-        title: 'Bagatelle', 
-        age: 'Seacat, Marieholm\n(Inköpt ca 1969)', description: 'En vacker röd Seacat som var utmärkt att lära sig segla i. Renoverades av kåren 2001.' },
+        title: t("earlierCardTitle2"), 
+        age: t("earlierCardYear2"), 
+        description: t("earlierCardDesc2")
+    },
     { 
         id: 3, 
-        title: 'Carioca"', 
-        age: 'Albin 79 (1989-Tidigast 2000-tal)"', 
-        description: 'En uppskattad ledarbåt som köptes in 1989. Såldes tyvärr efter en olycka på varvet.' 
+        title: t("earlierCardTitle3"), 
+        age: t("earlierCardYear3"), 
+        description: t("earlierCardDesc3")
     },
     { 
         id: 4, 
-        title: 'Tryggve', 
-        age: 'Buster R (Såld 1993)', 
-        description: 'En popnitad följebåt med mycket karaktär. Den läckte tyvärr en hel del mot slutet.' 
+        title: t("earlierCardTitle4"), 
+         age: t("earlierCardYear4"), 
+        description: t("earlierCardDesc4")
     },
 ];

@@ -3,6 +3,7 @@ import hittacardsprops from "../types/hittacardsprops";
 import { Button } from "@mui/material";
 import LaunchIcon from "@mui/icons-material/Launch";
 import googleMapIcon from "../public/mapicon.jpg"
+import { useTranslations } from "next-intl";
 const HittaCards = ({
   cardTitle,
   address,
@@ -12,6 +13,7 @@ const HittaCards = ({
   parkering,
   parkeringDetails,
 }: hittacardsprops) => {
+  const t = useTranslations("varaPlatserPage")
   return (
 
     <section className="flex flex-col gap-[16px] p-[24px] rounded-[12px] w-full h-full bg-[#F8F9FA]">
@@ -64,7 +66,7 @@ const HittaCards = ({
             },
           }}
         >
-          Öppna i Google Maps
+          {t("googleLinkText")}
         </Button>
       </div>
     </section>

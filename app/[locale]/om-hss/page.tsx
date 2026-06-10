@@ -3,13 +3,13 @@ import heroimg from "@/public/Wireframe.png";
 import type { Metadata } from 'next'
 import { useTranslations } from "next-intl";
 
-type Props = {}
+
 
 export const metadata: Metadata = {
   title: 'Om HSS',
   description: 'Om Hässelby Strands Sjöscoutkår',
 }
-export default function OmHss({ }: Props) {
+export default function OmHss() {
   const t = useTranslations("omHSSPage")
   return (
     <main className="w-full flex flex-col bg-white text-[#0d335d]">
@@ -123,7 +123,7 @@ export default function OmHss({ }: Props) {
             <li className="flex items-start gap-2">
               <span className="mt-1">•</span>
               <p>
-                <span className="font-bold">{t("partnerTitle1")}</span> Vi är medlemmar i
+                <span className="font-bold">{t("partnerTitle1")} </span>
                 {t("partnerDesc1")}
               </p>
             </li>
