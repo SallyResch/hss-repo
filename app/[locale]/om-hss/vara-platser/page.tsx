@@ -1,8 +1,8 @@
 import HeroSection from "@/components/HeroSection";
 import ScoutPlatserCard from "@/components/ScoutPlatserCard";
 import varaplasterhero from "@/public/varaplasterhero.png";
-import ruffenImage from "@/public/ruffen.png";
-import mysetImage from "@/public/myset.jpg";
+import ruffenImage from "@/public/HSS-Ruffen.jpeg";
+import mysetImage from "@/public/HSS-Myset.jpeg";
 import type { Metadata } from "next";
 import HittaCards from "@/components/HittaCards";
 import GallerySection from "@/app/[locale]/om-hss/vara-platser/gallery";
