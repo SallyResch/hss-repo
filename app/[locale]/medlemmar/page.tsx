@@ -7,7 +7,6 @@ import TextSnippetOutlinedIcon from '@mui/icons-material/TextSnippetOutlined';
 import Button from "@/components/Button"
 import QuickAccessCard from "@/components/QuickAccessCard"
 import RutinCard from "@/components/RutinCard"
-import BottomText from "@/components/BottomText"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -79,14 +78,13 @@ export default function Medlemmar() {
                     </div>
                 </div>
                 {/*Questions*/}
-                <BottomText 
-                title="Har du frågor?"
-                subtitle="Kontakta din avdelningsledare eller hör av dig till oss via kontaktsidan."
-                buttonText="Kontakta oss"
-                buttonHref="/kontakt"
-                 />
-
-                
+                <div className="text-center bg-hss-mediumblue text-hss-white p-6 rounded-2xl">
+                    <h2 className="text-2xl text-hss-yellow">Har du frågor?</h2>
+                    <p className="p-3">Kontakta din avdelningsledare eller hör av dig till oss via kontaktsidan.</p>
+                    <a href="/kontakt">
+                        <Button variant="yellow" className="mt-3 cursor-pointer">Kontakta oss</Button>
+                    </a>
+                </div>
             </div>
         </div>
     )
