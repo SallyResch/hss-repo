@@ -19,7 +19,7 @@
     "btnBecomeScout": "Bli Scout",
     "btnReadMore": "Läs mer",
     "btnShowInterest": "Anmäl intresse",
-    "departmentsTitle": " Våra avdelningar",
+    "departmentsTitle": "Våra avdelningar",
     "cardAventyrare": {
       "age": "12-14 år",
       "desc": "Här börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter. På vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält.",
@@ -72,7 +72,27 @@
     "howItWorksTitle": "Hur fungerar verksamheten?",
     "howItWorksDesc1": "Vi har möten en gång i veckan under terminstid. Mötena är cirka 2 timmar långa och varierar i innehåll. Förutom veckans möten arrangerar vi regelbundet hajker (övernattningar) och läger under helger och lov. Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen.",
     "howItWorksDesc2": "Förutom veckans möten arrangerar vi regelbundet hajker (övernattningar) och läger under helger och lov. Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen.",
-    "howItWorksDesc3": "Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen."
+    "howItWorksDesc3": "Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen.",
+    "needToKnowTitle": "Vad föräldrar behöver veta",
+    "needToKnowDesc1": "Som förälder är du alltid välkommen att delta i verksamheten. Vi uppskattar föräldraengagemang och många av våra aktiviteter kräver stöd från föräldrar.",
+    "needToKnowDesc2": "Alla våra ledare är utbildade i Trygga Möten och har registerutdrag. Vi arbetar aktivt för att skapa en trygg och inkluderande miljö för alla barn och unga.",
+    "needToKnowDesc3": "Kommunikation sker främst via e-post. Du kommer få information om hur du får tillgång till dessa kanaler efter registrering.",
+    "clothingTitle": "Kläder och utrustning",
+    "clothingSubTitle1": "Scoutskjorta:",
+    "clothingDesc1": "Alla scouter har en scoutskjorta som köps via Scoutshop. Skjortan används vid officiella tillfällen och har våra märken och insignier.",
+    "clothingSubTitle2": "Flytväst",
+    "clothingDesc2": "Eftersom vi är sjöscouter är flytväst obligatoriskt vid alla vattenaktiviteter. Kåren tillhandahåller flytvästar, men du är välkommen att ha en egen.",
+    "clothingSubTitle3": "Övrig utrustning",
+    "clothingDesc3": "För hajker och läger finns det packlistor som skickas ut i förväg. Grundläggande utomhuskläder och sovsäck är bra att ha.",
+    "questionsTitle": "Vanliga frågor",
+    "questionsSubTitle1": "Vilken ålder kan man börja?",
+    "questionsSubTitle2": "Vad kostar det?",
+    "questionsSubTitle3": "Måste man kunna simma?",
+    "questionsSubTitle4": "Hur vet jag om mitt barn fått plats?",
+    "questionsDesc1": "Man kan börja som scout hos oss vid 8 års ålder, när man går i årskurs 2.",
+    "questionsDesc2": "Det finns en årlig medlemsavgift som täcker basverksamheten. För läger och större aktiviteter tillkommer extra kostnader. Kontakta oss för aktuella priser.",
+    "questionsDesc3": "Det är bra om barnet kan simma, men det är inget krav. Vi använder alltid flytväst vid vattenaktiviteter.",
+    "questionsDesc4": "Vi kontaktar dig via e-post eller telefon så snart en plats blir tillgänglig. Vid hög efterfrågan kan det finnas väntelista."
   },
   "avdelningarPage": {
     "heroTitle": "Våra Avdelningar"
