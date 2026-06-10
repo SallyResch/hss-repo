@@ -70,7 +70,7 @@ const HeroSection = ({
           {description}
         </p>
         {showButtons && (
-           <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-2 md:gap-6">
+           <div className="flex flex-row  justify-center gap-3 mt-0 md:gap-6">
           <Link href="https://www.scoutnet.se/register/in/group/764">
             <Button variant="yellow" className="whitespace-nowrap">Bli Scout</Button>
           </Link>
