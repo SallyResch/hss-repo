@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --hss-darkblue: #0D1E2F;
+  --hss-scout-darkblue: #0A2A43;
+  --hss-mediumblue: #003660;
+  --hss-blue: #1E73BE;
+  --hss-lightblue: #D7E8F7;
+  --hss-yellow: #F4C430;
+  --hss-green: #3FAE2A;
+  --hss-skyblue: #02A9E2;
+  --hss-orange: #ED5302;
+  --hss-pink: #D60057;
+  --hss-white: #ffffff;
+  --hss-darkgrey: #2B2828;
+  --hss-bggrey: #F8F9FA;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-hss-darkblue: var(--hss-darkblue);
+  --color-hss-scout-darkblue: var(--hss-scout-darkblue);
+  --color-hss-mediumblue: var(--hss-mediumblue);
+  --color-hss-blue: var(--hss-blue);
+  --color-hss-lightblue: var(--hss-lightblue);
+  --color-hss-yellow: var(--hss-yellow);
+  --color-hss-white: var(--hss-white);
+  --color-hss-darkgrey: var(--hss-darkgrey);
+  --color-hss-bggrey: var(--hss-bggrey);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { 
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
