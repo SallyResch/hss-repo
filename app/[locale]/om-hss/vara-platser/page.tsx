@@ -27,7 +27,7 @@ export default function VaraPlatser() {
           variant="subpage"
         />
       </div>
-      <section className="flex flex-col mt-[64px] px-6 md:px-full m-auto gap-[64px]  ">
+      <section className="flex flex-col mt-[64px] px-6 md:px-full m-auto gap-[20px]  ">
         <div className="flex flex-col gap-[24px] text-center item-center">
           <p className="h-[39px] font-semibold text-hss-mediumblue text-[32px]">
             {t("mainSectionTitle")}
@@ -67,11 +67,8 @@ export default function VaraPlatser() {
             <p className="font-semibold text-hss-mediumblue text-[32px] leading-tight">
               {t("findUsTitle")}
             </p>
-            <p className="font-normal text-hss-mediumblue text-[16px] lg:text-right">
-              {t("findUsDesc")}
-            </p>
           </div>
-          <div className="flex flex-col lg:flex-row  gap-[40px] mb-[10px] w-full">
+          <div className="flex flex-col lg:flex-row gap-[40px] mb-[10px] w-full">
             <div className="lg:flex-1">
               <HittaCards
                 cardTitle={`📍 ${t("locationTitle1")}`}

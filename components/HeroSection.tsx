@@ -18,7 +18,7 @@ const HeroSection = ({
 }: HeroSectionProps) => {
   const t = useTranslations("homePage")
   const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "lg:left-1/2 lg:-translate-x-1/2 md:left-[79px]";
-  
+
   return (
     <>
 
@@ -52,9 +52,9 @@ const HeroSection = ({
           top-38.5 left-12  ${desktopLeftPosition}`}
 
         >
-          <span className="text-hss-yellow font-bold text-sm md:font-semibold md:text-4xl ">
+          <h1 className="text-hss-yellow font-bold text-sm md:font-semibold md:text-4xl ">
             {title}
-          </span>
+          </h1>
           <Image
             src={hasselbyLogo}
             alt="HasselbyLogo"
@@ -68,10 +68,10 @@ const HeroSection = ({
           </p>
           {showButtons && (
             <div className="flex flex-col items-center gap-3 mt-0 md:flex-row md:gap-6">
-              <Link href="https://www.scoutnet.se/register/in/group/764">
+              <Link target="_blank" href="https://www.scoutnet.se/register/in/group/764">
                 <Button variant="yellow" className="whitespace-nowrap">{t("btnBecomeScout")}</Button>
               </Link>
-              <Link href="https://www.scoutnet.se/register/in/group/764">
+              <Link target="_blank" href="https://www.scoutnet.se/register/in/group/764">
                 <Button variant="outline" className="whitespace-nowrap">{t("btnBecomeLeader")}</Button>
               </Link>
             </div>
