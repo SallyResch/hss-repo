@@ -1,171 +1,151 @@
 import HeroSection from "@/components/HeroSection";
 import heroimg from "@/public/Wireframe.png";
 import type { Metadata } from "next";
+import { useTranslations } from "next-intl";
 
-type Props = {};
+
 
 export const metadata: Metadata = {
-  title: "Om HSS",
-  description: "Om Hässelby Strands Sjöscoutkår",
-};
-
-export default function OmHss({}: Props) {
+  title: 'Om HSS',
+  description: 'Om Hässelby Strands Sjöscoutkår',
+}
+export default function OmHss() {
+  const t = useTranslations("omHSSPage")
   return (
     <main className="w-full flex flex-col bg-white text-[#0d335d]">
       <HeroSection
-        title="Om HSS"
-        description="HÄSSELBY STRANDS SJÖSCOUTKÅR - Hässelby Strands Sjöscoutkår - En traditionsrik ideell ungdomsverksamhet sedan många år"
+        title={t("heroTitle")}
+        description={t("heroText")}
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}
         variant="subpage"
       />
 
-      <div className="max-w-5xl mx-auto w-full px-4">
-        <section className="py-16">
-          <h2 className="text-3xl font-bold mb-6">Vilka är vi?</h2>
-          <p className="text-lg mb-4">
-            Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
-            ungdomsverksamhet med fokus på scouting och båtliv. Vi verkar i
-            Hässelby Strand, västra Stockholm, och har gjort det i många år.
-          </p>
-          <p className="text-lg mb-4">
-            Vi är religiöst och politiskt obundna och medlem i Svenska
-            Scoutförbundet (Scouterna), som med cirka 65 000 medlemmar är en av
-            Sveriges största ungdomsorganisationer.
-          </p>
-          <p className="text-lg">
-            Hos oss möts barn och unga från alla delar av samhället för att
-            tillsammans uppleva äventyr, lära sig nya färdigheter och växa som
-            individer.
-          </p>
-        </section>
+      <section className="py-16 px-4 max-w-5xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">{t("whoTitle")}</h2>
+        <p className="text-lg mb-4">
+          {t("whoDesc1")}
+        </p>
+        <p className="text-lg mb-4">
+          {t("whoDesc2")}
+        </p>
+        <p className="text-lg">
+          {t("whoDesc3")}
+        </p>
+      </section>
 
-        <section className="pb-16">
-          <div className="bg-[#FDE68A] p-10 md:p-12 w-full">
-            <h2 className="text-3xl font-bold mb-8 text-[#0d335d]">
-              Vad gör oss unika?
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 text-[#0d335d]">
-              <div>
-                <h3 className="text-xl font-bold mb-2">Sjöscouterna</h3>
-                <p>
-                  Som sjöscoutkår har vi ett unikt fokus på vatten och båtar. Vi
-                  seglar i Mälaren och Stockholms skärgård och lär våra scouter
-                  allt om sjösäkerhet, navigation och segling.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">Äventyr året runt</h3>
-                <p>
-                  Vi har aktiviteter under alla årstider - från sommarsegling
-                  till vinterhajker. Våra scouter får uppleva både natur och
-                  utmaningar året runt.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">Gemenskap</h3>
-                <p>
-                  Hos oss skapar vi starka vänskaper som varar livet ut. Många
-                  av våra ledare är före detta scouter som fortsätter engagera
-                  sig i verksamheten.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">
-                  Lärande genom att göra
-                </h3>
-                <p>
-                  Vi tror på att lära genom praktisk erfarenhet. Våra scouter
-                  får prova, misslyckas och lyckas i en trygg miljö där misstag
-                  är en del av lärandet.
-                </p>
-              </div>
+      <section className="pb-16">
+        <div className="bg-[#FDE68A] p-10 md:p-12 w-full">
+          <h2 className="text-3xl font-bold mb-8 text-[#0d335d]">
+            {t("uniqueTitle")}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 text-[#0d335d]">
+            <div>
+              <h3 className="text-xl font-bold mb-2">{t("uniqueSubTitle1")}</h3>
+              <p>
+                {t("uniqueDesc1")}
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-2">{t("uniqueSubTitle2")}</h3>
+              <p>
+                {t("uniqueDesc2")}
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-2">{t("uniqueSubTitle3")}</h3>
+              <p>
+                {t("uniqueDesc3")}
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-2">
+                {t("uniqueSubTitle4")}
+              </h3>
+              <p>
+                {t("uniqueDesc4")}
+              </p>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="pb-16">
-          <h2 className="text-3xl font-bold mb-6 text-[#0d335d]">
-            Vår historia
-          </h2>
-          <p className="text-lg mb-4">
-            Hässelby Strands Sjöscoutkår har en lång och stolt tradition av
-            scoutverksamhet i området. Genom åren har tusentals barn och unga
-            passerat genom våra avdelningar och lärt sig allt från knopar till
-            ledarskap.
-          </p>
-          <p className="text-lg mb-4">
-            Många av våra traditioner lever kvar än idag - från isvaksbadet på
-            vintern till sommarsegling i skärgården.
-          </p>
-          <p className="text-lg">
-            Kåren har alltid haft en stark koppling till vatten och båtar. Vårt
-            läge vid Mälaren har gett oss unika möjligheter att bedriva
-            sjöscoutverksamhet på hög nivå.
-          </p>
-        </section>
+      <section className="pb-16">
+        <h2 className="text-3xl font-bold mb-6 text-[#0d335d]">
+          {t("historyTitle")}
+        </h2>
+        <p className="text-lg mb-4">
+          {t("historyDesc1")}
+        </p>
+        <p className="text-lg mb-4">
+          {t("historyDesc2")}
+        </p>
+        <p className="text-lg">
+          {t("historyDesc3")}
+        </p>
+      </section>
 
-        <section className="pb-16">
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-[#0d335d]">
-            Våra traditioner
+            {t("traditionTitle")}
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-[#cceeff] p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-2">Isvaksbadet</h3>
+              <h3 className="text-xl font-bold mb-2">{t("traditionSubTitle1")}</h3>
               <p className="text-sm">
-                En klassisk tradition där äventyrarscouter badar i isvak under
-                vintern.
+                {t("traditionDesc1")}
               </p>
             </div>
             <div className="bg-[#cceeff] p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-2">Sommarsegling</h3>
+              <h3 className="text-xl font-bold mb-2">{t("traditionSubTitle2")}</h3>
               <p className="text-sm">
-                Varje sommar ger vi oss ut på äventyr i Stockholms skärgård.
+                {t("traditionDesc2")}
               </p>
             </div>
             <div className="bg-[#cceeff] p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-2">Vinterhajken</h3>
+              <h3 className="text-xl font-bold mb-2">{t("traditionSubTitle3")}</h3>
               <p className="text-sm">
-                Äventyrarscouter bor i tält även när det är som kallast.
+                {t("traditionDesc3")}
               </p>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="pb-16">
-          <div className="bg-[#0d335d] text-white p-12 rounded-t-none rounded-b-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-[#FDE68A]">
-              Våra samarbetspartners
-            </h2>
-            <ul className="space-y-4 max-w-2xl mx-auto">
-              <li className="flex items-start gap-2">
-                <span>•</span>
-                <p>
-                  <span className="font-bold">Scouterna:</span> Vi är medlemmar
-                  i Svenska Scoutförbundet.
-                </p>
-              </li>
-              <li className="flex items-start gap-2">
-                <span>•</span>
-                <p>
-                  <span className="font-bold">
-                    Stockholms Sjöscoutdistrikt:
-                  </span>{" "}
-                  Vi deltar i gemensamma aktiviteter.
-                </p>
-              </li>
-              <li className="flex items-start gap-2">
-                <span>•</span>
-                <p>
-                  <span className="font-bold">Lokala partners:</span> Vi
-                  samarbetar med lokala föreningar.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
+      <section className="py-16 px-6 max-w-4xl mx-auto w-full">
+        <div className="bg-[#0d335d] text-white p-12 rounded-t-none rounded-b-3xl text-left">
+          <h2 className="text-3xl font-bold mb-8 text-center text-[#FDE68A]">
+            {t("partnersTitle")}
+          </h2>
+          <p className="mb-8 text-center text-lg">
+            {t("partnersSubText")}
+          </p>
+
+          <ul className="space-y-4 max-w-2xl mx-auto">
+            <li className="flex items-start gap-2">
+              <span className="mt-1">•</span>
+              <p>
+                <span className="font-bold">{t("partnerTitle1")} </span> {t("partnerDesc1")}
+              </p>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1">•</span>
+              <p>
+                <span className="font-bold">{t("partnerTitle2")}</span>{" "}
+                {t("partnerDesc2")}
+              </p>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1">•</span>
+              <p>
+                <span className="font-bold">{t("partnerTitle3")}</span>{t("partnerDesc3")}
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 }

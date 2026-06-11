@@ -1,48 +1,48 @@
 import Link from "next/link";
-import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("footer")
   return (
     <footer className="bg-white py-16 px-6 border-t border-hss-lightblue">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 text-sm text-hss-darkgrey">
         <div className="flex flex-col gap-4 flex-1">
           <h3 className="text-xl font-bold text-hss-scout-darkblue">
-            Hässelby Strands <br /> Sjöscoutkår
+            {t("orgName1")} <br /> {t("orgName2")}
           </h3>
-          <p>E-post: info@hss-scout.org</p>
+          <p>{t("emailLabel")} info@hss-scout.org</p>
           <Link
             href="/kontakt"
             className="text-hss-scout-darkblue font-semibold hover:underline"
           >
-            Kontakta oss
+            {t("contactUs")}
           </Link>
         </div>
 
         <div className="flex flex-col gap-4 flex-1">
           <h3 className="text-xl font-bold text-hss-scout-darkblue">
-            Äventyr och kompisar
+            {t("adventureTitle")}
           </h3>
           <p className="leading-relaxed">
-            Tillsammans kan vi göra mer! <br />
-            Scouterna ger barn och unga från alla delar av samhället chansen att
-            uppleva äventyr tillsammans och växa som individer.
+            {t("adventureDesc1")} <br />
+            {t("adventureDesc2")}
           </p>
           <Link
             href="/bli-scout"
             className="text-hss-scout-darkblue font-bold hover:underline"
           >
-            Bli Scout nu
+            {t("becomeScoutNow")}
           </Link>
         </div>
 
         <div className="flex flex-col gap-4 flex-1">
           <h3 className="text-xl font-bold text-hss-scout-darkblue">
-            Följ oss i våra flöden
+            {t("followUsTitle")}
           </h3>
-          <p>Ha koll på det senaste</p>
+          <p>{t("stayUpdated")}</p>
 
           <div className="flex gap-6 text-hss-scout-darkblue mt-2">
             <a

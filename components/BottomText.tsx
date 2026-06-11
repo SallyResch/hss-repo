@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Button from '@/components/Button';
+import { useTranslations } from 'next-intl';
 
 interface BottomTextProps {
     title?:string;
