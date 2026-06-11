@@ -20,7 +20,7 @@ export default function GallerySection() {
           </h2>
 
           <Link
-            href="https://www.instagram.com/hasselbystrandssjoscoutkar/"
+            href="https://www.instagram.com/hss_scout/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-lg text-[#003B71] hover:underline"
