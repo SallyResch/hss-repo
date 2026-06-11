@@ -4,4 +4,5 @@ export default interface scoutPlatserCardsProps {
     title: string;
     description: string;
     isReverse?: boolean;
+    features: string[];
   }

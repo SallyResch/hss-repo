@@ -43,8 +43,7 @@ const HittaCards = ({
       <div>
         <Button
           variant="outlined"
-          startIcon={<img src="/mapicon.jpg" width="30" />}
-          endIcon={<LaunchIcon />}
+          startIcon={<img src="/mapicon.jpg" width="30" />}         
           href={`https://www.google.com/maps/search/?api=1&query=${coordinaterDetails}`}
           target="_blank"
           sx={{

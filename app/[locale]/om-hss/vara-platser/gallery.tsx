@@ -14,7 +14,7 @@ export default function GallerySection() {
       <div className="mx-auto max-w-[1200px] px-6">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 ">
           <h2 className="flex items-center gap-3 font-semibold text-hss-mediumblue text-[32px]">
-            〰️ Bilder från våra platser
+              Bilder från våra platser
           </h2>
 
           <Link

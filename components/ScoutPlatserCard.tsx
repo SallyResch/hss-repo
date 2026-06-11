@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import scoutPlatserCardsProps from "../types/scoutPlatserCardProps"
-const ScoutPlatserCard = ({imageUrl,title,description,isReverse}:scoutPlatserCardsProps) => {
+const ScoutPlatserCard = ({imageUrl,title,description,isReverse,features = []}:scoutPlatserCardsProps) => {
   if (!imageUrl) {
     return null; 
   }
@@ -26,11 +26,12 @@ const ScoutPlatserCard = ({imageUrl,title,description,isReverse}:scoutPlatserCar
            {description}
           </p>
         
-          <ul className="text-[16px] font-normal space-y-1.5 ">
-            <li className="flex items-center gap-2">✔️ Möten, läger och segling </li>
-            <li className="flex items-center gap-2">✔️ Brygga och båtar</li>
-            <li className="flex items-center gap-2">✔️ Kök och sovutrymmen</li>
-            <li className="flex items-center gap-2">✔️ Grillplats</li>
+          <ul className="text-[16px] font-normal space-y-1.5">
+            {features.map((feature, index) => (
+              <li key={index} className="flex items-center gap-2">
+                ✔️ {feature}
+              </li>
+            ))}
           </ul>
         </div>
       </div>
