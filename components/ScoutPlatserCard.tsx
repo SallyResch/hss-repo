@@ -3,7 +3,7 @@ import Image from "next/image";
 import scoutPlatserCardsProps from "../types/scoutPlatserCardProps"
 import { useTranslations } from "next-intl";
 
-const ScoutPlatserCard = ({ imageUrl, title, description, isReverse }: scoutPlatserCardsProps) => {
+const ScoutPlatserCard = ({ imageUrl, title, description, isReverse, features = [] }: scoutPlatserCardsProps) => {
   if (!imageUrl) {
     return null;
   }
@@ -29,11 +29,12 @@ const ScoutPlatserCard = ({ imageUrl, title, description, isReverse }: scoutPlat
             {description}
           </p>
 
-          <ul className="text-[16px] font-normal space-y-1.5 ">
-            <li className="flex items-center gap-2">✔️ {t("locationListItem1")}</li>
-            <li className="flex items-center gap-2">✔️ {t("locationListItem2")}</li>
-            <li className="flex items-center gap-2">✔️ {t("locationListItem3")}</li>
-            <li className="flex items-center gap-2">✔️ {t("locationListItem4")}</li>
+          <ul className="text-[16px] font-normal space-y-1.5">
+            {features.map((feature, index) => (
+              <li key={index} className="flex items-center gap-2">
+                ✔️ {feature}
+              </li>
+            ))}
           </ul>
         </div>
       </div>

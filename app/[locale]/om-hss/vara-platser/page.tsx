@@ -1,8 +1,8 @@
 import HeroSection from "@/components/HeroSection";
 import ScoutPlatserCard from "@/components/ScoutPlatserCard";
 import varaplasterhero from "@/public/varaplasterhero.png";
-import ruffenImage from "@/public/ruffen.png";
-import mysetImage from "@/public/myset.jpg";
+import ruffenImage from "@/public/HSS-Ruffen.jpeg";
+import mysetImage from "@/public/HSS-myset.jpeg";
 import type { Metadata } from "next";
 import HittaCards from "@/components/HittaCards";
 import GallerySection from "@/app/[locale]/om-hss/vara-platser/gallery";
@@ -42,12 +42,24 @@ export default function VaraPlatser() {
             title={t("locationTitle1")}
             description={t("locationDesc1")}
             isReverse={false}
+            features={[
+              `${t("locationListItem1")}`,
+              `${t("locationListItem2")}`,
+              `${t("locationListItem3")}`,
+              `${t("locationListItem4")}`
+            ]}
           />
           <ScoutPlatserCard
             imageUrl={mysetImage}
             title={t("locationTitle2")}
             description={t("locationDesc2")}
             isReverse={true}
+            features={[
+              `${t("locationListItem5")}`,
+              `${t("locationListItem6")}`,
+              `${t("locationListItem7")}`,
+              `${t("locationListItem8")}`
+            ]}
           />
         </div>
         <div className="flex flex-col gap-[40px] lg:w-[1000px] p-2.5">
@@ -66,7 +78,7 @@ export default function VaraPlatser() {
                 address={t("addressTitle")}
                 addressDeatils="Ruffenvägen 1, 165 55 Hässelby"
                 coordinater={t("coordinatesTitle")}
-                coordinaterDetails={`N 59°22'10", E 17°48'20"`}
+                coordinaterDetails={`N 59°23.816'E 017°46.230'`}
                 parkering={t("parkingTitle")}
                 parkeringDetails={t("parkingDesc1")}
               />

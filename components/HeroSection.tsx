@@ -18,7 +18,7 @@ const HeroSection = ({
 }: HeroSectionProps) => {
   const t = useTranslations("homePage")
   const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "lg:left-1/2 lg:-translate-x-1/2 md:left-[79px]";
-  //console.log(`desktopLeftPosition position is ${desktopLeftPosition}`)
+  
   return (
     <>
 
