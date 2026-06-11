@@ -1,8 +1,8 @@
 {
   "navigation": {
     "aboutHss": "About HSS",
-    "becomeScout": "Become Scout",
-    "btnMember": "Become Member",
+    "becomeScout": "Be a Scout",
+    "btnMember": "Be a Member",
     "contact": "Contact",
     "departments": "Departments",
     "membersInfo": "For Members / Practical Info",
@@ -16,8 +16,8 @@
     "aboutDesc1": "Hässelby Strands Sjöscoutkår (HSS) is a traditional, non-profit youth organization focusing on scouting and boating.",
     "aboutDesc2": "We are religiously and politically independent, and a member of the Swedish Scout Association, which with approximately 65,000 members is one of Sweden's largest youth organizations.",
     "polaroidText": "Memories",
-    "btnBecomeLeader": "Become Leader",
-    "btnBecomeScout": "Become Scout",
+    "btnBecomeLeader": "Become a Leader",
+    "btnBecomeScout": "Become a Scout",
     "btnReadMore": "Read more",
     "btnShowInterest": "Sign up",
     "departmentsTitle": "Our Departments",

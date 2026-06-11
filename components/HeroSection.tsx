@@ -68,10 +68,10 @@ const HeroSection = ({
           </p>
           {showButtons && (
             <div className="flex flex-col items-center gap-3 mt-0 md:flex-row md:gap-6">
-              <Link href="https://www.scoutnet.se/register/in/group/764">
+              <Link target="_blank" href="https://www.scoutnet.se/register/in/group/764">
                 <Button variant="yellow" className="whitespace-nowrap">{t("btnBecomeScout")}</Button>
               </Link>
-              <Link href="https://www.scoutnet.se/register/in/group/764">
+              <Link target="_blank" href="https://www.scoutnet.se/register/in/group/764">
                 <Button variant="outline" className="whitespace-nowrap">{t("btnBecomeLeader")}</Button>
               </Link>
             </div>
