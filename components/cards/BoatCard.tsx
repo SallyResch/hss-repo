@@ -23,7 +23,7 @@ const BoatCard = ({title,description,imageUrl}:BoatCardProps) => {
             <h3 className="mb-3 text-2xl font-bold text-hss-mediumblue">
                 {title}
             </h3>
-            <p className="text-sm leadin  g-relaxed text-gray-700">
+            <p className="text-sm leading-relaxed text-gray-700">
                 {description}
             </p>
         </div>
