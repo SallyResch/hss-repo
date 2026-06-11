@@ -5,8 +5,9 @@ import { currentBoats } from "@/data/boatsData";
 import TextContentBlock from "@/components/TextContentBlock"
 import PreviousBoatsSection from '@/components/cards/PreviousBoatsSection';
 import BoatCard from "@/components/cards/BoatCard";
-import TextCard from "@/components/cards/TextCard";
 import BottomText from "@/components/BottomText";
+import SectionHeader from "@/components/SectionHeader"
+
 
 export const metadata: Metadata = {
     title: "Våra båtar",
@@ -33,18 +34,11 @@ export default function VaraBatarPage(){
        
         {/* boat */}
         <section className="w-full max-w-5xl px-6 mt-16">
-            <div className="flex items-center justify-between pb-4 mb-6 border-b border-blue-200 cursor-pointer">
-                <h2 className="text-2xl font-bold text-hss-mediumblue">
-                    〰 En flotta för alla åldrar
-                </h2>
-                <span className="text-sm font-semibold text-hss-mediumblue hover:underline">
-                    Se alla våra båtar →
-                </span>
-            </div>
 
-            <p className="mb-8 text-sm text-gray-600">
-                Dessa båtar används i vår verksamhet för segling, utbildning och äventyr på det öppna vattnet.                
-            </p>
+            <SectionHeader
+            title="Våra båtar"
+            subtitle="Dessa båtar används i vår verksamhet för segling, utbildning och äventyr på det öppna vattnet"
+            />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {currentBoats.map((boat) => (
@@ -54,10 +48,23 @@ export default function VaraBatarPage(){
                     />
                 ))}               
             </div>
-        </section> 
 
-        <PreviousBoatsSection />
-        <BottomText />
+            
+        </section>
+
+        <section className="w-full max-w-5xl px-6 mt-16 mb-20">
+            <SectionHeader
+                      title="Tidigare båtar"
+            />
+             <PreviousBoatsSection />
+        </section>
+
+    
+        
+
+
+
+        <BottomText showSubtitle={false} />
         </main>
     )
 }

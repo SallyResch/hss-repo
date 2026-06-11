@@ -13,7 +13,7 @@ const Button = ({
   ...props
 }: ButtonProps) => {
   const baseStyles =
-    "inline-flex items-center justify-center px-[16px] py-[14px] rounded-[8px] font-semibold text-base md:text-[18px] transition-all duration-200 shadow-sm active:scale-90 focus:outline-none"
+    "inline-flex items-center justify-center px-[16px] h-[40px] min-w-[180px] rounded-[8px] font-semibold text-base md:text-[18px] md:min-w-[220px] md:h-[48px] transition-all duration-200 shadow-sm active:scale-90 focus:outline-none"
 
   const variantStyles = {
     yellow: "bg-hss-yellow text-hss-mediumblue hover:bg-hss-mediumblue hover:text-hss-yellow hover:ring-1 hover:ring-inset hover:ring-hss-yellow hover:opacity-90 hover:shadow-md",

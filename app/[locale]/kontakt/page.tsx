@@ -5,6 +5,7 @@ import ChannelCard from "@/components/cards/ChannelCard";
 import BottomText from "@/components/BottomText";
 import SectionHeader from "@/components/SectionHeader"
 
+
 import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
 import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined"
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined"
@@ -26,9 +27,10 @@ export default function KontaktPage(){
       <div className="max-w-[1000px] mx-auto w-full px-6 py-12 flex flex-col gap-24">
         <section>
           <SectionHeader
-          title="〰 Roller i kåren"
-          subtitle="Här är några av de roller som finns i vår kår och vad de ansvarar för."
-           />    
+          title="Roller i kåren"
+          subtitle="Här är några av de roller som finns i vår kår och vad de ansvarar för"
+          />
+         
           <div className="flex flex-col gap-4 w-full max-w-[1000px]">
             <ListCard
             icon={<FlagOutlinedIcon />}
@@ -65,7 +67,7 @@ export default function KontaktPage(){
         
         <section>
           <SectionHeader
-          title="〰 Hur du hör av dig"
+          title="Hur du hör av dig"
           subtitle="Det finns flera sätt att komma i kontakt med oss. Välj det som passar dig bäst!"
           />
          
