@@ -1,6 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import heroimg from "@/public/Wireframe.png";
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 
 
@@ -35,8 +35,8 @@ export default function OmHss() {
         </p>
       </section>
 
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto bg-[#FDE68A] p-10 md:p-12">
+      <section className="pb-16">
+        <div className="bg-[#FDE68A] p-10 md:p-12 w-full">
           <h2 className="text-3xl font-bold mb-8 text-[#0d335d]">
             {t("uniqueTitle")}
           </h2>
@@ -60,7 +60,9 @@ export default function OmHss() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2">{t("uniqueSubTitle4")}</h3>
+              <h3 className="text-xl font-bold mb-2">
+                {t("uniqueSubTitle4")}
+              </h3>
               <p>
                 {t("uniqueDesc4")}
               </p>
@@ -69,8 +71,10 @@ export default function OmHss() {
         </div>
       </section>
 
-      <section className="py-16 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6 text-[#0d335d]">{t("historyTitle")}</h2>
+      <section className="pb-16">
+        <h2 className="text-3xl font-bold mb-6 text-[#0d335d]">
+          {t("historyTitle")}
+        </h2>
         <p className="text-lg mb-4">
           {t("historyDesc1")}
         </p>
@@ -123,8 +127,7 @@ export default function OmHss() {
             <li className="flex items-start gap-2">
               <span className="mt-1">•</span>
               <p>
-                <span className="font-bold">{t("partnerTitle1")} </span>
-                {t("partnerDesc1")}
+                <span className="font-bold">{t("partnerTitle1")} </span> {t("partnerDesc1")}
               </p>
             </li>
             <li className="flex items-start gap-2">
@@ -137,7 +140,7 @@ export default function OmHss() {
             <li className="flex items-start gap-2">
               <span className="mt-1">•</span>
               <p>
-                <span className="font-bold">{t("partnerTitle3")}</span> {t("partnerDesc3")}
+                <span className="font-bold">{t("partnerTitle3")}</span>{t("partnerDesc3")}
               </p>
             </li>
           </ul>
