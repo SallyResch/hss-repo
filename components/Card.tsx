@@ -1,4 +1,4 @@
-import { CardProps } from "./card.types";
+import { CardProps } from "../types/card.types";
 
 export function Card({ title, description, imageUrl, age }: CardProps) {
   let borderClass = "border-gray-200";

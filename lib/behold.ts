@@ -5,25 +5,37 @@ import { InstagramCardProps } from "@/types/instagram";
 const INSTA_FEED_API_URL = process.env.BEHOLD_API_URL!;
 
 export async function getInstagramPosts(): Promise<Post[]>{
-    const response = await fetch(INSTA_FEED_API_URL, {
+
+    if(!INSTA_FEED_API_URL){
+        console.error("Behold api url is not defined in .env");
+        return[];
+    }
+
+    try{
+     const response = await fetch(INSTA_FEED_API_URL, {
         next: {
             revalidate: 3600,
         },
     });
 
     if(!response.ok){
-        throw new Error("Could not fetch data");
+        console.error(`Could not fetch data: Status ${response.status}`);
+        return [];
     }
 
-    const data: Feed = await response.json();
-    return data.posts;
-}
-
+        const data: Feed = await response.json();
+        return data.posts || [];
+    } catch (error) {
+    console.error
+        console.error("Error fetching Instagram posts:", error)
+        return[];
+    }
+    }
 export function mapPost(post: Post): InstagramCardProps{
     return{
         id:post.id,
         image:post.sizes.small.mediaUrl,
         permalink: post.permalink,
-        caption: post.caption,
+        caption: post.caption || "",
     };
 }

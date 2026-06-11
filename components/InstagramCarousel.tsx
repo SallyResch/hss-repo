@@ -1,11 +1,10 @@
 
 import { getInstagramPosts, mapPost } from "@/lib/behold";
 import InstagramCard from "./InstagramCard";
-
+import { PLACEHOLDER_POSTS } from "@/data/instagramPlaceholder";
 export default async function InstagramCarousel() {
-
     const rawPosts = await getInstagramPosts();
-    const posts = rawPosts.map(mapPost);
+    const posts = rawPosts.length > 0 ? rawPosts.map(mapPost) : PLACEHOLDER_POSTS;
 
     return (
         <div className="w-full">
