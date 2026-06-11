@@ -54,10 +54,10 @@ export default function VaraPlatser() {
             description=" Myset är vår lägerplats i skogen mellan Lövsta och Gåseborg. Här samlas scouter för hajker, läger och friluftsaktiviteter i en naturnära miljö."
             isReverse={true}
             features={[
-              "Perfekt för dagsutflykter",
-              "Kanot- och kajakförvaring",
-              "Stor gräsyta för lekar",
-              "Närhet till skogsområden"
+              "Hajker och läger",
+              "Friluftsaktiviteter",
+              "Scoutaktiviteter i naturen",
+              "Gemenskap och äventyr"
             ]}
           />
         </div>
@@ -93,7 +93,7 @@ till stranden."
                 coordinaterDetails={`N 59°23.816'E 017°46.230'`}                
                 parkering="Parkering:"
                 parkeringDetails="Närmaste parkering är vid Lövstaspåret, sedan ca 3,5 km promenad eller så kör du bil ända
-fram till stugdörren"
+fram till stugdörren."
               />
             </div>
           </div>
