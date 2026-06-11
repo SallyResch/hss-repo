@@ -14,6 +14,7 @@ import SailingOutlinedIcon from "@mui/icons-material/SailingOutlined"
 import { useTranslations } from "next-intl";
 
 
+
 export default function KontaktPage() {
   const t = useTranslations("kontaktPage")
   return (
@@ -70,8 +71,7 @@ export default function KontaktPage() {
             title={t('sectionHeaderTitle2')}
             subtitle={t('sectionSubTitle2')}
           />
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">           
             <ChannelCard
               icon={<MailOutlineOutlinedIcon fontSize="large" />}
               title={t("channelCardTitle1")}
@@ -108,6 +108,7 @@ export default function KontaktPage() {
         subtitle={t("bottomSubTitle")}
         buttonText={t("channelCardLinkText1")}
         buttonHref="mailto:info@hss.scout.se"
+        showSubtitle={false}
       />
 
     </main>

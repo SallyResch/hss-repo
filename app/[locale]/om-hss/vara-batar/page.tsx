@@ -7,6 +7,7 @@ import PreviousBoatsSection from '@/components/cards/PreviousBoatsSection';
 import BoatCard from "@/components/cards/BoatCard";
 import BottomText from "@/components/BottomText";
 import { useTranslations } from "next-intl";
+import SectionHeader from "@/components/SectionHeader"
 
 export const metadata: Metadata = {
     title: "Våra båtar",
@@ -18,43 +19,48 @@ export default function VaraBatarPage() {
     const t = useTranslations("varaBatarPage")
     const currentBoats = getCurrentBoats(t);
     return (
-        <main className="flex flex-col items-center w-full">
-            <HeroSection
+        <main className="w-full">
+                <HeroSection
                 title={t("heroTitle")}
                 description={t("heroText")}
                 variant="subpage"
                 imageUrl={heroimg}
-            />
-            <TextContentBlock
-                title={t("mainSectionTitle")}
-                isCentered={true}
-            >
-                <p>{t("mainSectionDesc")}</p>
-            </TextContentBlock>
-            {/* boat */}
-            <section className="w-full max-w-5xl px-6 mt-16">
-                <div className="flex items-center justify-between pb-4 mb-6 border-b border-blue-200 cursor-pointer">
-                    <h2 className="text-2xl font-bold text-hss-mediumblue">
-                        {t("mainSectionTitle")}
-                    </h2>
-                    <span className="text-sm font-semibold text-hss-mediumblue hover:underline">
-                        {t("fleetLinkText")} →
-                    </span>
-                </div>
-                <p className="mb-8 text-sm text-gray-600">
-                    {t("fleetDesc")}
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {currentBoats.map((boat) => (
+                />
+
+                <div  className="max-w-[1000px] mx-auto w-full px-6 py-12 flex flex-col gap-16">
+                    <section>
+                        <TextContentBlock
+                        title={t("mainSectionTitle")}
+                        isCentered={true}
+                        >
+                        <p>{t("mainSectionDesc")}</p>
+                        </TextContentBlock>                       
+                    {/* boat */}
+                        <SectionHeader
+                        title={t('heroTitle')}
+                        subtitle={t('fleetDesc')}
+                        />
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {currentBoats.map((boat) => (
                         <BoatCard
                             key={boat.title}
                             {...boat}
                         />
-                    ))}
-                </div>
-            </section>
-            <PreviousBoatsSection />
-            <BottomText />
+                        ))}
+                    </div>
+                    </section>
+
+                     {/* hisboat */}
+                     <section>
+                        <SectionHeader
+                        title={t('earlierBoatsTitle')}
+                        /> 
+                        <PreviousBoatsSection />
+                        
+                    </section>
+                                                     
+            </div>
+            <BottomText />   
         </main>
     )
 }
