@@ -2,13 +2,15 @@ import Link from "next/link";
 
 import BlueWaveLine from "@/components/BlueWaveLine";
 import Button from "@/components/Button";
+import { useTranslations } from "next-intl";
 
 const StartSection = () => {
+  const t = useTranslations("bliScoutPage")
   return (
     <section className="w-full px-6 py-16 md:px-20">
       <div className="mx-auto max-w-5xl">
         <h3 className="mb-14 mt-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
-          Såhär börjar du
+          {t("startTitle")}
         </h3>
 
         <div className="relative mx-auto mb-14 hidden max-w-5xl md:block">
@@ -55,45 +57,42 @@ const StartSection = () => {
             </div>
           ))}
         </div>
-        <div className="grid gap-14 md:grid-cols-3 md:items-start">
+
+        <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-3 md:items-stretch">
+
           <div className="flex h-full flex-col items-start">
             <h3 className="mb-4 text-3xl font-semibold text-hss-mediumblue">
-              Anmäl intresse
+              {t("startStepTitle1")}
             </h3>
 
             <p className="mb-10 text-lg leading-relaxed text-hss-mediumblue">
-              Anmäl intresse genom att klicka på länken och fylla i uppgifterna
-              på dig eller ditt barn. Detta skickas vidare direkt till vårat
-              medlemsregister
+              {t("startStepDesc1")}
             </p>
             <Link
               href="https://www.scoutnet.se/register/in/group/764"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="yellow">Anmäl intresse</Button>
+              <Button variant="yellow">{t("startStepTitle1")}</Button>
             </Link>
           </div>
-
           <div className="flex h-full flex-col items-start">
             <h3 className="mb-4 text-3xl font-semibold text-hss-mediumblue">
-              Vi kontaktar dig
+              {t("startStepTitle2")}
             </h3>
 
             <p className="text-lg leading-relaxed text-hss-mediumblue">
-              Vi hör av oss inom kort. Fält som är markerade med * är
-              obligatoriska
+              {t("startStepDesc2")}
             </p>
           </div>
 
           <div className="flex h-full flex-col items-start">
             <h3 className="mb-4 text-3xl font-semibold text-hss-mediumblue">
-              Prova på scouting
+              {t("startStepTitle3")}
             </h3>
 
             <p className="mb-10 text-lg leading-relaxed text-hss-mediumblue">
-              Om det är väntelista kanske det dyker upp någon prova på dag. Håll
-              utkik!
+              {t("startStepDesc3")}
             </p>
 
             <div className="mt-auto w-full">
@@ -108,7 +107,7 @@ const StartSection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 

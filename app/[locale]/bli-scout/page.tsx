@@ -10,20 +10,20 @@ import StartSection from "./StartSection";
 import TextSection from "@/components/TextSection";
 import VanligaFragor from "@/app/[locale]/bli-scout/FAQSection";
 import ClothingSection from "@/app/[locale]/bli-scout/ClothingSection";
-
+import { useTranslations } from "next-intl";
 export const metadata: Metadata = {
   title: "Bli Scout",
   description:
     "En sida för att ta reda på mer information om hur man blir scout och vad det innebär",
 };
 
-export default function BliScout({}) {
+export default function BliScout({ }) {
+  const t = useTranslations("bliScoutPage")
   return (
     <div>
       <HeroSection
-        title="Bli Scout"
-        description=" Vill du ge ditt barn möjlighet att upptäcka naturen, lära sig nya färdigheter och få
-                      vänner för livet? Här kan du läsa mer om hur du blir scout hos oss."
+        title={t('heroTitle')}
+        description={t('heroText')}
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}
@@ -32,68 +32,64 @@ export default function BliScout({}) {
 
       <div className="w-full  flex flex-col items-center ">
         <p className="mb-14 mt-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
-          Varför Scouting?
+          {t("scoutingTitle")}
         </p>
-      </div>
-
-      <section className="w-full px-6  md:px-20 ">
-        <div className="mx-auto max-w-5xl w-full">
-          <div className="flex flex-col lg:flex-row gap-6 items-stretch lg:justify-between w-full">
-            <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
-              <ScoutingCards
-                imageUrl={adventureImg}
-                title="Äventyr"
-                description="Segla i skärgården och upplev nya äventyr."
-                color="blue"
-              />
-              <ScoutingCards
-                imageUrl={developmentImg}
-                title="Utveckling"
-                description="Lär dig segling, knopar och sjömanskap."
-                color="yellow"
-              />
-            </div>
-
-            <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
-              <ScoutingCards
-                imageUrl={comraderyImg}
-                title="Natur"
-                description="Friluftsliv, hajker och naturupplevelser året runt."
-                color="yellow"
-              />
-              <ScoutingCards
-                imageUrl={natureImg}
-                title="Gemenskap"
-                description="Vänner, samarbete och minnen för livet."
-                color="blue"
-              />
+        <section className="w-full px-6 md:px-20">
+          <div className="mx-auto max-w-5xl w-full">
+            <div className="flex flex-col lg:flex-row gap-6 items-stretch lg:justify-between w-full">
+              <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
+                <ScoutingCards
+                  imageUrl={adventureImg}
+                  title={t("cardTitle1")}
+                  description={t("cardDesc1")}
+                  color="blue"
+                />
+                <ScoutingCards
+                  imageUrl={developmentImg}
+                  title={t("cardTitle3")}
+                  description={t("cardDesc3")}
+                  color="yellow"
+                />
+              </div>
+              <div className="flex flex-col gap-6 flex-1 w-full lg:max-w-[48%] items-stretch">
+                <ScoutingCards
+                  imageUrl={comraderyImg}
+                  title={t("cardTitle2")}
+                  description={t("cardDesc2")}
+                  color="yellow"
+                />
+                <ScoutingCards
+                  imageUrl={natureImg}
+                  title={t("cardTitle4")}
+                  description={t("cardDesc4")}
+                  color="blue"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-
-
+        </section>
+      </div>
       <div>
-        <StartSection /> 
+        <StartSection />
         <TextSection
-          title="Hur fungerar verksamheten?"
+          title={t("howItWorksTitle")}
           paragraphs={[
-            "Vi har möten en gång i veckan under terminstid. Mötena är cirka 2 timmar långa och varierar i innehåll.",
-            "Förutom veckans möten arrangerar vi regelbundet hajker (övernattningar) och läger under helger och lov.",
-            "Verksamheten är indelad i avdelningar efter ålder. Varje avdelning har sina egna ledare och sitt eget program anpassat efter åldersgruppen.",
+            `${t("howItWorksDesc1")}`,
+            `${t("howItWorksDesc2")}`,
+            `${t("howItWorksDesc3")}`,
           ]}
         />
         <TextSection
-          title="Vad föräldrar behöver veta"
+          title={t("needToKnowTitle")}
           paragraphs={[
-            "Som förälder är du alltid välkommen att delta i verksamheten. Vi uppskattar föräldraengagemang och många av våra aktiviteter kräver stöd från föräldrar.",
-            "Alla våra ledare är utbildade i Trygga Möten och har registerutdrag. Vi arbetar aktivt för att skapa en trygg och inkluderande miljö för alla barn och unga.",
-            "Kommunikation sker främst via e-post. Du kommer få information om hur du får tillgång till dessa kanaler efter registrering.",
+            `${t("needToKnowDesc1")}`,
+            `${t("needToKnowDesc2")}`,
+            `${t("needToKnowDesc3")}`,
           ]}
         />
         <ClothingSection />
         <VanligaFragor />
       </div>
-    </div>
+    </div >
   );
 }
