@@ -21,27 +21,27 @@
     "btnShowInterest": "Sign up",
     "departmentsTitle": "Our Departments",
     "cardAventyrare": {
-      "age": "12-14 years",
+      "age": "12-14 yrs",
       "desc": "This is where sailing begins in earnest, and we head out into the archipelago during the summer. When we aren't sailing, we practice navigation and also do traditional land-based scouting activities. In the winter, when it is at its coldest, we go on a proper winter hike where we camp in tents.",
       "title": "Adventurers"
     },
     "cardFamily": {
-      "age": "5-7 years",
+      "age": "5-7 yrs",
       "desc": "In 'Småttarne', children and adults discover scouting together through play, nature experiences, and simpler outdoor adventures. Here, families can try out scouting at a relaxed pace with a focus on community and the joy of discovery.",
       "title": "Family Scouting"
     },
     "cardSparare": {
-      "age": "8-9 years",
+      "age": "8-9 yrs",
       "desc": "At 8 years of age you can start in HSS, i.e., when you start 2nd grade. You then become a Trackers Scout and a member of the Sjöhumlorna/Trackers unit. (Trackers scouts were previously called 'miniorscouter')",
       "title": "Trackers"
     },
     "cardUpptackare": {
-      "age": "10-11 years",
+      "age": "10-11 yrs",
       "desc": "At Kaparna, the difficulty level of the tasks increases. The scouts learn to sail Optimist dinghies and also try sailing 2-Krona and keelboats. A fully trained Discoverer scout can, among other things, handle a knife, build a fire, and extinguish small fires.",
       "title": "Discoverers"
     },
     "cardUtmanare": {
-      "age": "15+ years",
+      "age": "15+ yrs",
       "desc": "When you graduate from the Adventurer scouts, you form a team together with your peers. You then work towards learning new things and taking on tougher challenges to strengthen team cohesion.",
       "title": "Challengers"
     },
