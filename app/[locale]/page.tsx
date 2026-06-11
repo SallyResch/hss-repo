@@ -37,12 +37,6 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 items-stretch">
               <Card
-                title={t("cardFamily.title")}
-                age={t("cardFamily.age")}
-                imageUrl={familyIcon.src}
-                description={t("cardFamily.desc")}
-              />
-              <Card
                 title={t("cardSparare.title")}
                 age={t("cardSparare.age")}
                 imageUrl={kidIcon.src}
@@ -65,6 +59,12 @@ export default function Home() {
                 age={t("cardUtmanare.age")}
                 imageUrl={adultIcon.src}
                 description={t("cardUtmanare.desc")}
+              />
+              <Card
+                title={t("cardFamily.title")}
+                age={t("cardFamily.age")}
+                imageUrl={familyIcon.src}
+                description={t("cardFamily.desc")}
               />
             </div>
           </div>
