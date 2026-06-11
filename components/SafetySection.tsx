@@ -36,46 +36,37 @@ export default function SafetySection() {
         <img src="/blue.png" alt="" className="w-full object-contain block" />
       </div>
 
-      <div className="relative bg-[#0d335d] text-white pt-2 pb-16 sm:pb-20 px-4 sm:px-6 mt-[-1px]">
-        <div className="max-w-[95rem] mx-auto w-full md:px-14">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 tracking-wide text-center">
-            {t("safetyTitle")}
-          </h2>
-
-          <div className="space-y-5 sm:space-y-6 text-lg sm:text-xl font-semibold text-center md:text-left max-w-xl mx-auto md:mx-0">
-            <div className="transition-transform cursor-pointer hover:translate-x-1 py-1">
-              <a
-                href="https://www.scouterna.se/trygga-moten/utbildning/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="leading-snug block hover:underline"
-              >
-                {t("safetyEducation")}
-              </a>
-            </div>
-            <div className="transition-transform cursor-pointer hover:translate-x-1 py-1">
-              <a
-                href="https://www.scouterna.se/trygga-moten/rad-och-stod/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="leading-snug block hover:underline"
-              >
-                {t("safetyAdviceSupport")}
-              </a>
-            </div>
-            <div className="transition-transform cursor-pointer hover:translate-x-1 py-1">
-              <a
-                href="https://www.scouterna.se/trygga-moten/trygg-verksamhet/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="leading-snug block hover:underline"
-              >
-                {t("safetyOperation")}
-              </a>
-            </div>
-          </div>
+      <div className="relative bg-[#0d335d] text-white pt-4 pb-8 px-4 sm:px-6">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 tracking-wide text-center">
+          {t("safetyTitle")}
+        </h2>
+        <div className="font-bold flex flex-col gap-6 md:flex-row md:justify-evenly md:gap-3">
+          <a
+            href="https://www.scouterna.se/trygga-moten/utbildning/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="leading-snug block hover:underline"
+          >
+            {t("safetyEducation")}
+          </a>
+          <a
+            href="https://www.scouterna.se/trygga-moten/rad-och-stod/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="leading-snug block hover:underline"
+          >
+            {t("safetyAdviceSupport")}
+          </a>
+          <a
+            href="https://www.scouterna.se/trygga-moten/trygg-verksamhet/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="leading-snug block hover:underline"
+          >
+            {t("safetyOperation")}
+          </a>
         </div>
       </div>
-    </section>
+    </section >
   );
 }

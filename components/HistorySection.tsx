@@ -56,9 +56,9 @@ export default function HistorySection() {
       />
 
       <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center px-5">
-        <h1 className="mb-8 text-center font-montserrat text-2xl font-semibold text-hss-mediumblue md:text-[28px] lg:mb-14 lg:text-[32px]">
+        <h2 className="mb-8 text-center font-montserrat text-2xl font-semibold text-hss-mediumblue md:text-[28px] lg:mb-14 lg:text-[32px]">
           {t("aboutTitle")}
-        </h1>
+        </h2>
 
         <div className="mb-8 w-full max-w-[420px] md:max-w-[480px] lg:mb-12 lg:max-w-[639px]">
           <div className="relative h-[220px] md:h-[260px] lg:h-[300px] w-full">

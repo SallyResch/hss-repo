@@ -31,9 +31,9 @@ export default function BliScout({ }) {
       />
 
       <div className="w-full  flex flex-col items-center ">
-        <p className="mb-14 mt-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
+        <h2 className="mb-14 mt-14 text-center text-3xl font-semibold text-hss-mediumblue md:text-5xl">
           {t("scoutingTitle")}
-        </p>
+        </h2>
         <section className="w-full px-6 md:px-20">
           <div className="mx-auto max-w-5xl w-full">
             <div className="flex flex-col lg:flex-row gap-6 items-stretch lg:justify-between w-full">

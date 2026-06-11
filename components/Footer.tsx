@@ -44,7 +44,7 @@ export default function Footer() {
           </h3>
           <p>{t("stayUpdated")}</p>
 
-          <div className="flex gap-6 text-hss-scout-darkblue mt-2">
+          <div className="flex flex-row gap-6 text-hss-scout-darkblue mt-2">
             <a
               href="https://www.instagram.com/hasselbystrandssjoscoutkar/"
               target="_blank"
@@ -53,15 +53,6 @@ export default function Footer() {
               className="hover:text-hss-yellow transition-colors"
             >
               <InstagramIcon fontSize="large" />
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=_mMZJK1iWYY"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="YouTube"
-              className="hover:text-hss-yellow transition-colors"
-            >
-              <YouTubeIcon fontSize="large" />
             </a>
             <a
               href="https://www.facebook.com/hasselbystrandssjoscoutkar"
@@ -73,9 +64,8 @@ export default function Footer() {
               <FacebookIcon fontSize="large" />
             </a>
           </div>
-
           <p className="text-xs text-hss-mediumblue mt-6">
-            © Scouterna 2021. All right reserved.
+            © Scouterna 2026. All right reserved.
           </p>
         </div>
       </div>
