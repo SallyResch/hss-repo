@@ -129,17 +129,17 @@ export default function OmHss() {
                 <span>•</span>
                 <p>
                   <span className="font-bold">
-                    {t("partnerTitle1")}
-                   
-                  </span>{" "}
-                  {t("partnerTitle2")}
+                    {t("partnerTitle2")}
+                  </span>
+                  {t("partnerDesc2")}
                 </p>
               </li>
               <li className="flex items-start gap-2">
                 <span>•</span>
                 <p>
-                  <span className="font-bold">{t("partnerTitle3")}</span> {t("")} {t("partnerTitle3")}
+                <span className="font-bold">{t("partnerTitle3")}</span>{t("partnerDesc3")}
                 </p>
+ 
               </li>
             </ul>
           </div>
