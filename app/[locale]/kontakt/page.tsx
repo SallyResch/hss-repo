@@ -5,7 +5,6 @@ import ChannelCard from "@/components/cards/ChannelCard";
 import BottomText from "@/components/BottomText";
 import SectionHeader from "@/components/SectionHeader"
 
-
 import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
 import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined"
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined"
@@ -68,8 +67,8 @@ export default function KontaktPage() {
 
         <section>
           <SectionHeader
-          title="〰 Hur du hör av dig"
-          subtitle="Det finns flera sätt att komma i kontakt med oss. Välj det som passar dig bäst!"
+            title={t('sectionHeaderTitle2')}
+            subtitle={t('sectionSubTitle2')}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
