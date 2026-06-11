@@ -12,18 +12,6 @@ import PinkWave from "@/public/waves/PinkWave.png";
 
 export const getScoutGroups = (t:any) => [
   {
-    icon: familyIcon,
-    title: t("family.title"),
-    age: t("family.age"),
-    color: "#8E44AD",
-    wave: PurpleWave,
-    paragraphs: [
-      `${t("family.desc1")}`,
-      `${t("family.desc2")}`,
-    ],
-  },
-
-  {
     icon: kidIcon,
     title: t("trackers.title"),
     age: t("trackers.age"),
@@ -81,6 +69,17 @@ export const getScoutGroups = (t:any) => [
     `${t("challengers.whatWeDo2")}`,
     `${t("challengers.meeting")}`,
     `${t("challengers.contact")}`
+    ],
+  },
+    {
+    icon: familyIcon,
+    title: t("family.title"),
+    age: t("family.age"),
+    color: "#8E44AD",
+    wave: PurpleWave,
+    paragraphs: [
+      `${t("family.desc1")}`,
+      `${t("family.desc2")}`,
     ],
   },
 ];
