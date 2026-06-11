@@ -4,7 +4,8 @@ import FindUrDept from "./findurdept";
 import { Metadata } from "next";
 
 import heroimg from "@/public/Wireframe.png";
-import { scoutGroups } from "@/data/scoutGroups";
+import { getScoutGroups } from "@/data/scoutGroups";
+import { useTranslations } from "next-intl";
 
 export const metadata: Metadata = {
   title: "Avdelningar",
@@ -12,11 +13,14 @@ export const metadata: Metadata = {
 }
 
 export default function Avdelningar() {
+  const t = useTranslations("avdelningarPage")
+
+  const scoutGroups = getScoutGroups(t);
   return (
     <>
       <HeroSection
-        title="Vara avdelningar"
-        description="Verksamheten är indelad efter ålder. Varje avdelning har sitt eget program och sina egna utmaningar"
+        title={t('heroTitle')}
+        description={t('heroText')}
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}
