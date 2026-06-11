@@ -25,4 +25,16 @@ export const PLACEHOLDER_POSTS: InstagramCardProps[]=[
         permalink:"https://www.instagram.com/hss_scout/",
         caption:""
     },
+    {
+        id:"5",
+        image:"/2-Krona.png",
+        permalink:"https://www.instagram.com/hss_scout/",
+        caption:""
+    },
+    {
+        id:"6",
+        image:"/gallery2.jpg",
+        permalink:"https://www.instagram.com/hss_scout/",
+        caption:""
+    },
 ]
