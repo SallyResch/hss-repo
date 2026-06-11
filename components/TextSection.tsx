@@ -3,6 +3,7 @@ interface TextSectionProps {
   paragraphs: string[];
 }
 
+
 const TextSection = ({
   title,
   paragraphs,
@@ -10,7 +11,7 @@ const TextSection = ({
   return (
     <section className="w-full px-6 py-12 md:px-20 md:py-16">
       <div className="mx-auto max-w-5xl">
-        <h2 className="mb-8 text-3xl font-semibold text-hss-mediumblue md:text-5xl">
+        <h2 className="text-3xl font-bold mb-6 text-hss-mediumblue">
           {title}
         </h2>
 
@@ -18,8 +19,9 @@ const TextSection = ({
           {paragraphs.map((paragraph, index) => (
             <p
               key={index}
-              className="text-lg leading-relaxed text-black md:text-2xl"
-            >
+              className="text-lg mb-4 leading-relaxed text-hss-mediumblue"
+            >       
+
               {paragraph}
             </p>
           ))}
