@@ -41,12 +41,24 @@ export default function VaraPlatser() {
             title="Ruffen"
             description="Ruffen ligger vid Mälaren och är vår egna stuga. Här har vi brygga, båtplats och gott om utrymme för aktiviteter och läger."
             isReverse={false}
+            features={[
+            "Möten, läger och segling",
+            "Brygga och båtar",
+            "Kök och sovutrymmen",
+            "Grillplats"
+          ]}
           />
           <ScoutPlatserCard
             imageUrl={mysetImage}
             title="Myset"
-            description=" Ruffen ligger vid Mälaren och är vår egna stuga. Här har vi brygga, båtplats och gott om utrymme för aktiviteter och läger."
+            description=" Myset är vår lägerplats i skogen mellan Lövsta och Gåseborg. Här samlas scouter för hajker, läger och friluftsaktiviteter i en naturnära miljö."
             isReverse={true}
+            features={[
+              "Perfekt för dagsutflykter",
+              "Kanot- och kajakförvaring",
+              "Stor gräsyta för lekar",
+              "Närhet till skogsområden"
+            ]}
           />
         </div>
         <div className="flex flex-col gap-[40px] lg:w-[1000px] p-2.5">
