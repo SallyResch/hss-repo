@@ -3,20 +3,18 @@ import heroimg from "@/public/Wireframe.png";
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
  
-type Props = {};
- 
 export const metadata: Metadata = {
   title: "Om HSS",
   description: "Om Hässelby Strands Sjöscoutkår",
 };
  
-export default function OmHss({}: Props) {
+export default function OmHss() {
   const t = useTranslations("omHSSPage");
   return (
     <main className="w-full flex flex-col bg-white text-[#0d335d]">
       <HeroSection
-        title="Om HSS"
-        description="HÄSSELBY STRANDS SJÖSCOUTKÅR - Hässelby Strands Sjöscoutkår - En traditionsrik ideell ungdomsverksamhet sedan många år"
+        title={t("heroTitle")}
+        description={t("heroText")}    
         imageUrl={heroimg}
         mobileImgUrl={heroimg}
         showButtons={false}
@@ -90,8 +88,8 @@ export default function OmHss({}: Props) {
  
         <section className="pb-16">
           <h2 className="text-3xl font-bold mb-8 text-[#0d335d]">
-            {t("")}
-            Våra traditioner
+            {t("traditionTitle")}
+
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-[#cceeff] p-6 rounded-lg">
