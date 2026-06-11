@@ -15,6 +15,7 @@
     "aboutTitle": "Vad är HSS",
     "aboutDesc1": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv.",
     "aboutDesc2": "Vi är religiöst och politiskt obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
+    "polaroidText": "Minnen",
     "btnBecomeLeader": "Bli Ledare",
     "btnBecomeScout": "Bli Scout",
     "btnReadMore": "Läs mer",
@@ -219,7 +220,7 @@
   "varaPlatserPage": {
     "heroTitle": "Våra platser",
     "heroText": "Ruffen och Myset är våra två sjöscoutplatser. Här håller vi möten, läger och äventyr året runt.",
-    "mainSectionTitle": "Våra Scoutplatser",
+    "mainSectionTitle": "Våra Mötesplatser",
     "mainSectionDesc": "Vi har två fantastiska platser vid Mälaren där vi möts, umgås och skapar minnen.",
     "locationTitle1": "Ruffen",
     "locationTitle2": "Myset",
@@ -237,8 +238,8 @@
     "coordinatesTitle": "Koordinater",
     "coordinates": "N 59°22'10 E 17°48'20",
     "parkingTitle": "Parkering:",
-    "parkingDesc1": "Följ skyltning till grusparkeringen",
-    "parkingDesc2": "Följ skyltning till grusparkeringen",
+    "parkingDesc1": "Parkera vid Hässelby Strand Centrum (Maltesholmsvägen), sedan ca 5 min promenade till stranden.",
+    "parkingDesc2": "Närmaste parkering är vid Lövstaspåret, sedan ca 3,5 km promenad eller så kör du bil ända fram till stugdörren",
     "googleLinkText": "Öppna i Google Maps",
     "pictureTitle": "Bilder från våra platser",
     "pictureLinkText": "Se fler bilder"

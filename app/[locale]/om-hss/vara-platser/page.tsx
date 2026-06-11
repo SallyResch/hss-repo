@@ -68,7 +68,7 @@ export default function VaraPlatser() {
                 coordinater={t("coordinatesTitle")}
                 coordinaterDetails={`N 59°22'10", E 17°48'20"`}
                 parkering={t("parkingTitle")}
-                parkeringDetails={t("parkingDesc2")}
+                parkeringDetails={t("parkingDesc1")}
               />
             </div>
 
