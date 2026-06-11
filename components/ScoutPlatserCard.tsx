@@ -1,14 +1,17 @@
 import React from "react";
 import Image from "next/image";
-
 import scoutPlatserCardsProps from "../types/scoutPlatserCardProps"
-const ScoutPlatserCard = ({imageUrl,title,description,isReverse,features = []}:scoutPlatserCardsProps) => {
+import { useTranslations } from "next-intl";
+
+const ScoutPlatserCard = ({ imageUrl, title, description, isReverse, features = [] }: scoutPlatserCardsProps) => {
   if (!imageUrl) {
-    return null; 
+    return null;
   }
+  const t = useTranslations("varaPlatserPage")
+
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 lg:w-[1000px] lg:min-h-[400px] gap-[24px] mt-2 overflow-hidden rounded-2xl mb-6">
-     <div className={`relative w-full h-[250px] lg:h-full ${ isReverse ? "lg:order-last" : "lg:order-first"}`}>
+      <div className={`relative w-full h-[250px] lg:h-full ${isReverse ? "lg:order-last" : "lg:order-first"}`}>
         <Image
           src={imageUrl}
           alt="RuffenImage"
@@ -23,9 +26,9 @@ const ScoutPlatserCard = ({imageUrl,title,description,isReverse,features = []}:s
             {title}
           </h2>
           <p className="text-[16px] font-normal mb-4 ">
-           {description}
+            {description}
           </p>
-        
+
           <ul className="text-[16px] font-normal space-y-1.5">
             {features.map((feature, index) => (
               <li key={index} className="flex items-center gap-2">

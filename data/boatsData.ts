@@ -1,22 +1,49 @@
-export const currentBoats = [
+export const getCurrentBoats  = (t:any) =>[
     {
-        title:"Optimistjolle",
-        description:"Perfekta för att lära sig grunderna i segling på ett tryggt och roligt sätt.",
+        title:t("boatCardTitle1"),
+        description:t("boatCardDesc1"),
         imageUrl:"/Optimistjolle.png"
     },
     {
-        title:"2-Krona",
-        description:"Snabba och roliga båtar som passar bra för både träning och tursegling.",
+        title:t("boatCardTitle2"),
+        description:t("boatCardDesc2"),
         imageUrl:"/2-Krona.png"
     },
     {
-        title:"Albin Viggen (Kölbåt)",
-        description:"Våra största segelbåtar. Används för längre seglatser, utbildning och lugn segling.",
+        title:t("boatCardTitle3"),
+        description:t("boatCardDesc3"),
         imageUrl:"/Kölbåtar.png"
     },
      {
-        title:"Buster",
-        description:"Vår motorbåt som alltid används vid seglingar och sjöaktiviteter för högsta säkerhet.",
+        title:t("boatCardTitle4"),
+        description:t("boatCardDesc4"),
         imageUrl:"/Följseglaren.png"
+    },
+];
+
+export const getBoatDataList = (t:any) => [
+    {
+        id: 1, 
+        title: t("earlierCardTitle1"), 
+        age: t("earlierCardYear1"), 
+        description: t("earlierCardDesc1")
+    },
+    { 
+        id: 2, 
+        title: t("earlierCardTitle2"), 
+        age: t("earlierCardYear2"), 
+        description: t("earlierCardDesc2")
+    },
+    { 
+        id: 3, 
+        title: t("earlierCardTitle3"), 
+        age: t("earlierCardYear3"), 
+        description: t("earlierCardDesc3")
+    },
+    { 
+        id: 4, 
+        title: t("earlierCardTitle4"), 
+         age: t("earlierCardYear4"), 
+        description: t("earlierCardDesc4")
     },
 ];

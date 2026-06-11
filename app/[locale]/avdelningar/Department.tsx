@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import Image, { StaticImageData } from "next/image";
 import Button from "@/components/Button";
+import { useTranslations } from "next-intl";
 
 type ScoutGroupSectionProps = {
   icon: StaticImageData;
@@ -20,8 +21,9 @@ export default function ScoutGroupSection({
   wave,
   paragraphs,
 }: ScoutGroupSectionProps) {
+  const t = useTranslations("homePage")
   return (
-   <section className="relative mx-auto max-w-[900px] overflow-hidden px-4 pt-0 pb-6">
+    <section className="relative mx-auto max-w-[900px] overflow-hidden px-4 pt-0 pb-6">
       <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-4">
           <Image src={icon} alt={title} width={90} height={90} />
@@ -44,7 +46,7 @@ export default function ScoutGroupSection({
         </span>*/}
       </div>
       <div className="mt-4 space-y-4" style={{ color: "#003660" }}>
-      {/*<div className="mt-12 space-y-6 text-hss-darkblue"> */}
+        {/*<div className="mt-12 space-y-6 text-hss-darkblue"> */}
         {paragraphs.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
@@ -56,7 +58,7 @@ export default function ScoutGroupSection({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button variant="yellow">Anmäl intresse</Button>
+          <Button variant="yellow">{t("btnShowInterest")}</Button>
         </Link>
       </div>
 
