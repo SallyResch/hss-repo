@@ -18,7 +18,7 @@ const HeroSection = ({
 }: HeroSectionProps) => {
   const t = useTranslations("homePage")
   const desktopLeftPosition = variant === "home" ? "md:left-[79px]" : "lg:left-1/2 lg:-translate-x-1/2 md:left-[79px]";
-  
+
   return (
     <>
 
@@ -52,9 +52,9 @@ const HeroSection = ({
           top-38.5 left-12  ${desktopLeftPosition}`}
 
         >
-          <span className="text-hss-yellow font-bold text-sm md:font-semibold md:text-4xl ">
+          <h1 className="text-hss-yellow font-bold text-sm md:font-semibold md:text-4xl ">
             {title}
-          </span>
+          </h1>
           <Image
             src={hasselbyLogo}
             alt="HasselbyLogo"
