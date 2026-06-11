@@ -1,0 +1,28 @@
+import { InstagramCardProps } from "@/types/instagram";
+
+export const PLACEHOLDER_POSTS: InstagramCardProps[]=[
+    {
+        id:"1",
+        image:"/poloroid1.jpg",
+        permalink:"https://www.instagram.com/hss_scout/",
+        caption:""
+    }, 
+    {
+        id:"2",
+        image:"/poloroid2.jpg",
+        permalink:"https://www.instagram.com/hss_scout/",
+        caption:""
+    },    
+    {
+        id:"3",
+        image:"/poloroid3.jpg",
+        permalink:"https://www.instagram.com/hss_scout/",
+        caption:""
+    },    
+    {
+        id:"4",
+        image:"/poloroid4.png",
+        permalink:"https://www.instagram.com/hss_scout/",
+        caption:""
+    },
+]
