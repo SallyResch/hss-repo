@@ -18,11 +18,6 @@ export default function QuickAccessCard({ card }: CardProps) {
                     <p className="text-gray-600 leading-relaxed">{description}</p>
                 </div>
             </div>
-            <div className="mt-6 text-hss-mediumblue">
-                {BottomIcon && (BottomIcon.src ? (
-                    <Image className="w-5 h-5 object-contain" src={BottomIcon} alt="card icon" />
-                ) : (<BottomIcon />))}
-            </div>
         </div>
     )
 }

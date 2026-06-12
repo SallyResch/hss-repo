@@ -3,7 +3,7 @@ import ScoutGroupSection from "@/app/[locale]/avdelningar/Department";
 import FindUrDept from "./findurdept";
 import { Metadata } from "next";
 
-import heroimg from "@/public/Wireframe.png";
+import heroimg from "@/public/bliscoutbkg.png";
 import { getScoutGroups } from "@/data/scoutGroups";
 import { useTranslations } from "next-intl";
 
