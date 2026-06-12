@@ -3,6 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { useTranslations } from "next-intl";
+import { scoutNavItems } from "@/types/navigation"
 
 export default function Footer() {
   const t = useTranslations("footer")
@@ -36,6 +37,26 @@ export default function Footer() {
           >
             {t("becomeScoutNow")}
           </Link>
+        </div>
+
+
+        <div className="flex flex-col gap-4 flex-1">
+          <h3 className="text-xl font-bold text-hss-scout-darkblue">
+            Scouterna
+          </h3>
+          <div className="flex flex-col gap-2 mt-1">
+            {scoutNavItems.map((item) => (
+              <a
+              key={item.label}
+              href={item.path}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-hss-scout-darkblue"
+              >
+              {item.label}
+              </a>
+            ))}
+          </div>
         </div>
 
         <div className="flex flex-col gap-4 flex-1">

@@ -5,36 +5,54 @@ export const PLACEHOLDER_POSTS: InstagramCardProps[]=[
         id:"1",
         image:"/poloroid1.jpg",
         permalink:"https://www.instagram.com/hss_scout/",
-        caption:""
+        caption:"",
+        like_count: 99,
+        comments_count:99,
+        username:"hss",
     }, 
     {
         id:"2",
         image:"/poloroid2.jpg",
         permalink:"https://www.instagram.com/hss_scout/",
-        caption:""
+        caption:"",
+        like_count: 99,
+        comments_count:99,
+        username:"hss",
     },    
     {
         id:"3",
         image:"/poloroid3.jpg",
         permalink:"https://www.instagram.com/hss_scout/",
-        caption:""
+        caption:"",
+        like_count: 99,
+        comments_count:99,
+        username:"hss",
     },    
     {
         id:"4",
         image:"/poloroid4.png",
         permalink:"https://www.instagram.com/hss_scout/",
-        caption:""
+        caption:"",
+        like_count: 99,
+        comments_count:99,
+        username:"hss",
     },
     {
         id:"5",
         image:"/2-Krona.png",
         permalink:"https://www.instagram.com/hss_scout/",
-        caption:""
+        caption:"",
+        like_count: 99,
+        comments_count:99,
+        username:"hss",
     },
     {
         id:"6",
         image:"/gallery2.jpg",
         permalink:"https://www.instagram.com/hss_scout/",
-        caption:""
+        caption:"",
+        like_count: 99,
+        comments_count:99,
+        username:"hss",
     },
 ]

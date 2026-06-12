@@ -1,4 +1,4 @@
-import ScoutNav from "@/components/ScoutNav";
+
 import LanguageSwitcher from "./LanguageSwitcher";
 export default function ScoutHeader() {
     return (
@@ -8,7 +8,6 @@ export default function ScoutHeader() {
             </a>
             <div className="flex items-center gap-6">
                 <LanguageSwitcher />
-                <ScoutNav />
             </div>
         </header>
     )
