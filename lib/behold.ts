@@ -1,6 +1,5 @@
-
 import type {Feed, Post} from "@behold/types";
-import { InstagramCardProps } from "@/types/instagram";
+import { InstagramCardProps } from "../types/instagram";
 /* This is a comment to be able to merge to main to trigger deployment to master */
 const INSTA_FEED_API_URL = process.env.BEHOLD_API_URL!;
 
@@ -26,7 +25,6 @@ export async function getInstagramPosts(): Promise<Post[]>{
         const data: Feed = await response.json();
         return data.posts || [];
     } catch (error) {
-    console.error
         console.error("Error fetching Instagram posts:", error)
         return[];
     }
@@ -37,5 +35,9 @@ export function mapPost(post: Post): InstagramCardProps{
         image:post.sizes.small.mediaUrl,
         permalink: post.permalink,
         caption: post.caption || "",
+        username: (post as any).username || "hss_scout",
+        like_count:(post as any).likeCount || (post as any).like_count || 0,
+        comments_count:(post as any).commentsCount || (post as any).comments_count || 0,
+        
     };
 }
