@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import HeroSection from "@/components/HeroSection";
-import heroimg from "@/public/Wireframe.png";
+import heroimg from "@/public/bliscoutbkg.png";
 import { getCurrentBoats } from "@/data/boatsData";
 import TextContentBlock from "@/components/TextContentBlock"
 import PreviousBoatsSection from '@/components/cards/PreviousBoatsSection';
