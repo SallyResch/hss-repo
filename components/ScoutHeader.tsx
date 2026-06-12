@@ -7,8 +7,7 @@ export default function ScoutHeader() {
                 <img src="/scouterna-logo.svg" alt="scouternas officiella logga" className="h-12" />
             </a>
             <div className="flex items-center gap-6">
-                <LanguageSwitcher />
-                <ScoutNav />
+                <LanguageSwitcher />                
             </div>
         </header>
     )
