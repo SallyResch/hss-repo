@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import heroimg from "@/public/Wireframe.png";
+import heroimg from "@/public/bliscoutbkg.png";
 import ScoutingCards from "@/components/ScoutingCards";
 import adventureImg from "@/public/myset.jpg";
 import comraderyImg from "@/public/HSS-myset.jpeg";

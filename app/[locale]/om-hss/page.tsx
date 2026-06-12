@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import heroimg from "@/public/Wireframe.png";
+import heroimg from "@/public/bliscoutbkg.png";
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
  

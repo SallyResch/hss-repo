@@ -36,11 +36,11 @@ export default function SafetySection() {
         <img src="/blue.png" alt="" className="w-full object-contain block" />
       </div>
 
-      <div className="relative bg-[#0d335d] text-white pt-4 pb-8 px-4 sm:px-6">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 tracking-wide text-center">
+      <div className=" gap-2 relative text-white pt-4 pb-12 px-4 sm:px-6 bg-hss-mediumblue">
+        <h2 className="  text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 tracking-wide text-center">
           {t("safetyTitle")}
         </h2>
-        <div className="font-bold flex flex-col gap-6 md:flex-row md:justify-evenly md:gap-3">
+        <div className="font-bold flex flex-col gap-6 md:flex-row md:justify-evenly md:gap-3 ">
           <a
             href="https://www.scouterna.se/trygga-moten/utbildning/"
             target="_blank"
