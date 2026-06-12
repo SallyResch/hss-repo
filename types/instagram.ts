@@ -4,5 +4,8 @@ export interface InstagramCardProps {
     image: string;
     permalink: string;
     caption?: string;
+    username: string;
+    like_count?: number;
+    comments_count?:number;
 }
 
