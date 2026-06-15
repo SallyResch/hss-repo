@@ -3,7 +3,7 @@ import { InstagramCardProps } from "@/types/instagram";
 export const PLACEHOLDER_POSTS: InstagramCardProps[]=[
     {
         id:"1",
-        image:"/poloroid1.jpg",
+        image:"/poloroid1.png",
         permalink:"https://www.instagram.com/hss_scout/",
         caption:"",
         like_count: 99,
