@@ -86,7 +86,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="text-xs text-hss-mediumblue mt-6">
-            © Scouterna 2026. All right reserved.
+            {t("copyright")}
           </p>
         </div>
       </div>
